@@ -9,7 +9,7 @@ const config = {
   title: 'Ondsel',
   tagline: 'Put your designs to work...everywhere',
   url: 'https://ondsel.com',
-  baseUrl: '/',
+  baseUrl: '/website',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
