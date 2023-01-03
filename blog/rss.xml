@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Ondsel Blog</title>
-        <link>https://ondsel.com/website/blog</link>
+        <link>https://ondsel.com/blog</link>
         <description>Ondsel Blog</description>
         <lastBuildDate>Tue, 03 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[First Blog Post]]></title>
-            <link>https://ondsel.com/website/blog/hello-world</link>
+            <link>https://ondsel.com/blog/hello-world</link>
             <guid>hello-world</guid>
             <pubDate>Tue, 03 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ondsel.com/website/blog</id>
+    <id>https://ondsel.com/blog</id>
     <title>Ondsel Blog</title>
     <updated>2023-01-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ondsel.com/website/blog"/>
+    <link rel="alternate" href="https://ondsel.com/blog"/>
     <subtitle>Ondsel Blog</subtitle>
-    <icon>https://ondsel.com/website/img/favicon.ico</icon>
+    <icon>https://ondsel.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
         <id>hello-world</id>
-        <link href="https://ondsel.com/website/blog/hello-world"/>
+        <link href="https://ondsel.com/blog/hello-world"/>
         <updated>2023-01-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
