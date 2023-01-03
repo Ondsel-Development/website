@@ -9,7 +9,7 @@ const config = {
   title: 'Ondsel',
   tagline: 'Put your designs to work...everywhere',
   url: 'https://ondsel.com',
-  baseUrl: '/website',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -72,6 +72,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            to: 'blog',
+            label: 'Blog',
+            position: 'left',
+          },
         ],
       },
       footer: {
@@ -80,10 +85,10 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {
-                label: 'Handbook',
-                to: '/docs/handbook',
-              },
+              // {
+              //   label: 'Handbook',
+              //   to: '/docs/handbook',
+              // },
             ],
           },
           {

@@ -2,46 +2,19 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# About Ondsel
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Ondsel is an open-core company built around the venerable FreeCAD Project.
 
-## Getting Started
+Formed in January of 2023, we're still getting started but we're building on one of the oldest and most successful design tools in the open source world: FreeCAD
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## FreeCAD
 
-### What you'll need
+FreeCAD is a powerful open-source 3D parametric modeling tool. It is multi-platform (Windows, Mac, Linux).
+It reads and writes many open file formats including STEP, IGES, STL, SVG, DXF and many others.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+It provides workbenches for Finite Element Analysis (FEA), Computer Aided Machining (CAM), Architecture, Building Information Modeling (BIM) and 
+supports many styles of parametric design.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+FreeCAD has a large and active developer base and has been in development for more than twenty years.

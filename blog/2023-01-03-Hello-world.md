@@ -1,11 +1,11 @@
 ---
-slug: first-blog-post
+slug: hello-world
 title: First Blog Post
 authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
+  name: Brad Collette
+  title: Ondsel Core Team
+  url: https://github.com/sliptonic
+  image_url: https://avatars.githubusercontent.com/u/538057?v=4
 tags: [hola, docusaurus]
 ---
 
