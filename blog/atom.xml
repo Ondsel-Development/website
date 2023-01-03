@@ -12,13 +12,12 @@
         <id>hello-world</id>
         <link href="https://ondsel.com/blog/hello-world"/>
         <updated>2023-01-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <summary type="html"><![CDATA[Here we go!]]></summary>
+        <content type="html"><![CDATA[<p>Here we go!</p><p>Today we're launching Ondsel.</p>]]></content>
         <author>
             <name>Brad Collette</name>
             <uri>https://github.com/sliptonic</uri>
         </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <category label="ondsel" term="ondsel"/>
     </entry>
 </feed>
