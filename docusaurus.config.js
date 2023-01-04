@@ -92,11 +92,15 @@ const config = {
             ],
           },
           {
-            title: 'Connect with us',
+            title: 'Contact Us',
             items: [
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/ondsel',
+              },
+              {
+                label: 'Email',
+                href: 'mailto:brad@ondsel.com',
               },
             ],
           },
