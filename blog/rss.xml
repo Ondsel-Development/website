@@ -13,8 +13,9 @@
             <link>https://ondsel.com/blog/hello-world</link>
             <guid>hello-world</guid>
             <pubDate>Tue, 03 Jan 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <description><![CDATA[Technically, Ondsel is alive.  If you're seeing this, you're so far out on the bleeding edge]]></description>
+            <content:encoded><![CDATA[<p>Technically, Ondsel is alive.  If you're seeing this, you're so far out on the bleeding edge
+that you probably need a band-aid.</p><p>Watch this space.  Something is gonna happen here soon.</p>]]></content:encoded>
             <category>hola</category>
             <category>docusaurus</category>
         </item>

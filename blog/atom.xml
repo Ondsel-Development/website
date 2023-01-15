@@ -12,8 +12,9 @@
         <id>hello-world</id>
         <link href="https://ondsel.com/blog/hello-world"/>
         <updated>2023-01-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <summary type="html"><![CDATA[Technically, Ondsel is alive.  If you're seeing this, you're so far out on the bleeding edge]]></summary>
+        <content type="html"><![CDATA[<p>Technically, Ondsel is alive.  If you're seeing this, you're so far out on the bleeding edge
+that you probably need a band-aid.</p><p>Watch this space.  Something is gonna happen here soon.</p>]]></content>
         <author>
             <name>Brad Collette</name>
             <uri>https://github.com/sliptonic</uri>
