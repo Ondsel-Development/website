@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ondsel-development/website/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -60,7 +60,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'Ondsel Logo',
-          src: 'img/logo.svg',
+          src: 'img/Icon_Orange.svg',
         },
         items: [
           {
@@ -85,10 +85,10 @@ const config = {
           {
             title: 'Docs',
             items: [
-              // {
-              //   label: 'Handbook',
-              //   to: '/docs/handbook',
-              // },
+              {
+                label: 'Handbook',
+                to: '/docs/handbook',
+              },
             ],
           },
           {
