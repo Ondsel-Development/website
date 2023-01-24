@@ -27,6 +27,12 @@ const config = {
     locales: ['en'],
   },
 
+  scripts: [
+      {
+        src: "https://boards.greenhouse.io/embed/job_board/js?for=ondsel",
+        async: true,
+      },
+  ],
   presets: [
     [
       'classic',
@@ -71,6 +77,10 @@ const config = {
             href: 'https://github.com/ondsel',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            href: '/careers',
+            label: 'Careers',
           },
           {
             to: 'blog',

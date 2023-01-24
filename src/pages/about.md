@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # About Ondsel
 
-Ondsel is an open-core company built around the venerable FreeCAD Project.
+Ondsel is an open-core company built around the awesome FreeCAD Project.
 
 Formed in January of 2023, we're still getting started but we're building on one of the oldest and most successful design tools in the open source world: FreeCAD
 
