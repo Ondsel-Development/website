@@ -8,18 +8,19 @@
     <subtitle>Ondsel Blog</subtitle>
     <icon>https://ondsel.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
+        <title type="html"><![CDATA[Hello world!]]></title>
         <id>hello-world</id>
         <link href="https://ondsel.com/blog/hello-world"/>
         <updated>2023-01-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Technically, Ondsel is alive.  If you're seeing this, you're so far out on the bleeding edge]]></summary>
-        <content type="html"><![CDATA[<p>Technically, Ondsel is alive.  If you're seeing this, you're so far out on the bleeding edge
-that you probably need a band-aid.</p><p>Watch this space.  Something is gonna happen here soon.</p>]]></content>
+        <summary type="html"><![CDATA[Ondsel is Launched!]]></summary>
+        <content type="html"><![CDATA[<p>Ondsel is Launched!</p><p>Technically, we started life at the beginning of January 2023.  The last few weeks have had us busy with the logistics of launching; Getting a website up, activating our internal tools, and figuring out how we fit into the greater FreeCAD ecosystem. Those details are done so it's time to start talking about the opportunity we have.</p><p>The best place to start is <a href="https://opencoreventures.com/" target="_blank" rel="noopener noreferrer">OpenCoreVenture</a>'s official announcement <a href="https://opencoreventures.com/blog/2023-01-ondsel-freecad-launch/" target="_blank" rel="noopener noreferrer">post about Ondsel</a></p><p>In the coming weeks and months we'll use this blog to discuss where we're going and why we think it matters.  You can follow us here or on <a href="https://twitter.com/ondsel" target="_blank" rel="noopener noreferrer">Twitter</a> or <a href="https://linkedin/company/ondsel" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+We're also <a href="/careers">building our team</a> and looking for passionate and talented people.</p><p>Join Us!</p>]]></content>
         <author>
             <name>Brad Collette</name>
             <uri>https://github.com/sliptonic</uri>
         </author>
         <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <category label="opencoreventures" term="opencoreventures"/>
+        <category label="news" term="news"/>
     </entry>
 </feed>

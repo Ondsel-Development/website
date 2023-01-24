@@ -9,15 +9,16 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[First Blog Post]]></title>
+            <title><![CDATA[Hello world!]]></title>
             <link>https://ondsel.com/blog/hello-world</link>
             <guid>hello-world</guid>
             <pubDate>Tue, 03 Jan 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Technically, Ondsel is alive.  If you're seeing this, you're so far out on the bleeding edge]]></description>
-            <content:encoded><![CDATA[<p>Technically, Ondsel is alive.  If you're seeing this, you're so far out on the bleeding edge
-that you probably need a band-aid.</p><p>Watch this space.  Something is gonna happen here soon.</p>]]></content:encoded>
+            <description><![CDATA[Ondsel is Launched!]]></description>
+            <content:encoded><![CDATA[<p>Ondsel is Launched!</p><p>Technically, we started life at the beginning of January 2023.  The last few weeks have had us busy with the logistics of launching; Getting a website up, activating our internal tools, and figuring out how we fit into the greater FreeCAD ecosystem. Those details are done so it's time to start talking about the opportunity we have.</p><p>The best place to start is <a href="https://opencoreventures.com/" target="_blank" rel="noopener noreferrer">OpenCoreVenture</a>'s official announcement <a href="https://opencoreventures.com/blog/2023-01-ondsel-freecad-launch/" target="_blank" rel="noopener noreferrer">post about Ondsel</a></p><p>In the coming weeks and months we'll use this blog to discuss where we're going and why we think it matters.  You can follow us here or on <a href="https://twitter.com/ondsel" target="_blank" rel="noopener noreferrer">Twitter</a> or <a href="https://linkedin/company/ondsel" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+We're also <a href="/careers">building our team</a> and looking for passionate and talented people.</p><p>Join Us!</p>]]></content:encoded>
             <category>hola</category>
-            <category>docusaurus</category>
+            <category>opencoreventures</category>
+            <category>news</category>
         </item>
     </channel>
 </rss>
