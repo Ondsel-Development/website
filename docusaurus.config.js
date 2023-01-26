@@ -74,7 +74,7 @@ const config = {
             label: 'About Us',
           },
           {
-            href: 'https://github.com/ondsel',
+            href: 'https://github.com/Ondsel-Development',
             label: 'GitHub',
             position: 'right',
           },
