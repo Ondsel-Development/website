@@ -30,7 +30,6 @@ const config = {
   scripts: [
       {
         src: "https://boards.greenhouse.io/embed/job_board/js?for=ondsel",
-        async: true,
       },
   ],
   presets: [
@@ -79,7 +78,7 @@ const config = {
             position: 'right',
           },
           {
-            href: '/careers',
+            href: '/careers/',
             label: 'Careers',
           },
           {
@@ -109,8 +108,8 @@ const config = {
                 href: 'https://twitter.com/ondsel',
               },
               {
-                label: 'Email',
-                href: 'mailto:brad@ondsel.com',
+                label: 'contact@ondsel.com',
+                href: 'mailto:contact@ondsel.com',
               },
             ],
           },
