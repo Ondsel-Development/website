@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Collaborate',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/collaborate.svg').default,
     description: (
       <>
         Share your designs with collaborators without forcing them to learn new tools.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Configure',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/configure.svg').default,
     description: (
       <>
         Let users configure your designs to meet their needs.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Control',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/control.svg').default,
     description: (
       <>
         Control exactly which aspects of your designs you share.
