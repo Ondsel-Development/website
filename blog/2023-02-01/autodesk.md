@@ -7,8 +7,8 @@ authors:
   url: https://github.com/sliptonic
   image_url: https://avatars.githubusercontent.com/u/538057?v=4
 tags: [freecad, autodesk, news]
-image: /img/Ondsel_OpenGraph.jpg
-draft: true
+image: ./og-starhistory.png
+draft: false
 ---
 
 Description: When Autodesk changed their license for Fusion 360 in September of 2020 there was a collective scream from the user community. Hobbyists, YouTubers, and makers felt betrayed. Now, after more than two years, we can see the effect. Many of those people left Fusion and never looked back.
