@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"It\u2019s Time to Dream Big \u2026 and Build: The future of FreeCAD + the first ever FreeCAD Day at FOSDEM","permalink":"/blog/dream-big"},{"title":"Hello world!","permalink":"/blog/hello-world"}]}')}}]);
