@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[607],{5299:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/fosdem","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
