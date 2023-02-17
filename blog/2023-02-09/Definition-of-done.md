@@ -13,7 +13,7 @@ authors:
     image_url: https://media.licdn.com/dms/image/C4D03AQGTVXyi5Pa-xg/profile-displayphoto-shrink_800_800/0/1596530840324?e=1681344000&v=beta&t=PjdEzZGYbqOsAqVWUE1bsjNuVxMsknVkZfStHx863-s
 
 tags: [community]
-image: /img/Ondsel_OpenGraph.jpg
+image: ./titlecard.png
 draft: False
 ---
 
@@ -70,7 +70,7 @@ While early projects have few or no contributors, they may welcome almost any co
 
 As the project matures and the network grows, the overhead of handling contributions becomes a problem. Facing a backlog of hundreds of pull requests, projects may optimize for “good” contributions by implementing more stringent requirements. I know from firsthand experience as a longtime [FreeCAD](https://www.freecad.org/) contributor. As the project grew and matured, it became harder for amateurs to contribute. The Definition of Done became more demanding (for example we needed the right test cases and code formatting) and these more stringent requirements can be off putting or prohibitive, even without intimidating maintainers.
 
-“The GitLab Definition of Done is now 30 items or something … so it’s harder and harder for people who are just starting to contribute.” — Sid Sijbrandij, CEO and co-founder of GitLab
+“The GitLab Definition of Done is now 30 items or something … so it’s harder and harder for people who are just starting to contribute.” — [Sid Sijbrandij](https://youtu.be/Q9SEYJb-eio), CEO and co-founder of GitLab
 
 This barrier to entry illustrates the tension between what the project needs to ensure the quality of its codebase, and what’s inclusive to new contributors. There is a balance to be struck between being welcoming to newcomers in your community, maintaining standards for contributions to your project, and the effort required to make the twain meet. It’s not always going to be possible or advisable to reduce the requirements for getting code merged.
 
