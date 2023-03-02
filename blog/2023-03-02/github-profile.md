@@ -1,6 +1,6 @@
 ---
 slug: evaluating-github-profile
-title: "I hire people to work on FOSS software. Here's how I evaluate GitHub profiles"
+title: "I hire people to work on a FOSS project. Here's how I evaluate GitHub profiles"
 authors:
   - name: Brad Collette
     title: Ondsel Core Team
@@ -14,7 +14,7 @@ authors:
 
 tags: [freecad, development]
 image: ./titlecard.png
-draft: true
+draft: false
 ---
 Should hiring managers base a decision on someone’s GitHub profile? No. But will it ever hurt to have a robust GitHub account? Also no.
 
@@ -32,23 +32,23 @@ But if you’re [recruiting engineers to work on an open source or open core pro
 
 # What you can actually judge from someone’s GitHub profile
 
-## Do they have exposure to FOSS at all?
+### Do they have exposure to FOSS at all?
 
 First, we have to acknowledge the difference between hiring for a closed-source, proprietary product and open source software: If you’re a hiring manager for the former, basing your hiring decisions on someone’s OSS contributions is short sighted and [could be harmful](https://about.gitlab.com/blog/2018/11/16/hiring-based-on-open-source-contributions-could-be-harmful/). (And if you’re a candidate with no interest in working full time on FOSS, by all means, focus on your proprietary work instead.)
 
 If however you’re in the business of FOSS, and you receive applications from one candidate with a GitHub account and one without, you are going to have a lot more to go on when assessing the first. I am always going to lean towards working with people who already engage with open source in some manner and are used to working transparently and engaging with a community. Having a GitHub account and forking even one project is the bare minimum someone can do to show they have experience here. Of course that’s going to influence my hiring.
 
-## What are their interests?
+### What are their interests?
 
 There are plenty of TikToks out there showing people how to optimize their resumes with keywords from the descriptions of jobs they’re applying for. It’s easy to stuff your CV with recruiter bait. Of course there are ways to uncover grifters in your hiring process. What is much harder to fabricate is a history of following open source projects, submitting issues, bug reports, and pull or merge requests, and engaging with communities. I’m looking for team members who share [my vision for making design tools accessible](https://opencoreventures.com/blog/2023-01-ondsel-freecad-launch/) and it’s much easier to establish whether someone cares about this mission if they’re following and interacting with related project.
 
 If you’re hiring someone to do this kind of work on your project, you couldn’t ask for better signal than that.
 
-## How do they collaborate with others?
+### How do they collaborate with others?
 
 Beyond any code they contribute, a candidate who participates in OSS will have a history of code review, discussion, and engaging with feedback. Do they take suggestions on board, do they offer feedback and coaching to others? Sure, this requires a bit more attention than simply scanning a contribution graph, but it’s hard to replicate this kind of window into a candidate’s experience and conduct from interviews alone.
 
-## Do they have something to offer other than code?
+### Do they have something to offer other than code?
 
 Let’s revisit this idea of “updating a readme file” reflecting in someone’s GitHub graph. We’ll leave aside for now that they could automate updates using a cronjob or script (which, depending on the role you’re hiring for, could actually show the initiative and creativity that you’re looking for). Editing and updating documentation is a contribution that takes work and initiative, and we should encourage this too. Having non-programmers participate in your open source project is valuable and we only make it more intimidating when we assign greater value to code contributions than other activities that result in green squares.
 
