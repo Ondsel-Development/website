@@ -17,7 +17,6 @@ image: ./titlecard.png
 draft: false
 ---
 
-
 FreeCAD's '[topological naming problem](https://wiki.freecad.org/Topological_naming_problem)' is legendary. It's frequently cited as the number one reason holding back widespread adoption of FreeCAD for commercial use.
 
 Developer [RealThunder](https://github.com/realthunder) introduced [a fix to the problem](https://forum.freecad.org/viewtopic.php?t=27278) years ago, but it has never been fully incorporated into the core product.
