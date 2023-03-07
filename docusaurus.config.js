@@ -115,6 +115,10 @@ const config = {
                 label: 'contact@ondsel.com',
                 href: 'mailto:contact@ondsel.com',
               },
+              {
+                label: 'facebook',
+                href: 'https://www.facebook.com/ondsel',
+              },
             ],
           },
           {
