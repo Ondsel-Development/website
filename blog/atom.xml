@@ -22,6 +22,10 @@ There is one more aspect that we considered as well and ultimately decided again
             <name>Brad Collette</name>
             <uri>https://github.com/sliptonic</uri>
         </author>
+        <author>
+            <name>Alexandre Prokoudine</name>
+            <uri>https://github.com/prokoudine</uri>
+        </author>
         <category label="freecad" term="freecad"/>
         <category label="development" term="development"/>
         <category label="assembly" term="assembly"/>
