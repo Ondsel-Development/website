@@ -9,7 +9,7 @@ description:
 
 # Handbook
 
-This handbook is public so that customers and partners can gain insight into how we operate.
-We invite feedback so that we can improve our processes and our products. As a public resource,
-it's also valuable for potential team members to learn about the company before joinging us.
+This handbook is public so that customers and partners can gain insight into how we operate.  The handbook is continually updated. It includes information about the company, products, teams, workplace, policies and practices.
+
+We invite feedback so that we can improve our processes and our products.
 
