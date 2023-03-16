@@ -7,9 +7,14 @@ authors:
     url: https://github.com/sliptonic
     image_url: https://avatars.githubusercontent.com/u/538057?v=4
 
+  - name: Alexandre Prokoudine
+    title: Contributing Writer
+    url: https://github.com/prokoudine
+    image_url: https://avatars.githubusercontent.com/u/57467?v=4
+    
 tags: [freecad, development, assembly]
 image: ./titlecard.png
-draft: true
+draft: false
 ---
 
 FreeCAD is an inherently modular program where major features can be developed by 3rd parties as workbenches. This is great for creating a healthy ecosystem of [add-ons](https://wiki.freecad.org/Std_AddonMgr) and catering to a diverse group of users: tinkerers, professional mechanical engineers, architects, furniture designers etc. The obvious benefit of that is that creating and deploying a solution for a particular user group does not require syncing with FreeCAD’s release cycle that can be as long as a few years. Since v0.17, FreeCAD makes it very easy to install and update various workbenches developed by its passionate community.
@@ -39,15 +44,21 @@ To make a fair assessment, we need to settle on a set of evaluation criteria tha
 **Features** We are looking at the set of available constraints, how picking edges, faces and other features for alignment works, how imported parts can be managed in complex assemblies etc. However, having the most features doesn’t necessarily translate to the best user experience. A much better indication is how well a workbench serves the purpose it was designed for.
 
 **Stability** There are multiple factors at play when you evaluate stability of software. First, there’s the severity of issues. You can stumble upon a warning that doesn’t prevent you from accomplishing a task but is a mild annoyance. Or you can run into a crasher that loses unsaved changes or corrupts the model, which is a really bad user experience. This is not a problem for our evaluation: we can easily separate minor issues from crashers in reports.
+
 Then there’s the number of users. If one workbench has 100 users and 10 unresolved crash reports, and another workbench has 10,000 users and also 10 unresolved bug reports, this likely means that the latter is more thoroughly tested and has less undiscovered issues. However, we have no way of knowing how many users each assembly workbench has. The amount of stars for a GitHub repository doesn’t sound like a fair way to judge on popularity, especially since visiting a GitHub repository is not how you install a FreeCAD workbench these days. We can get some sense of the user base from looking at how many unique users participated in discussing this or that assembly workbench on the forum. But this should be taken with a grain of salt as this approach doesn’t account for the part of users who stay in the shadows.
+
 Also, reporting a bug should be simple enough. If it’s too difficult to do, that’s how you get bugs that continue to be unresolved for years, outside of developers’ radar. Fortunately, all four assembly workbenches are hosted on GitHub and thus have the same fairly sensible UX/UI for reporting bugs. That gives us some baseline.
 Thus, given the limitations, we draw conclusions from unresolved stability issues reported to GitHub and relevant posts to the [FreeCAD Forum](https://forum.freecadweb.org/).
 
 **Speed** Just like with stability, it’s hard enough to be a good judge of performance. Hardware specs vary wildly between users, and so does the complexity of assemblies. But if there is a significant amount of complaints about the performance in case of fairly simple assemblies (let’s say, 10 to 20 parts), something is obviously wrong.
+
 There is one more aspect that we considered as well and ultimately decided against — code quality and extensibility. It is important to focus on the code that needs as little effort as possible to extend the feature set and maintain it. However, all four existing workbenches are between 7,600 and 14,900 lines of code. This is perfectly manageable in terms of time spent on potential refactoring. That said, having an engaged community grown around a particular workbench and willing to take action is a lot more important. You can do anything with an experienced, passionate team.
 
 ### What Now
 In the next installments, we will evaluate [Assembly2](https://wiki.freecad.org/Assembly2_Workbench), [A2plus](https://wiki.freecad.org/A2plus_Workbench), [Assembly 3](https://wiki.freecad.org/Assembly3_Workbench), and [Assembly 4](https://wiki.freecad.org/Assembly4_Workbench) by the criteria explained above. Then we will come up with a proposal and continue the discussion with the FreeCAD community.  We [invite feedback](https://github.com/orgs/Ondsel-Development/discussions/2) on this issue and our approach.
+
+### [Part 2: Assembly 2](https://ondsel.com/blog/default-assembly-workbench-2/)
+
 
 <details>
   <summary>Note...</summary>
