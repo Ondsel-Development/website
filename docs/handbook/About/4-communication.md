@@ -75,3 +75,5 @@ All posts can be made to the [Ondsel](https://www.linkedin.com/company/ondsel/) 
 FreeCAD Project #general section
 https://discord.gg/tQ5KBvsF
 
+### YouTube
+YouTube is a particularly powerful platform. Content here should be carefully constructed with a focus on long life-time and relevance.  It's very important to properly tag videos and to create engaging thumbnails.
