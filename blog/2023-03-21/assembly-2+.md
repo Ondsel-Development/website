@@ -17,8 +17,6 @@ image: ./titlecard.png
 draft: false
 ---
 
-title = "Exploring the A2plus workbench"
-
 We’ve already talked about the need for a [default assembly workbench](https://ondsel.com/blog/default-assembly-workbench-1) in FreeCAD and [reviewed Assembly 2](https://ondsel.com/blog/default-assembly-workbench-2). Now let’s get into the nitty-gritty of the A2plus workbench.
 
 ## History
