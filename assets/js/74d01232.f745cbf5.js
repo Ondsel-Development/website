@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[2604],{3149:s=>{s.exports=JSON.parse('{"label":"assembly","permalink":"/blog/tags/assembly","allTagsPath":"/blog/tags","count":3}')}}]);
