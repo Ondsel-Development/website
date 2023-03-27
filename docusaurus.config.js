@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Ondsel',
-  tagline: 'Put your designs to work...everywhere',
+  tagline: 'Put your designs to work...',
   url: 'https://ondsel.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -26,7 +26,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   scripts: [
       {
         src: "https://boards.greenhouse.io/embed/job_board/js?for=ondsel",
@@ -66,12 +65,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Home',
+        title: '',
         logo: {
           alt: 'Ondsel Logo',
-          src: 'img/Icon_Orange.svg',
+          src: 'img/logo.png',
         },
         items: [
+          {
+            href: '/',
+            label: 'Home',
+            position: 'left',
+          },
           {
             href: '/about',
             label: 'About Us',
@@ -140,7 +144,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
+      }
     }),
 };
 
