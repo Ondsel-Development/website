@@ -69,6 +69,10 @@ Some features of the original Assembly 2 workbench are unavailable. Notably, the
 
 The A2plus workbench has a good [reference guide](https://wiki.freecad.org/A2plus_Workbench) on FreeCAD’s wiki but lacks official tutorials that explain the workflow. The community, however, stepped up and provided a sufficient number of YouTube tutorials on using A2plus for a variety of use cases: [mechanical design](https://www.youtube.com/watch?v=tI4trcyFwvs), [woodworking](https://www.youtube.com/watch?v=rIv15hX6Isw), etc.
 
+**Update 2023-03-26:** There is at least [one documented case](https://forum.freecad.org/viewtopic.php?f=20&t=46024) where the precision of the A2plus solver was not sufficient to get the job done. The workbench developer [explained](https://forum.freecad.org/viewtopic.php?p=395617#p395617) this by having to find a compromise between speed (responsiveness of the WB) and accuracy due to limited calculation power available to a solver written in Python.[^1]
+
+[^1]: This issue was raised in community discussion
+
 ## Consistency
 
 A2plus does a few things differently from many other workbenches. The most user-visible difference is how constraint settings are displayed. When a new constraint is being added, FreeCAD displays a floating dialog:
@@ -119,8 +123,6 @@ A2plus represents a major improvement over the original Assembly 2 workbench in 
 ## Next up
 
 In the next installment, we’ll take a close look at Assembly 3, a workbench that actively uses a solver from another free/libre CAD program, SolveSpace.
-
-
 
 <details>
   <summary>Note...</summary>

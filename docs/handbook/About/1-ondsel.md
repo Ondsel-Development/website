@@ -40,5 +40,6 @@ Ondsel is one part of the larger FreeCAD and Open-Source ecosystem.  We want to 
 [contact@ondsel.com](mailto:contact@ondsel.com)
 
 
-548 Market St PMB 38682  
-San Francisco, California 94104-5401
+548 Market St
+PMB 38682
+San Francisco, California 94104
