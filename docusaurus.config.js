@@ -38,18 +38,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ondsel-development/website/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -60,7 +52,17 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      "./plugins/blog-plugin",
+      {
+        id: "blog",
+        routeBasePath: "blog",
+        path: "./blog",
 
+      },
+    ]
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -99,15 +101,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Handbook',
-                to: '/docs/handbook',
-              },
-            ],
-          },
           {
             title: 'Contact Us',
             items: [
