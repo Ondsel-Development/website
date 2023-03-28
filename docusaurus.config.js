@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Ondsel',
-  tagline: 'Put your designs to work...everywhere',
+  tagline: 'Put your designs to work...',
   url: 'https://ondsel.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -26,7 +26,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   scripts: [
       {
         src: "https://boards.greenhouse.io/embed/job_board/js?for=ondsel",
@@ -39,18 +38,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ondsel-development/website/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -61,17 +52,32 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      "./plugins/blog-plugin",
+      {
+        id: "blog",
+        routeBasePath: "blog",
+        path: "./blog",
 
+      },
+    ]
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Home',
+        title: '',
         logo: {
           alt: 'Ondsel Logo',
-          src: 'img/Icon_Orange.svg',
+          src: 'img/logo.png',
         },
         items: [
+          {
+            href: '/',
+            label: 'Home',
+            position: 'left',
+          },
           {
             href: '/about',
             label: 'About Us',
@@ -95,15 +101,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Handbook',
-                to: '/docs/handbook',
-              },
-            ],
-          },
           {
             title: 'Contact Us',
             items: [
@@ -140,7 +137,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
+      }
     }),
 };
 
