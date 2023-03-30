@@ -17,8 +17,8 @@ function HomepageHeader() {
       <div className="container">
         <div className='flex hero_layout text_left'> 
           <div className='text_hero_img'>
-            <p className="hero__subtitle c_grey text_hero_img">{siteConfig.tagline}</p>
-            <p className='colorful_layout'>everywhere.</p>
+            <p className="hero__subtitle c_grey text_hero_img font_bold">{siteConfig.tagline}</p>
+            <p className='colorful_layout font_bold'>everywhere.</p>
           </div>
           <img src="/img/ondsel_model.png" alt="Ondsel Logo" />   
         </div>
