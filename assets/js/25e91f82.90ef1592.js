@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[5134],{4598:e=>{e.exports=JSON.parse('{"label":"bodybuilder","permalink":"/blog/tags/bodybuilder","allTagsPath":"/blog/tags","count":1}')}}]);
