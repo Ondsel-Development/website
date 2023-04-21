@@ -1,6 +1,6 @@
 ---
 slug: ondsel-100-days
-title: "Ondsel at 100...days"
+title: "Ondsel at 100...Days"
 authors:
   - name: Brad Collette
     title: Ondsel Core Team
@@ -12,7 +12,7 @@ image: ./titlecard.png
 draft: false
 ---
 
-## 100 days
+## 100 Days
 
 It’s hard to believe that it’s been just over three months since Ondsel started operations.  One hundred days, in fact.  I thought it would be fun to take a moment and consider what we’ve been able to accomplish in that time.
 

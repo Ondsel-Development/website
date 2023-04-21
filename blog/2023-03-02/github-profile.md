@@ -10,7 +10,7 @@ authors:
   - name: Rebecca Dodd
     title: Contributing Writer
     url: https://www.thebasementoffice.co.uk
-    image_url: https://media.licdn.com/dms/image/C4D03AQGTVXyi5Pa-xg/profile-displayphoto-shrink_800_800/0/1596530840324?e=1681344000&v=beta&t=PjdEzZGYbqOsAqVWUE1bsjNuVxMsknVkZfStHx863-s
+    image_url: /img/Rebecca-Dodd-profile.JPEG
 
 tags: [freecad, development]
 image: ./titlecard.png
