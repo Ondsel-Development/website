@@ -1,5 +1,5 @@
-import React from 'react';
-import {composeProviders} from '@docusaurus/theme-common';
+import React from "react";
+import { composeProviders } from "@docusaurus/theme-common";
 import {
   ColorModeProvider,
   AnnouncementBarProvider,
@@ -7,7 +7,8 @@ import {
   ScrollControllerProvider,
   NavbarProvider,
   PluginHtmlClassNameProvider,
-} from '@docusaurus/theme-common/internal';
+} from "@docusaurus/theme-common/internal";
+
 const Provider = composeProviders([
   ColorModeProvider,
   AnnouncementBarProvider,
@@ -16,6 +17,7 @@ const Provider = composeProviders([
   PluginHtmlClassNameProvider,
   NavbarProvider,
 ]);
-export default function LayoutProvider({children}) {
+
+export default function LayoutProvider({ children }) {
   return <Provider>{children}</Provider>;
 }

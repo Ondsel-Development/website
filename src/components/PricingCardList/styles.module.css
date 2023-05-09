@@ -1,0 +1,27 @@
+.pricingCardList {
+  display: grid;
+  max-width: 1536px;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  column-gap: 50px;
+  row-gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .pricingCardList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .pricingCardList {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1536px) {
+  .pricingCardList {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

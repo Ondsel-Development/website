@@ -32,7 +32,7 @@ export default function NavbarLayout({children}) {
         description: 'The ARIA label for the main navigation',
       })}
       className={clsx(
-        'navbar backimg',
+        'navbar bg-grid-pattern',
         'navbar--fixed-top',
         hideOnScroll && [
           styles.navbarHideable,
