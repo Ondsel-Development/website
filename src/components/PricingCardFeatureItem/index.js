@@ -8,9 +8,11 @@ import styles from "./styles.module.css";
 export default function PricingCardFeatureItem({ feature }) {
   return (
     <div className={clsx(styles.pricingCardFeatureItem)}>
-      {feature.status === "completed" && <CheckIcon />}
-      {feature.status === "pending" && <PendingIcon />}
-      <span className="text_2xl ml_2">{feature.title}</span>
+      <div className={styles.pricingCardFeatureItemIcon}>
+        {feature.status === "completed" && <CheckIcon width={28} height={28} />}
+        {feature.status === "pending" && <PendingIcon width={28} height={28} />}
+      </div>
+      <span className="text_lg ml_2 leading_28">{feature.title}</span>
     </div>
   );
 }

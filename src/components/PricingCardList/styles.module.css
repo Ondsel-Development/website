@@ -1,6 +1,6 @@
 .pricingCardList {
   display: grid;
-  max-width: 1536px;
+  max-width: 1200px;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   column-gap: 50px;
   row-gap: 40px;
@@ -14,13 +14,13 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1080px) {
   .pricingCardList {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 1200px) {
   .pricingCardList {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }

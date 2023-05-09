@@ -79,7 +79,7 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-upload-webpage-workbench",
-        title: "Upload from web page or workbench",
+        title: "Upload from webpage or workbench",
         status: "completed",
       },
       {
@@ -121,9 +121,9 @@ const PRICING_PLANS = [
   {
     name: "Enterprise",
     slug: "plan-enterprise",
-    price: "Call Us",
+    price: "Contact Us",
     img: "/img/bg-pricing-card-4.png",
-    cta: "call-us",
+    cta: "contact-us",
     features: [
       {
         id: "pfeature-dedicated-server",
