@@ -4,6 +4,12 @@
  * work well for content-centric websites.
  */
 
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"),
+    url("../fonts/Rubik-VariableFont_wght.ttf") format("truetype");
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-link-color: #915243;
@@ -15,6 +21,9 @@
   --ifm-color-primary-lighter: #434445;
   --ifm-color-primary-lightest: #48494a;
   --ifm-background-color: #eeeeec;
+  --ifm-font-family-base: "Rubik";
+  --ifm-heading-font-family: "Rubik";
+  --ifm-font-family-monospace: "Rubik";
 }
 [data-theme="dark"] {
   --ifm-color-primary: #3a3b3c;
@@ -111,13 +120,12 @@
 }
 
 /* font */
+.font_rubik {
+  font-family: "Rubik";
+}
 
 .text_gray {
   color: #f4f4f3;
-}
-
-.font-rubik {
-  font-family: "Rubik";
 }
 
 .font_bold {
@@ -172,6 +180,11 @@
 .text_6xl {
   font-size: 3.75rem; /* 60px */
   line-height: 1;
+}
+
+.text_7xl {
+  font-size: 4.375rem; /* 70px */
+  line-height: 1.25;
 }
 
 .text_8xl {
@@ -384,12 +397,6 @@
   .text_hero {
     font-size: 32px;
   }
-}
-
-@font-face {
-  font-family: "Rubik";
-  src: local("Rubik"),
-    url("../fonts/Rubik-VariableFont_wght.ttf") format("truetype");
 }
 
 .hero__subtitle {
