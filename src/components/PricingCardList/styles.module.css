@@ -31,7 +31,7 @@
   }
 }
 
-@media (min-width: 1208px) {
+@media (min-width: 1280px) {
   .pricingCardList {
     max-width: 1200px;
     grid-template-columns: repeat(4, minmax(0, 1fr));
