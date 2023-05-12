@@ -1,27 +1,39 @@
 .pricingCardList {
   display: grid;
-  max-width: 1156px;
+  max-width: 80%;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   column-gap: 32px;
   row-gap: 40px;
   margin-top: 20px;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 640px) {
+  .pricingCardList {
+    max-width: 540px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 768px) {
   .pricingCardList {
+    max-width: 640px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 1080px) {
   .pricingCardList {
+    max-width: 900px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1208px) {
   .pricingCardList {
+    max-width: 1200px;
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }

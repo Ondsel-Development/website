@@ -25,10 +25,10 @@ const handbook = {
 export default function TwoColumnInfo({ data }) {
   return (
     <section className="bg-grid-pattern">
-      <div className="pt-10 pb-5">
+      <div className="pt_10 pt_5">
         <div className="container">
           <div className="row">
-            <div className="flex two_column_layout w_full p16 gap30">
+            <div className="flex two_column_layout w_full p_4 gap30">
               <BlogList title={blogs.title} url={blogs.url} data={data} />
               <HandBookList
                 title={handbook.title}

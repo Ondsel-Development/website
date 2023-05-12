@@ -40,6 +40,10 @@
   background: transparent;
 }
 
+.bg_white {
+  background: #915243;
+}
+
 .bg-grid-pattern {
   background-image: url("/img/grid.png");
   background-repeat: repeat;
@@ -232,6 +236,10 @@
   object-fit: fill;
 }
 
+.object_center {
+  object-position: center;
+}
+
 .inset_0 {
   top: 0;
   right: 0;
@@ -248,23 +256,38 @@
   padding-top: 16px;
 }
 
-.pt-10 {
+.px_5 {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.px_8 {
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}
+
+.px_10 {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+.pt_10 {
   padding-top: 100px;
 }
 
-.p16 {
+.p_4 {
   padding: 16px;
 }
 
-.pb-5 {
+.pt_5 {
   padding-bottom: 50px;
 }
 
-.m70 {
+.m_70 {
   margin-top: 70px;
 }
 
-.m20 {
+.m_20 {
   margin-bottom: 20px;
 }
 

@@ -28,7 +28,7 @@ function HomePageHeader() {
           <img src="/img/ondsel_model.png" alt="Ondsel Logo" />
         </div>
 
-        <div className="text_center text_hero m70">
+        <div className="text_center text_hero m_70">
           <p>
             Ondsel is an open-core company built around the awesome FreeCAD
             Project.
