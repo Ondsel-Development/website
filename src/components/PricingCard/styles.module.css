@@ -1,16 +1,13 @@
 .pricingCard {
   padding: 30px 20px;
-  min-width: 16.875rem;
-  width: 16.875rem;
-  height: 48rem;
+  min-height: 36rem;
   overflow: hidden;
   border-radius: 40px;
 }
 
 .ctaButton {
-  width: 180px;
-  height: 56px;
-  padding: 12px;
+  width: 80%;
+  padding: 8px 12px;
   border: 1px solid #f4f4f3;
   border-radius: 0;
 }

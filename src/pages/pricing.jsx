@@ -45,9 +45,8 @@ const PRICING_PLANS = [
     ],
   },
   {
-    name: "Free",
-    slug: "plan-free",
-    description: "(authenticated)",
+    name: "Authenticated",
+    slug: "plan-authenitcated",
     price: "$0",
     img: "/img/bg-pricing-card-2.png",
     cta: "signup",
@@ -151,8 +150,8 @@ export default function Pricing() {
   return (
     <Layout title="Pricing" description={siteConfig.tagline}>
       <MainWrapper className="bg-grid-pattern">
-        <h1 className="text_7xl text_gray text_center">Pricing</h1>
-        <h2 className="text_4xl text_center text_gray">
+        <h1 className="text_6xl text_gray text_center">Pricing</h1>
+        <h2 className="text_3xl text_center text_gray">
           Put your designs to work everywhere
         </h2>
         <PricingCardList plans={PRICING_PLANS} />

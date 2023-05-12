@@ -14,7 +14,7 @@ export default function PricingCard({ plan }) {
       />
       <div className="relative z_40 text_gray flex flex_col justify_between h_full">
         <div>
-          <div className="min_h_40 pt_4">
+          <div className="min_h_20 pt_4">
             <h3 className="text_2xl text_center">{plan.name}</h3>
 
             {plan.description && (
@@ -31,7 +31,7 @@ export default function PricingCard({ plan }) {
         </div>
 
         {plan.cta && (
-          <div className="w-full flex flex_row items_center justify_center">
+          <div className="w-full flex flex_row items_center justify_center mt_6">
             {plan.cta === "signup" && (
               <button
                 className={clsx(
