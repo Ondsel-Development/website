@@ -6,12 +6,12 @@ import styles from "./styles.module.css";
 
 export default function PricingCard({ plan }) {
   return (
-    <div className={clsx("relative rounded_5xl bg_white", styles.pricingCard)}>
-      {/* <img
-        className="absolute object_cover object_center z_0"
+    <div className={clsx("relative rounded_5xl", styles.pricingCard)}>
+      <img
+        className="absolute object_fill inset_0 z_0"
         src={plan.img}
         alt={plan.name}
-      /> */}
+      />
       <div className="relative z_40 text_gray flex flex_col justify_between h_full">
         <div>
           <div className="min_h_20 pt_4">

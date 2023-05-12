@@ -40,10 +40,6 @@
   background: transparent;
 }
 
-.bg_white {
-  background: #915243;
-}
-
 .bg-grid-pattern {
   background-image: url("/img/grid.png");
   background-repeat: repeat;
