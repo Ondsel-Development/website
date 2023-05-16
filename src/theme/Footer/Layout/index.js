@@ -1,11 +1,13 @@
-import React from 'react';
-import clsx from 'clsx';
-export default function FooterLayout({style, links, logo, copyright}) {
+import React from "react";
+import clsx from "clsx";
+
+export default function FooterLayout({ style, links, logo, copyright }) {
   return (
     <footer
-      className={clsx('footer transparent', {
-        'footer--dark': style === 'dark',
-      })}>
+      className={clsx("footer bg-transparent", {
+        "footer--dark": style === "dark",
+      })}
+    >
       <div className="container container-fluid">
         {links}
         {(logo || copyright) && (

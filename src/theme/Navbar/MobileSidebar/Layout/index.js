@@ -8,7 +8,7 @@ export default function NavbarMobileSidebarLayout({
 }) {
   const {shown: secondaryMenuShown} = useNavbarSecondaryMenu();
   return (
-    <div className="navbar-sidebar z-top">
+    <div className="navbar-sidebar z_40">
       {header}
       <div
         className={clsx('navbar-sidebar__items', {

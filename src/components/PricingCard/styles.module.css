@@ -1,0 +1,17 @@
+.pricingCard {
+  padding: 30px 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ctaButton {
+  width: 80%;
+  padding: 8px 12px;
+  border: 1px solid #f4f4f3;
+  border-radius: 0;
+}
+
+.ctaButton:hover {
+  background: #f4f4f3;
+  color: black;
+}

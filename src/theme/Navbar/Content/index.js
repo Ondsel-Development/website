@@ -29,8 +29,8 @@ function NavbarContentLayout({left, center, right}) {
   return (
     <div className={clsx('navbar__inner')}>
       <div className='navbar__items navbar_layout'>{left}</div>
-      <div className="navbar__items desktop c_grey">{center}</div>
-      <div className="navbar__items navbar__items--right desktop c_grey">{right}</div>
+      <div className="navbar__items desktop text_gray">{center}</div>
+      <div className="navbar__items navbar__items--right desktop text_gray">{right}</div>
     </div>
   );
 }

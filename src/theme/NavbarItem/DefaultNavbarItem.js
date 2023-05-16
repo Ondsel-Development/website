@@ -8,7 +8,7 @@ function DefaultNavbarItemDesktop({
 }) {
   const element = (
     <NavbarNavLink
-      className={clsx('c_grey',
+      className={clsx('text_gray',
         isDropdownItem ? 'dropdown__link' : 'navbar__item navbar__link',
         className,
       )}

@@ -1,0 +1,10 @@
+.pricingCardFeatureItem {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.pricingCardFeatureItemIcon {
+  width: 32px;
+  height: 37px;
+}
