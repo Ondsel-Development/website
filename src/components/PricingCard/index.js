@@ -1,17 +1,14 @@
-import React from "react";
+import React, { useMemo } from "react";
 import clsx from "clsx";
 import PricingCardFeatureItem from "@site/src/components/PricingCardFeatureItem";
 
 import styles from "./styles.module.css";
 
 export default function PricingCard({ plan }) {
+  const bgStyle = useMemo(() => ({ background: plan?.bgColor }), [plan?.bgColor])
+
   return (
-    <div className={clsx("relative rounded_5xl", styles.pricingCard)}>
-      <img
-        className="absolute object_fill inset_0 z_0"
-        src={plan.img}
-        alt={plan.name}
-      />
+    <div className={clsx("relative rounded_5xl", styles.pricingCard)} style={bgStyle}>
       <div className="relative z_40 text_gray flex flex_col justify_between h_full">
         <div>
           <div className="min_h_20 pt_4">
@@ -20,7 +17,7 @@ export default function PricingCard({ plan }) {
             {plan.description && (
               <p className="text_2xl text_center">{plan.description}</p>
             )}
-            <div className="text_5xl text_center pt_2">{plan.price}</div>
+            <div className="text_3xl text_center pt_2">{plan.price}</div>
           </div>
 
           {plan.cta && (
@@ -58,7 +55,7 @@ export default function PricingCard({ plan }) {
             </div>
           )}
 
-          <div className="flex flex_col space_y_2 mt_10">
+          <div className="flex flex_col space_y_2 mt_8">
             {plan.features.map((feature) => (
               <PricingCardFeatureItem key={feature.id} feature={feature} />
             ))}

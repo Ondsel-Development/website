@@ -12,7 +12,7 @@ export default function PricingCardFeatureItem({ feature }) {
         {feature.status === "completed" && <CheckIcon width={28} height={28} />}
         {feature.status === "pending" && <PendingIcon width={28} height={28} />}
       </div>
-      <span className="text_lg ml_2 leading_28">{feature.title}</span>
+      <span className="text_base ml_2 leading_28">{feature.title}</span>
     </div>
   );
 }

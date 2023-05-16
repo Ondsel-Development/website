@@ -1,6 +1,6 @@
 .pricingCardList {
   display: grid;
-  max-width: 340px;
+  max-width: 240px;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   column-gap: 32px;
   row-gap: 40px;
@@ -13,28 +13,22 @@
 
 @media (min-width: 640px) {
   .pricingCardList {
-    max-width: 540px;
+    max-width: 480px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 768px) {
   .pricingCardList {
-    max-width: 640px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 1080px) {
-  .pricingCardList {
-    max-width: 900px;
+    max-width: 720px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .pricingCardList {
-    max-width: 1156px;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: flex;
+    flex-direction: row;
+    max-width: 1024px;
   }
 }

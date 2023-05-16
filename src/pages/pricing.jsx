@@ -9,7 +9,7 @@ const PRICING_PLANS = [
     name: "Anonymous",
     slug: "plan-anonymous",
     price: "$0",
-    img: "/img/bg-pricing-card-1.png",
+    bgColor: "#5E332A",
     cta: "signup",
     features: [
       {
@@ -48,7 +48,7 @@ const PRICING_PLANS = [
     name: "Authenticated",
     slug: "plan-authenitcated",
     price: "$0",
-    img: "/img/bg-pricing-card-2.png",
+    bgColor: "#4F2A22",
     cta: "signup",
     features: [
       {
@@ -92,7 +92,7 @@ const PRICING_PLANS = [
     name: "Premium",
     slug: "plan-premium",
     price: "$10 Month",
-    img: "/img/bg-pricing-card-3.png",
+    bgColor: "#3A1F19",
     cta: "buy-now",
     features: [
       {
@@ -121,7 +121,7 @@ const PRICING_PLANS = [
     name: "Enterprise",
     slug: "plan-enterprise",
     price: "Contact Us",
-    img: "/img/bg-pricing-card-4.png",
+    bgColor: "#241310",
     cta: "contact-us",
     features: [
       {
@@ -151,7 +151,7 @@ export default function Pricing() {
     <Layout title="Pricing" description={siteConfig.tagline}>
       <MainWrapper className="bg-grid-pattern px_8">
         <h1 className="text_6xl text_gray text_center">Pricing</h1>
-        <h2 className="text_3xl text_center text_gray">
+        <h2 className="text_2xl text_center text_gray">
           Put your designs to work everywhere
         </h2>
         <PricingCardList plans={PRICING_PLANS} />
