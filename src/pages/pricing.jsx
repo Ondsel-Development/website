@@ -14,7 +14,7 @@ const PRICING_PLANS = [
     features: [
       {
         id: "pfeature-upload-visualize",
-        title: "Upload and visualize",
+        title: "Visualize public models",
         status: "completed",
       },
       {
@@ -27,11 +27,11 @@ const PRICING_PLANS = [
         title: "Download in different formats",
         status: "completed",
       },
-      {
-        id: "pfeature-disappear-after-24h",
-        title: "Disappear after 24 hours.",
-        status: "completed",
-      },
+      // {
+      //   id: "pfeature-disappear-after-24h",
+      //   title: "Disappear after 24 hours.",
+      //   status: "completed",
+      // },
       {
         id: "pfeature-model-other-sources",
         title: "Models from other sources",
@@ -62,30 +62,30 @@ const PRICING_PLANS = [
         status: "completed",
       },
       {
-        id: "pfeature-ray-trace",
-        title: "Ray trace image generation",
-        status: "completed",
-      },
-      {
-        id: "pfeature-path-setupbook",
-        title: "Path Setupbook",
-        status: "completed",
-      },
-      {
-        id: "pfeature-techdraw-pages",
-        title: "Techdraw pages",
-        status: "completed",
-      },
-      {
         id: "pfeature-upload-webpage-workbench",
         title: "Upload from webpage or workbench",
         status: "completed",
       },
       {
-        id: "pfeature-model-catalog",
-        title: "Model catalog",
-        status: "completed",
+        id: "pfeature-ray-trace",
+        title: "Ray traced image rendering",
+        status: "pending",
       },
+      // {
+      //   id: "pfeature-path-setupbook",
+      //   title: "Path Setupbook",
+      //   status: "completed",
+      // },
+      {
+        id: "pfeature-techdraw-pages",
+        title: "Techdraw pages",
+        status: "pending",
+      },
+      // {
+      //   id: "pfeature-model-catalog",
+      //   title: "Model catalog",
+      //   status: "completed",
+      // },
     ],
   },
   {
@@ -98,7 +98,12 @@ const PRICING_PLANS = [
       {
         id: "pfeature-50-models",
         title: "50 models",
-        status: "completed",
+        status: "pending",
+      },
+      {
+        id: "pfeature-versions",
+        title: "Version History",
+        status: "pending",
       },
       {
         id: "pfeature-private-models",
@@ -127,7 +132,7 @@ const PRICING_PLANS = [
       {
         id: "pfeature-dedicated-server",
         title: "Dedicated server",
-        status: "completed",
+        status: "pending",
       },
       {
         id: "pfeature-unlimited-private-models",

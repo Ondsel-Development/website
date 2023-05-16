@@ -29,7 +29,7 @@ export default function PricingCard({ plan }) {
                     styles.ctaButton
                   )}
                 >
-                  SIGN UP
+                  WAITLIST
                 </button>
               )}
               {plan.cta === "buy-now" && (
@@ -39,7 +39,7 @@ export default function PricingCard({ plan }) {
                     styles.ctaButton
                   )}
                 >
-                  BUY NOW
+                  WAITLIST
                 </button>
               )}
               {plan.cta === "contact-us" && (
@@ -49,7 +49,7 @@ export default function PricingCard({ plan }) {
                     styles.ctaButton
                   )}
                 >
-                  CALL US
+                  EMAIL US
                 </button>
               )}
             </div>
