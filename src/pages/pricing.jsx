@@ -13,13 +13,13 @@ const PRICING_PLANS = [
     cta: "signup",
     features: [
       {
-        id: "pfeature-upload-visualize",
-        title: "Visualize public models",
+        id: "pfeature-local-workspaces",
+        title: "Local Workspaces",
         status: "completed",
       },
       {
-        id: "pfeature-reader-controllable-param",
-        title: "Reader controllable parameters",
+        id: "pfeature-upload-visualize",
+        title: "Explore public models",
         status: "completed",
       },
       {
@@ -33,15 +33,15 @@ const PRICING_PLANS = [
       //   status: "completed",
       // },
       {
-        id: "pfeature-model-other-sources",
-        title: "Models from other sources",
-        status: "completed",
-      },
-      {
-        id: "pfeature-upload-webpage",
-        title: "Upload from webpage",
+        id: "pfeature-lens",
+        title: "Ondsel Lens (Online viewer for 3D models)",
         status: "pending",
       },
+      // {
+      //   id: "pfeature-upload-webpage",
+      //   title: "Upload from webpage",
+      //   status: "completed",
+      // },
     ],
   },
   {
@@ -53,12 +53,17 @@ const PRICING_PLANS = [
     features: [
       {
         id: "pfeature-5-models",
-        title: "5 models",
+        title: "5 models (public)",
         status: "completed",
       },
+      // {
+      //   id: "pfeature-public-view",
+      //   title: "Publicly viewable",
+      //   status: "completed",
+      // },
       {
-        id: "pfeature-public-view",
-        title: "Publicly viewable",
+        id: "pfeature-reader-controllable-param",
+        title: "Customize Model in Browser",
         status: "completed",
       },
       {
@@ -98,21 +103,26 @@ const PRICING_PLANS = [
       {
         id: "pfeature-50-models",
         title: "50 models",
-        status: "pending",
-      },
-      {
-        id: "pfeature-versions",
-        title: "Version History",
-        status: "pending",
+        status: "completed",
       },
       {
         id: "pfeature-private-models",
         title: "Private models",
-        status: "pending",
+        status: "completed",
+      },
+      {
+        id: "pfeature-customizable-models",
+        title: "Customizable models",
+        status: "completed",
       },
       {
         id: "pfeature-control-download-formats",
         title: "Control download formats",
+        status: "completed",
+      },
+      {
+        id: "pfeature-versions",
+        title: "Version History",
         status: "pending",
       },
       {
@@ -137,6 +147,11 @@ const PRICING_PLANS = [
       {
         id: "pfeature-unlimited-private-models",
         title: "Unlimited private models",
+        status: "pending",
+      },
+      {
+        id: "pfeature-multiple-workspaces",
+        title: "Shared Workspaces",
         status: "pending",
       },
       {
