@@ -30,8 +30,7 @@ function HomePageHeader() {
 
         <div className="text_center text_hero m_70">
           <p>
-            Ondsel is an open-core company built around the awesome FreeCAD
-            Project.
+            Access and visualize your FreeCAD models anywhere with our storage and collaboration tool.
           </p>
         </div>
 

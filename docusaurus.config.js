@@ -87,10 +87,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {
-            href: '/pricing',
-            label: 'Pricing',
-          },
+          // {
+          //   href: '/pricing',
+          //   label: 'Pricing',
+          // },
           {
             href: '/careers',
             label: 'Careers',
