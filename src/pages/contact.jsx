@@ -16,7 +16,6 @@ export default function Contact() {
         <h2 className="text_2xl text_center text_gray">
           Sign up to be invited to the beta program
         </h2>
-
         <ContactFormSection />
       </MainWrapper>
     </Layout>

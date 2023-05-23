@@ -23,6 +23,12 @@ export default function ContactForm() {
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
 
+        <input
+          name="subject"
+          type="hidden"
+          value="Ondsel Beta Signup: New submission from {{ email }}"
+        />
+
         <button
           type="submit"
           disabled={state.submitting}
