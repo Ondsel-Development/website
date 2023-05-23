@@ -110,6 +110,10 @@
   height: 100%;
 }
 
+.min_h_screen {
+  min-height: 100vh;
+}
+
 .min_h_40 {
   min-height: 160px;
 }
@@ -128,8 +132,16 @@
   color: #f4f4f3;
 }
 
+.text_black {
+  color: black;
+}
+
 .font_bold {
   font-weight: 600;
+}
+
+.font_medium {
+  font-weight: 500;
 }
 
 .text_xs {

@@ -5,10 +5,16 @@ import PricingCardFeatureItem from "@site/src/components/PricingCardFeatureItem"
 import styles from "./styles.module.css";
 
 export default function PricingCard({ plan }) {
-  const bgStyle = useMemo(() => ({ background: plan?.bgColor }), [plan?.bgColor])
+  const bgStyle = useMemo(
+    () => ({ background: plan?.bgColor }),
+    [plan?.bgColor]
+  );
 
   return (
-    <div className={clsx("relative rounded_5xl", styles.pricingCard)} style={bgStyle}>
+    <div
+      className={clsx("relative rounded_5xl", styles.pricingCard)}
+      style={bgStyle}
+    >
       <div className="relative z_40 text_gray flex flex_col justify_between h_full">
         <div>
           <div className="min_h_20 pt_4">
@@ -23,34 +29,37 @@ export default function PricingCard({ plan }) {
           {plan.cta && (
             <div className="w-full flex flex_row items_center justify_center mt_6">
               {plan.cta === "signup" && (
-                <button
+                <a
                   className={clsx(
                     "button text_xl text_center ease_in_out duration_300",
                     styles.ctaButton
                   )}
+                  href="/contact"
                 >
                   SIGN UP
-                </button>
+                </a>
               )}
               {plan.cta === "buy-now" && (
-                <button
+                <a
                   className={clsx(
                     "button text_xl text_center ease_in_out duration_300",
                     styles.ctaButton
                   )}
+                  href="/contact"
                 >
                   BUY NOW
-                </button>
+                </a>
               )}
               {plan.cta === "contact-us" && (
-                <button
+                <a
                   className={clsx(
                     "button text_xl text_center ease_in_out duration_300",
                     styles.ctaButton
                   )}
+                  href="/contact"
                 >
                   CALL US
-                </button>
+                </a>
               )}
             </div>
           )}

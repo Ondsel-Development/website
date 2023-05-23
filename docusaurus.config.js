@@ -92,6 +92,10 @@ const config = {
             label: 'Pricing',
           },
           {
+            href: '/contact',
+            label: 'Contact',
+          },
+          {
             href: '/careers',
             label: 'Careers',
           },
