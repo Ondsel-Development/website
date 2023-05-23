@@ -61,6 +61,17 @@ export default function PricingCard({ plan }) {
                   CALL US
                 </a>
               )}
+              {plan.cta === "notify" && (
+                <a
+                  className={clsx(
+                    "button text_xl text_center ease_in_out duration_300",
+                    styles.ctaButton
+                  )}
+                  href="/contact"
+                >
+                  NOTIFY ME
+                </a>
+              )}
             </div>
           )}
 

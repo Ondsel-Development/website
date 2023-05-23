@@ -10,7 +10,7 @@ const PRICING_PLANS = [
     slug: "plan-anonymous",
     price: "$0",
     bgColor: "#5E332A",
-    cta: "signup",
+    cta: "notify",
     features: [
       {
         id: "pfeature-local-workspaces",
@@ -23,8 +23,8 @@ const PRICING_PLANS = [
         status: "completed",
       },
       {
-        id: "pfeature-download-formats",
-        title: "Download in different formats",
+        id: "pfeature-download",
+        title: "Download in original format",
         status: "completed",
       },
       // {
@@ -72,6 +72,11 @@ const PRICING_PLANS = [
         status: "completed",
       },
       {
+        id: "pfeature-download-formats",
+        title: "Download in alternate formats",
+        status: "completed",
+      },
+      {
         id: "pfeature-ray-trace",
         title: "Ray traced image rendering",
         status: "pending",
@@ -96,7 +101,7 @@ const PRICING_PLANS = [
   {
     name: "Premium",
     slug: "plan-premium",
-    price: "$10 Month",
+    price: "$10 / Month",
     bgColor: "#3A1F19",
     cta: "buy-now",
     features: [
