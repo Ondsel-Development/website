@@ -20,6 +20,24 @@
   padding: 24px 32px;
 }
 
+/* Styles for labels */
+label {
+  font-weight: bold;
+  color: white;
+  font-size: 18px; /* Adjust label font size */
+}
+
+/* Styles for selects */
+select {
+  width: 100%;
+  height: 64px;
+  background: #4f4848 !important;
+  border: 1px solid #b9b8b8;
+  padding: 1px 16px;
+  color: white; /* Change text color for the selects */
+  font-size: 16px; /* Adjust font size for the selects */
+}
+
 .formButton {
   height: 64px;
   background: #ff4a1f;

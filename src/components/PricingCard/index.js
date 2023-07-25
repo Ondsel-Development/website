@@ -28,6 +28,17 @@ export default function PricingCard({ plan }) {
 
           {plan.cta && (
             <div className="w-full flex flex_row items_center justify_center mt_6">
+              {plan.cta === "get-started" && (
+                <a
+                  className={clsx(
+                    "button text_xl text_center ease_in_out duration_300",
+                    styles.ctaButton
+                  )}
+                  href="https://lens.ondsel.com/signup"
+                >
+                  GET STARTED
+                </a>
+              )}
               {plan.cta === "signup" && (
                 <a
                   className={clsx(

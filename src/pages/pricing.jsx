@@ -10,7 +10,7 @@ const PRICING_PLANS = [
     slug: "plan-anonymous",
     price: "$0",
     bgColor: "#5E332A",
-    cta: "notify",
+    cta: "get-started",
     features: [
       { id: "pfeature-core-freecad",
         title: "Full FreeCAD Application",
