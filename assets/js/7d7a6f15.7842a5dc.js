@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[5137],{6616:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/freecad/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":18,"previousPage":"/blog/tags/freecad","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
