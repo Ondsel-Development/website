@@ -39,7 +39,7 @@ Pesc0 is a new arrival to FreeCAD. When the call for participation at fixing the
 
 Zheng Lei aka RealThunder (or RT) developed the fix for the toponaming issue in his fork of FreeCAD. His patchset made it possible for the upstream team to study the issue in much more detail, explore possible solutions, and come up with a roadmap. The TNP team uses a lot of his code and the classes he developed. RealThunder was involved in a consulting role and provided some really useful insight.
 
-Ajinkya Dahale is a former GSoC student for FreeCAD, an active contributor to the project, and employee at Ondsel. His involvement so far is creating the fix for sketch objects.
+Ajinkya Dahale is an active contributor to the project, and employee at Ondsel. His involvement so far is creating the fix for sketch objects.
 
 ## Staging the fix
 

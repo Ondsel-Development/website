@@ -6,7 +6,7 @@ import PricingCardList from "@site/src/components/PricingCardList";
 
 const PRICING_PLANS = [
   {
-    name: "Community",
+    name: "Solo",
     slug: "plan-anonymous",
     price: "$0",
     bgColor: "#5E332A",
@@ -22,24 +22,29 @@ const PRICING_PLANS = [
         status: "completed",
       },
       {
-        id: "pfeature-lens",
-        title: "Ondsel Lens Addon",
+        id: "pfeature-50-models",
+        title: "50 models (public)",
         status: "completed",
       },
       {
-        id: "pfeature-50-models",
-        title: "50 models (public)",
+        id: "pfeature-versions",
+        title: "Version History",
         status: "completed",
       },
     ],
   },
     {
-    name: "Premium",
+    name: "Peer",
     slug: "plan-premium",
-    price: "$10 / Month",
+    price: "$10 / Month (billed annually)",
     bgColor: "#3A1F19",
     cta: "buy-now",
     features: [
+      {
+        id: "peverything",
+        title: "Everything in Solo",
+        status: "completed",
+      },
       {
         id: "pfeature-250-models",
         title: "250 models",
@@ -57,17 +62,12 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-control-download-formats",
-        title: "Control download formats",
+        title: "Control what the viewer can download",
         status: "completed",
       },
       {
         id: "pfeature-multiple-workspaces",
         title: "multiple shareable workspaces",
-        status: "pending",
-      },
-      {
-        id: "pfeature-versions",
-        title: "Version History",
         status: "pending",
       },
       {
@@ -85,8 +85,13 @@ const PRICING_PLANS = [
     cta: "contact-us",
     features: [
       {
+        id: "peverything-in-peer",
+        title: "Everything in Peer",
+        status: "completed",
+      },
+      {
         id: "pfeature-org-workspaces",
-        title: "Organizational Workspaces",
+        title: "Organization Workspaces",
         status: "pending",
       },
       {
