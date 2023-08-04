@@ -36,7 +36,7 @@ const PRICING_PLANS = [
     {
     name: "Peer",
     slug: "plan-premium",
-    price: "$10 / Month (billed annually)",
+    price: "$10 / Month **",
     bgColor: "#3A1F19",
     cta: "buy-now",
     features: [

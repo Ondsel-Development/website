@@ -14,14 +14,16 @@ export default function PricingCardList({ plans }) {
         ))}
       </div>
       <div className="flex flex_row items_center justify_center w_full">
+      <span className="text_2xl ml_2 text_gray">** Billed Annually</span>
+      </div>
+      <div className="flex flex_row items_center justify_center w_full">
       <CheckIcon />
-      <span className="text_2xl ml_2 text_gray">Feature complete</span>
+      <span className="text_2xl ml_2 text_gray">Completed Feature</span>
       </div>
       <div className="flex flex_row items_center justify_center w_full">
       <PendingIcon />
-      <span className="text_2xl ml_2 text_gray">Feature in developement</span>
+      <span className="text_2xl ml_2 text_gray">Planned Feature</span>
       </div>
-
     </>
   );
 }
