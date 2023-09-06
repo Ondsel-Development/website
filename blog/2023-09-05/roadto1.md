@@ -23,9 +23,9 @@ Historically, the duration of FreeCAD development cycles has been uneven, anywhe
 
 ![Timeline of FreeCAD releases](release-timeline.webp)
 
-We already talked about reasons and ways to make releases more predictable in [one of the recent posts](https://ondsel.com/blog/freecad-unpredictable-release-schedule-hurts-users-and-developers). But the truth is, this is a much older conversation that has been going on in the community for years now: at FOSDEM, in the forum, and in various other venues and social channels. The hackathon in Vancouver last week was a perfect opportunity for the developers community to set some boundaries for v1.0.
+We already talked about reasons and ways to make releases more predictable in [one of the recent posts](https://ondsel.com/blog/freecad-unpredictable-release-schedule-hurts-users-and-developers). But the truth is, this is a much older conversation that has been going on in the community for years now: at FOSDEM, in the forum, and in various other venues and social channels. The hackathon in Vancouver was a perfect opportunity for the developers community to set some boundaries for v1.0.
 
-We ended up formalizing a list of 4 major items for the v1.0 roadmap that we think are a must-have to constitute the next release. None of these items are big news, we’ve all known about them for a while: the complete topological naming fix, a default Assembly workbench, a new implementation of a materials system, and the first-run wizard.
+We ended up formalizing a list of [4 major items](https://freecad.github.io/DevelopersHandbook/roadmap/next.html) for the v1.0 roadmap that we think are a must-have to constitute the next release. None of these items are big news, we’ve all known about them for a while: the complete topological naming fix, a default Assembly workbench, a new implementation of a materials system, and the first-run wizard.
 
 So let’s cast a quick glance at these items and talk about respective challenges.
 
@@ -50,7 +50,7 @@ For the user-facing assembly workbench, a lot of work remains. One of the challe
 
 The main challenge here will be building a team similar to the one we have for the TNP fix — a mix of Ondsel employees, FreeCAD maintainers, and 3rd party contributors. This has proven to be a great balance between interested parties, and we want to replicate that success.
 
-The project will be managed as a [GitHub project in the FreeCAD organization](https://github.com/orgs/FreeCAD/projects/7/views/1), with cards and issues.  Similarly to the toponaming project, we’ll work in small incremental pull requests and merge the changes directly to the master branch rather than wait until the workbench is fully functional.
+The project will be managed as a [GitHub project in the FreeCAD organization](https://github.com/orgs/FreeCAD/projects/7/views/1), with cards and issues.  Similarly to the toponaming project, we’ll work in small incremental pull requests and merge the changes directly to the master branch rather than wait until the workbench is fully functional. An initial barebone implementation has already been merged to the main development branch.
 
 ## Materials
 
@@ -62,23 +62,21 @@ Earlier this year, we posted an [implementation proposal](https://ondsel.com/blo
 
 ![Editor for new material cards](materials-new-cards-editor.webp)
 
-The first pull request [has already been filed](https://github.com/FreeCAD/FreeCAD/pull/10368) and is undergoing review. Further plan with materials is to apply the toponaming development model: break all further work down into small pieces, so that any developer could be part of that effort. Once new materials can be saved (this is work in progress right now), existing code will be pushed to the main development branch. All further work will be done in PRs. This will make it possible to deliver the minimum viable implementation in time for v1.0.
+The first pull request [has already been filed](https://github.com/FreeCAD/FreeCAD/pull/10368) and is undergoing review. Further plan with materials is to apply the toponaming development model: break all further work down into small pieces, so that any developer could be part of that effort. Once the initial patch has been merged and further work has been decomposed into small items, more developers can join the effort. All further work will be done in pull requests. This will make it possible to deliver the minimum viable implementation in time for v1.0.
 
 ## First-run wizard
 
-FreeCAD has a difficult learning curve. Improving the initial user experiences is a topic that comes up regularly and really deserves a dedicated post, but for now here is the gist of the issue.
+FreeCAD has a difficult learning curve. Improving the initial user experiences is a topic that resurfaces regularly. We even covered that in a recent blog post. Here is the gist of the issue.
 
-We’ve done some preliminary research on this in time for the hackathon, then we had a discussion at the hackathon. Here’s what we learned and what we think needs to happen.
 
 First of all, people can’t really agree on the scope of the first-run wizard. There are literally dozens of settings that users requested to be editable when you run the program for the first time. But when you dig deeper into the reasoning, several things become obvious.
 
 First there are configuration settings for which a single default will never suffice. Language and the unit system are the two that come to mind.
 
-
 Some configuration options appear to be personal preference but might also have more significant usability implications. For example themes and colors are personal preference, but they become extremely important if you suffer from color deficiency.  Users will never agree with each other about that, so those have to be easily configurable. 
 
 Other things that people want to configure should probably be solved in other ways. A great example of this is configuring which workbenches are available and active for a new user. 
-Should the system present a bewildering array of workbenches to a new user or should it hide potentially useful tools in an effort to be streamlined? Reasonable people disagree. In this case, the right answer might be to improve the Start workbench. This would provide a fast track to the workbench based on that task that they need to accomplish. Initial mockup was created and then turned into a [pull request](https://github.com/FreeCAD/FreeCAD/pull/10171) by Qewer during the hackathon.
+Should the system present a bewildering array of workbenches to a new user or should it hide potentially useful tools in an effort to be streamlined? Reasonable people disagree. In this case, the right answer might be to improve the Start workbench. This would provide a fast track to the workbench based on that task that they need to accomplish. Initial mockup was created and then turned into a [pull request](https://github.com/FreeCAD/FreeCAD/pull/10171) by Qewer during the hackathon. This patch has already been accepted and will be part of v1.0.
 
 
 
