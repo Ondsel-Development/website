@@ -21,7 +21,7 @@ One of the hallmark features of FreeCAD is that various parts of its UI have a l
 
 ![Constraint options in FreeCAD 0.21](contextual-constraints-0-21.webp)
 
-Before joining Ondsel, Pierre-Louis Boyer (@paddle) started implementing a feature called _contextual constraints_ to help users constrain faster. Since joining Ondsel, he has finished the [patch](https://github.com/FreeCAD/FreeCAD/pull/9810), and after some discussion and code review it was merged to become part of future FreeCAD 1.0. So let’s talk about this feature.
+Before joining Ondsel, Pierre-Louis Boyer (@paddle) started implementing a feature called _contextual constraints_ to help users constrain faster. Since joining Ondsel, he has finished the [patch](https://github.com/FreeCAD/FreeCAD/pull/9810), and after some discussion and code review it was merged to become part of future FreeCAD 1.0. This new feature is quite nice and surpasses what many commercial CAD applicaitons are able to do. So let’s take it for a drive and kick the tires!
 
 When you select a geometric feature in a sketch, there’s a finite number of constraints you apply once you select the second feature. For example, if you select a line and then an endpoint of another line, your most meaningful option is a distance constraint. But if you select a line and then another line that’s at an angle to the first one, the angle constraint is the most meaningful option, and your other option is to make those lines equal.
 
