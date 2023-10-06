@@ -13,10 +13,10 @@ Ondsel's products help extract more utility and value from your digital designs.
 
 We'll make it easier to take model data from FreeCAD and make it accessible to collaborators. Visualization, exploration, and annotation are key concepts.
 
-### Parametric cloud execution.
+### Parametric cloud execution
 
-For parametric models -Those that are designed to be modified by adjusting parameters- it isn't enough to export the model in a widely supported format.  Exporting loses the parametric nature of the model.  FreeCAD provides the ability to embed the full CAD engine in a web service.
+For parametric models — those that are designed to be modified by adjusting parameters — it isn't enough to export the model in a widely supported format.  Exporting loses the parametric nature of the model.  FreeCAD provides the ability to embed the full CAD engine in a web service.
 
 ### Integration
 
-It's hard to anticipate exactly where an organization will find value in its digital designs. Whatever we expect will certainly change with time. We'll build our products to integrate digital designs into existing workflows and organizational processes whenever we can
+It's hard to anticipate exactly where an organization will find value in its digital designs. Whatever we expect will certainly change with time. We'll build our products to integrate digital designs into existing workflows and organizational processes whenever we can.
