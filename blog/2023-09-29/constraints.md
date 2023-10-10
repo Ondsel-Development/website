@@ -12,7 +12,7 @@ authors:
     url: https://github.com/prokoudine
     image_url: https://avatars.githubusercontent.com/u/57467?v=4
 
-tags: [freecad, development]
+tags: [freecad, development, sketcher]
 image: ./titlecard.png
 draft: false
 ---
