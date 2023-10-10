@@ -24,6 +24,7 @@
         </author>
         <category label="freecad" term="freecad"/>
         <category label="development" term="development"/>
+        <category label="sketcher" term="sketcher"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Live merge meetings: What we learned from merging 75 Pull Requests in 30 days]]></title>
