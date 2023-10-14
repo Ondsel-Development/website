@@ -14,7 +14,7 @@ authors:
 
 tags: [freecad, development, addons]
 image: ./titlecard.png
-draft: true
+draft: false
 ---
 
 How to build 3rd-party addons for FreeCAD that don’t suck
