@@ -17,6 +17,15 @@ image: ./titlecard.png
 draft: false
 ---
 
+This is the first post in the series where we discuss the need for an integrated assembly workbench, review existing 3rd-party options, and discuss takeaways from our research. Further posts:
+
+- [Assembly 2 workbench](https://ondsel.com/blog/default-assembly-workbench-2/)
+- [Exploring the A2plus workbench](https://ondsel.com/blog/default-assembly-workbench-3/)
+- [Exploring the Assembly 3 workbench](https://ondsel.com/blog/default-assembly-workbench-4/)
+- [Exploring the Assembly 4 workbench](https://ondsel.com/blog/default-assembly-workbench-5/)
+- [Exploring BodyBuilder, Manipulator, and Part-o-magic](https://ondsel.com/blog/default-assembly-workbench-6/)
+- [What we learned and what's coming next](https://ondsel.com/blog/default-assembly-workbench-7/)
+
 FreeCAD is an inherently modular program where major features can be developed by 3rd parties as workbenches. This is great for creating a healthy ecosystem of [add-ons](https://wiki.freecad.org/Std_AddonMgr) and catering to a diverse group of users: tinkerers, professional mechanical engineers, architects, furniture designers etc. The obvious benefit of that is that creating and deploying a solution for a particular user group does not require syncing with FreeCAD’s release cycle that can be as long as a few years. Since v0.17, FreeCAD makes it very easy to install and update various workbenches developed by its passionate community.
 
 ### Why a Default Assembly Workbench?
