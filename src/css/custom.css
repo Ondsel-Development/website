@@ -441,3 +441,8 @@
 .hero__subtitle {
   line-height: 80px;
 }
+
+/* PD: fixing <main> flex grow to hide white background */
+.mainWrapper_src-components-MainWrapper-styles-module {
+  flex-grow: 1;
+}
