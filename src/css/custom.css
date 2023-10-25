@@ -443,6 +443,7 @@
 }
 
 /* PD: fixing <main> flex grow to hide white background */
-.mainWrapper_src-components-MainWrapper-styles-module {
+/* .mainWrapper_src-components-MainWrapper-styles-module { */
+.mainWrapper_IvOH {
   flex-grow: 1;
 }
