@@ -444,5 +444,11 @@
 
 /* PD: fixing <main> flex grow to hide white background */
 .main-wrapper main {
+  display: flex;
+  flex: 1 0 auto;
   flex-grow: 1;
+  flex-direction: column;
+}
+.main-wrapper main section {
+  flex: 1 0 auto;
 }
