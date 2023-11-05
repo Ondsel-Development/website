@@ -18,7 +18,7 @@ export default function TOS() {
   const fetchTOS = async () => {
 
     try {
-      fetch('https://lens-api.ondsel.com/agreements?category=terms-of-service')
+      fetch('https://lens-api.ondsel.com/agreements?category=privacy-policy')
         .then( (response) => {
           if( response.ok ) {
             return response.json();
@@ -34,15 +34,17 @@ export default function TOS() {
     }
   }
 
+
   useEffect( () => {
     fetchTOS();
   }, [] );
+
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <Layout title="Terms of Service" description={siteConfig.tagline}>
+    <Layout title="Privacy Policy" description={siteConfig.tagline}>
       <MainWrapper className="container container--fluid margin-ver--lg row--align-center">
           <div className='col col--8'>
           <div className='margin-bottom--sm' style={{
