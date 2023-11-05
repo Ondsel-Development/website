@@ -50,7 +50,7 @@ export default function TOS() {
           }}>
             version: {data.version}<br/>
           </div>
-          <Markdown>{data.markdownContent}</Markdown>;
+          <Markdown>{data.markdownContent}</Markdown>
           </div>
       </MainWrapper>
     </Layout>
