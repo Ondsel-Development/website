@@ -1,0 +1,79 @@
+---
+slug: floating-input-widgets
+title: "FreeCAD sketcher getting a major upgrade with floating input widgets"
+authors:
+
+  - name: Brad Collette
+    title: Ondsel Core Team
+    url: https://github.com/sliptonic
+    image_url: https://avatars.githubusercontent.com/u/538057?v=4
+
+  - name: Alexandre Prokoudine
+    title: Contributing Writer
+    url: https://github.com/prokoudine
+    image_url: https://avatars.githubusercontent.com/u/57467?v=4
+
+tags: [freecad, sketcher]
+image: ./titlecard.png
+draft: false
+---
+
+We’ve already introduced some improvements to sketching with constraints before, when Pierre-Louis Boyer implemented [contextual constraints](https://ondsel.com/blog/ondsel-made-constraining-sketches-faster-and-easier). But there are more usability gaps there, and we are targeting them one by one. There’s another major change currently undergoing code review: on-viewport tool widgets to create fully constrained sketches and tool settings to set various properties and choose drafting behavior.
+
+## Drafting fully constrained sketches
+
+Thanks to Ondsel’s developer Pierre-Louis Boyer and FreeCAD maintainer Abdullah Tahiriyo, the Sketcher workbench is now getting UX/UI improvements that aim to improve drafting fully constrained sketches. Pierre-Louis shot a quick video for internal use that we are sharing with you.
+
+<Youtube v="Z-rA2zX5mas" />
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Z-rA2zX5mas?si=GvYqK784NAKYqVpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+Here is a quick explainer of what’s coming in version 1.0 here.
+
+The usual workflow for creating a sketch is drawing shapes, then constraining them. That takes quite a while, if you intend to fully constrain a shape. Let’s say we draw just a line. To fully constrain it, we then have to:
+
+* Select its start and constrain its distance to X and Y coordinate origins (for XY plane)
+* Select the line and constrain its distance
+* Add another constrain to define its angle to X (for XY plane)
+
+Of course, there are several more ways to fully constrain a line, but the general idea is the same: draw a line in roughly the right spot, then “fix” it.
+
+If we are drawing more complex shapes (e.g. polygons), getting them fully constrained takes even more time and effort, though contextual constraints help with that somewhat. Can we speed it up? Yes, that’s the point of this coming improvement.
+
+Now when you select a shape-drawing tool and hover the viewport, FreeCAD will display numeric entry widgets right in the viewport. When you type in a new value and press the **Tab** key, FreeCAD applies a constraint, updates the shape in the viewport, and moves the focus to the next entry widget. This is how it works for a line:
+
+<video width="100%" height="100%" controls>
+  <source src="/video/sketcher-fully-constrained-line.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+Currently supported objects are points, lines, rectangles, circles, and polygons. It’s possible to add support for more object types.
+
+## Tool settings
+
+The second user-visible part of the patch is introducing tool settings in the Tasks panel. This helps build more expressive tools.
+
+**Different ways to define a shape** will now be easily accessible: e.g. a line can be defined by the position of two points or by a combination of the start point’s coordinates, the length of the line, and the angle.
+
+Another possibility is **different shape styles**. A rectangle with rounded corners can now be an option of the regular rectangle tool. Similarly, rectangles can have a frame around them with user-defined thickness.
+
+Finally, you can use it to **set an inherent property of a shape**, such as the amount of sides in a polygon.
+
+<video width="100%" height="100%" controls>
+  <source src="/video/sketcher-tool-options-short.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+The same can be applied to arcs and conics later on.
+
+## Further work
+
+This is still an early implementation undergoing review, so there will be both minor tweaks and new features further down the road. Here are some of the ideas we have:
+
+* Enabling expressions in the spinboxes
+* Adding Rotate, Scale, Translate tools with on-viewport widgets
+* Adding a Chamfer tool to Sketcher
+
+Another thing we are planning to do is make full constraining an optional feature for users who want to be able to decide how many degrees of freedom they need for each particular shape. This could be a global preference setting or a quick toggle in the toolbar when you need to mix both approaches in the same project.
+
+We are looking forward to reading your feedback. Until the patch has been merged, the best place to provide it is the [pull request](https://github.com/FreeCAD/FreeCAD/pull/11174).
