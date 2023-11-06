@@ -32,6 +32,7 @@ export default function TOS() {
     } catch (err) {
       setError( err.message );
     }
+
   }
 
 
