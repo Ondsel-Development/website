@@ -10,15 +10,10 @@ const PRICING_PLANS = [
     slug: "plan-anonymous",
     price: "$0",
     bgColor: "#5E332A",
-    cta: "get-started",
+    cta: "download-now",
     features: [
       { id: "pfeature-core-freecad",
-        title: "Full FreeCAD Application",
-        status: "completed",
-      },
-      {
-        id: "pfeature-local-workspaces",
-        title: "Local Workspaces",
+        title: "Full Design Suite",
         status: "completed",
       },
       {
@@ -38,7 +33,7 @@ const PRICING_PLANS = [
     slug: "plan-premium",
     price: "$10 / Month **",
     bgColor: "#3A1F19",
-    cta: "buy-now",
+    cta: "get-started",
     features: [
       {
         id: "peverything",
@@ -47,17 +42,7 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-250-models",
-        title: "250 models",
-        status: "completed",
-      },
-      {
-        id: "pfeature-private-models",
-        title: "Private models",
-        status: "completed",
-      },
-      {
-        id: "pfeature-customizable-models",
-        title: "Customizable models",
+        title: "250 private and customizable models",
         status: "completed",
       },
       {
@@ -67,12 +52,7 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-multiple-workspaces",
-        title: "multiple shareable workspaces",
-        status: "pending",
-      },
-      {
-        id: "pfeature-model-annotation",
-        title: "Model annotation",
+        title: "multiple workspaces",
         status: "pending",
       },
     ],
