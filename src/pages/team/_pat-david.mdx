@@ -2,12 +2,37 @@
 name: "Pat David"
 email: "email@email.com"
 twitter: "@patdavid"
-photo: "photo.jpg"
+photo: "patdavid.jpg"
 ---
 
-<h2>{frontMatter.name}</h2>
-<p>{frontMatter.email}</p>
+<MemberMeta>
 
 Bacon **ipsum** dolor amet cupim tongue t-bone, flank doner leberkas chuck. Venison pastrami ball tip tenderloin andouille pork belly, filet mignon meatloaf t-bone bresaola shoulder rump leberkas. Shoulder tri-tip pancetta turducken fatback, ground round corned beef beef ribs bresaola jerky pork chop sausage. Ribeye porchetta fatback, frankfurter bresaola chuck salami ball tip pork belly cow spare ribs meatloaf beef ground round picanha.
 
 Ham hock flank chislic venison pastrami. Shoulder beef bacon pork chop biltong. Leberkas spare ribs jowl, doner chicken chuck jerky pork loin ground round ball tip alcatra swine. Tri-tip tenderloin biltong cow andouille sirloin flank brisket ham turducken hamburger doner landjaeger.
+
+</MemberMeta>
+
+<!-- Page Components -->
+<!-- --------------- -->
+
+export default function Layout({children}) {
+  return <div className='team-member'>{children}</div>
+}
+
+export function MemberMeta({children}) {
+  const photo = require( './' + frontMatter.photo).default;
+  return (
+    <div className='flex flex_row'>
+      <img className='member-photo' src={ photo } />
+      <div className='flex flex_col member-info'>
+        <h2 className='member-name'>{frontMatter.name}</h2>
+        <span className='member-email'>{frontMatter.email}</span>
+        <span className='member-twitter'>{frontMatter.twitter}</span>
+        <div className='member-text'>
+          {children}
+        </div>
+      </div>
+    </div>
+  )
+}
