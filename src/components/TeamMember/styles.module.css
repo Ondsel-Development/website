@@ -1,0 +1,24 @@
+.team_member{
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+}
+
+.member_info {
+  /* margin-left: 1rem; */
+}
+
+.member_name {
+  margin-bottom: 0;
+}
+
+.member-photo {
+  height: auto;
+}
+
+.member_email {
+
+}
+
+.member_photo {
+  align-self: flex-start;
+}
