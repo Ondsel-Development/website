@@ -18,10 +18,9 @@ image: ./titlecard.png
 draft: false
 ---
 
-The basics of an integrated assembly workbench in FreeCAD are now functional and ready for wider testing. This means you can play with it now in the development version of FreeCAD and  when version 1.0 is out, you will be able to create or link parts, create joints between them, and solve the assembly — in just a few clicks, out of the box, without installing any add-ons.
+The basics of an integrated assembly workbench in FreeCAD are now functional and will be ready for for wider testing once [another pull request](https://github.com/FreeCAD/FreeCAD/pull/10764) is merged. This means you can play with it now in the development version of FreeCAD and when version 1.0 is out, you will be able to create or link parts, create joints between them, and solve the assembly — in just a few clicks, out of the box, without installing any add-ons.
 
 This quick video by Pierre-Louis Boyer demonstrates all that:
-
 
 <Youtube v="mFsieFzOPls" />
 
@@ -54,8 +53,6 @@ After the research, we proceeded with standardization of the data structure. So 
 
 We ended up designing the assembly as a Part container, just like in Assembly 4. However, multiple assemblies can be created in one document. We are not married to this design decision though and will happily reconsider if users speak up.
 
-
-
 ![Assembly project structure](assembly-project-structure.webp)
 
 ## Workflow considerations
@@ -78,8 +75,6 @@ First off, it will support both top-down and bottom-up design approaches. Right 
 
 Once you have all the parts you need in the project, choose a joint type in the toolbar.
 
-
-
 ![Joints toolbar](assembly-joints-toolbar.webp)
 
 So far, available joint types are:
@@ -95,8 +90,6 @@ So far, available joint types are:
 
 When you select a joint type and hover a geometric feature of a part, FreeCAD displays a joint coordinate system for that feature:
 
-
-
 ![Assembly JCS preview](assembly-jcs-preview.webp)
 
 So all you need to do is click on the hovered feature to add it to the selection (displayed in a floating dialog on the right), then pick a geometric feature of the second part and click OK.
@@ -106,8 +99,6 @@ Once all parts are connected with joints, you can move them under constraints. Y
 ## Project organization
 
 We were really pleased with the way the [TNP project](https://github.com/orgs/FreeCAD/projects/2) operated, so we decided to model the assembly workbench project after it: public project board on GitHub ([done](https://github.com/orgs/FreeCAD/projects/7)), a mix of Ondsel employees and FreeCAD contributors (done), and atomic pull requests into the main development branch (done).
-
-
 
 ![Kanban board for the assembly project on GitHub](assembly-github-board.webp)
 
