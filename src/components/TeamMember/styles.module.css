@@ -1,6 +1,9 @@
 .team_member{
   /* flex-wrap: wrap; */
   gap: 1rem;
+  padding: 1rem;
+  border: solid 1px gray;
+  border-radius: 1rem;
 }
 
 .member_info {
@@ -8,11 +11,17 @@
 }
 
 .member_name {
-  margin-bottom: 0;
+  margin-bottom: 0.25rem;
 }
 
-.member-photo {
+.member_title {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.member_photo {
   height: auto;
+  border-radius: 1rem;
 }
 
 .member_email {
