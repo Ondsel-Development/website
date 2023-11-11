@@ -1,9 +1,8 @@
 .team_member{
-  /* flex-wrap: wrap; */
-  gap: 1rem;
-  padding: 1rem;
-  border: solid 1px gray;
-  border-radius: 1rem;
+  --border-radius: 0.75rem;
+  padding: 1rem 0;
+  border: solid 1px #ccc;
+  border-radius: var(--border-radius);
 }
 
 .member_info {
@@ -20,12 +19,20 @@
 }
 
 .member_photo {
-  height: auto;
-  border-radius: 1rem;
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.member_contact {
+  margin-bottom: 0.5rem;
+  border-top: solid 1px var(--ifm-color-secondary);
+  border-bottom: solid 1px var(--ifm-color-secondary);
+}
+.member_contact > * {
+  margin-right: 0.5rem;
 }
 
 .member_email {
-
 }
 
 .member_photo {
