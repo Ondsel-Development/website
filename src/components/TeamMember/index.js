@@ -5,6 +5,21 @@ import styles from "./styles.module.css";
 export default function TeamMember({children, frontMatter}) {
   const photo = require( '@site/src/pages/team/' + frontMatter.photo ).default;
   console.log('in TeamMember');
+  console.log( frontMatter );
+
+  let socialEntries = [];
+  if( frontMatter.social ){
+    let social = frontMatter.social;
+    Object.values(social).forEach( entry => {
+      socialEntries.push( 
+        <a href={entry.url} className={styles.member_social}>
+          {entry.icon}
+          {entry.label}
+        </a> 
+      );
+    })
+  }
+
   return (
     <div className={'row ' + styles.team_member}>
 
@@ -20,7 +35,7 @@ export default function TeamMember({children, frontMatter}) {
             <span className={ styles.member_email }>
               <a href={frontMatter.email}>{frontMatter.email}</a>
             </span> 
-            <span className={ styles.member_twitter }>{frontMatter.twitter}</span>
+            { frontMatter.social && socialEntries }
           </div>
         <div className={ styles.member_text }>
           {children}
