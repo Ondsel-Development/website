@@ -13,11 +13,10 @@ export default function Team() {
 
  return (
     <Layout title="Team" description={siteConfig.tagline}>
-      <MainWrapper className="container container--fluid row--align-center">
+      <MainWrapper className="container">
         <h1 className="text_6xl text_center">Who We Are</h1>
           <section className="col">
             <Pat/>
-            <hr/>
             <Pat/>
           </section>
       </MainWrapper>

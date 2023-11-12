@@ -4,16 +4,13 @@ import styles from "./styles.module.css";
 
 export default function TeamMember({children, frontMatter}) {
   const photo = require( '@site/src/pages/team/' + frontMatter.photo ).default;
-  console.log('in TeamMember');
-  console.log( frontMatter );
 
   let socialEntries = [];
   if( frontMatter.social ){
     let social = frontMatter.social;
     Object.values(social).forEach( entry => {
       socialEntries.push( 
-        <a href={entry.url} className={styles.member_social}>
-          {entry.icon}
+        <a href={entry.url} className={'margin-right--md ' + styles.member_social} title={entry.title}>
           {entry.label}
         </a> 
       );
@@ -21,25 +18,27 @@ export default function TeamMember({children, frontMatter}) {
   }
 
   return (
-    <div className={'row ' + styles.team_member}>
+    <div className={'row margin-bottom--lg padding-vert--md ' + styles.team_member}>
 
       <div className='col col--3 '>
         <img className={ styles.member_photo } src={ photo } />
       </div>
 
       <div className={ 'col  '+ styles.member_info }>
-        <h2 className={ styles.member_name }>{frontMatter.name}</h2>
-          { frontMatter.title
-            && <h3 className={ styles.member_title }>{frontMatter.title}</h3> }
-          <div className={styles.member_contact}>
-            <span className={ styles.member_email }>
-              <a href={frontMatter.email}>{frontMatter.email}</a>
-            </span> 
-            { frontMatter.social && socialEntries }
-          </div>
+
+        <h2 className={'margin-bottom--xs '+ styles.member_name }>{frontMatter.name}</h2>
+
+        { frontMatter.title
+          && <h3 className={'margin-bottom--sm ' + styles.member_title }>{frontMatter.title}</h3> }
+
+        <div className={styles.member_contact}>
+          { frontMatter.social && socialEntries }
+        </div>
+
         <div className={ styles.member_text }>
           {children}
         </div>
+
       </div>
     </div>
   )

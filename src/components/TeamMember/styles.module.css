@@ -1,20 +1,10 @@
 .team_member{
   --border-radius: 0.75rem;
-  padding: 1rem 0;
   border: solid 1px #ccc;
   border-radius: var(--border-radius);
 }
 
-.member_info {
-  /* margin-left: 1rem; */
-}
-
-.member_name {
-  margin-bottom: 0.25rem;
-}
-
 .member_title {
-  margin-bottom: 0.5rem;
   color: #666;
 }
 
@@ -27,12 +17,6 @@
   margin-bottom: 0.5rem;
   border-top: solid 1px var(--ifm-color-secondary);
   border-bottom: solid 1px var(--ifm-color-secondary);
-}
-.member_contact > * {
-  margin-right: 0.5rem;
-}
-
-.member_email {
 }
 
 .member_photo {
