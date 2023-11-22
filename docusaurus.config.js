@@ -79,10 +79,10 @@ const config = {
             label: 'Home',
             position: 'left',
           },
-          {
-            href: '/about',
-            label: 'About Us',
-          },
+          // {
+          //   href: '/about',
+          //   label: 'About Us',
+          // },
           {
             href: 'https://github.com/Ondsel-Development',
             label: 'GitHub',
@@ -93,18 +93,44 @@ const config = {
             label: 'Pricing',
           },
           {
-            href: '/contact',
-            label: 'Contact',
-          },
-          {
-            href: '/careers',
-            label: 'Careers',
+            href: '/handbook',
+            label: 'Handbook',
           },
           {
             to: 'blog',
             label: 'Blog',
-            position: 'left',
           },
+          // {
+          //   href: '/contact',
+          //   label: 'Contact',
+          // },
+          // {
+          //   href: '/careers',
+          //   label: 'Careers',
+          // },
+          {
+            type: 'dropdown',
+            label: 'Company',
+            items: [
+              {
+                label: 'About Us',
+                href: '/about',
+              },
+              {
+                label: 'Careers',
+                href: '/careers'
+              },
+              {
+                label: 'Contact',
+                href: '/contact',
+              },
+            ],
+          }
+          // {
+          //   to: 'blog',
+          //   label: 'Blog',
+          //   position: 'left',
+          // },
         ],
       },
       footer: {
