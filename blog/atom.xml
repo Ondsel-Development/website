@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ondsel.com/blog</id>
     <title>Ondsel Blog</title>
-    <updated>2023-12-01T00:00:00.000Z</updated>
+    <updated>2023-12-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ondsel.com/blog"/>
     <subtitle>Ondsel Blog</subtitle>
     <icon>https://ondsel.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Autodesk continues to enshittify Fusion 360 with a 27% price increase]]></title>
+        <id>https://ondsel.com/blog/autodesk-enshittifies-fusion-360</id>
+        <link href="https://ondsel.com/blog/autodesk-enshittifies-fusion-360"/>
+        <updated>2023-12-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Look, there are good reasons why the price of a software product could go up]]></summary>
+        <content type="html"><![CDATA[<p>Look, there are good reasons why the price of a software product could go up: rising R&amp;D and maintenance costs, market saturation, rising inflation rate etc. But Autodesk’s latest announcement of bumping the Fusion 360 price yet again makes people—especially small businesses—cringe and it’s easy to see why. It’s about what you do and how you communicate that to users:</p><p><img loading="lazy" alt="Fusion 360 price change announcement" src="/assets/images/fusion360-price-increase-844d84b0b616ddf018942bc9b6d9623d.jpg" width="818" height="465" class="img_ev3q"></p><p>Source: <a href="https://lemmy.world/post/9022106" target="_blank" rel="noopener noreferrer">Lemmy.World</a></p><p>Isn’t it just a fancy way of saying “We know you love Fusion, so we think we’ll get away with making you pay more for it”?</p><p>This isn’t the first time. In 2020, they ripped useful features out of the free tier and moved it to the paid tier while promising to “continue to make Fusion 360 the most affordable end-to-end product development tool in the market”. Or, as one user at Lemmy.World said:</p><blockquote><p><a href="https://lemmy.world/comment/5739138" target="_blank" rel="noopener noreferrer">They pulled the rug out from underneath users years ago with F360.</a></p></blockquote><p>This was later followed by a price tag bump from $495 to $545. And now come January 1, 2024, Fusion users will start paying $690, a 130% increase over 10 years.</p><p>Removing features from the free tier and continuously raising the price of the paid tier — it’s a hard pill to swallow. People have a deeply rooted desire to be in control of their life in general, and their software and data in particular. And this is where free and open-source software has the upper hand. Hence the influx of Fusion refugees that the FreeCAD community has been seeing since September 2020.</p><p>We think the industry is tired of playing by Autodesk’s rules. There are dozens of big and small software vendors that are chipping away at its market domination. Ondsel is happily contributing to the effort of making CAD software actually affordable for students, hobbyists, and professionals alike. We are pretty open, if not vocal about the work we do, and now you can test the latest and greatest by downloading our ‘playground’ build of FreeCAD.  When you get tired of Autodesk’s ‘rebalancing’, why not see what life is like for our users?  </p><p><img loading="lazy" alt="Stemfie Rebalancing" src="/assets/images/stemfie-rebalancing-0e66dbd8d558e5bcba7b1550b306bb92.png" width="1022" height="690" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Brad Collette</name>
+            <uri>https://github.com/sliptonic</uri>
+        </author>
+        <category label="fusion" term="fusion"/>
+        <category label="freecad" term="freecad"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Christmas comes early! A pre-release of the integrated assembly workbench]]></title>
         <id>https://ondsel.com/blog/assembly-wb-prerelease</id>
