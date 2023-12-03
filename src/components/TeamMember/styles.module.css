@@ -1,6 +1,6 @@
 .team_member{
   --border-radius: 0.75rem;
-  border: solid 1px #ccc;
+  border: solid 1px #ddd;
   border-radius: var(--border-radius);
 }
 
@@ -9,7 +9,8 @@
 }
 
 .member_photo {
-  width: 100%;
+  max-width: 100%;
+  max-width: 50%;
   border-radius: var(--border-radius);
 }
 

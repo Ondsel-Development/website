@@ -18,28 +18,31 @@ export default function TeamMember({children, frontMatter}) {
   }
 
   return (
-    <div className={'row margin-bottom--lg padding-vert--md ' + styles.team_member}>
+    <div className={'col col--4 margin-bottom--none padding-vert--md padding-horiz--sm'}>
 
-      <div className='col col--3 '>
-        <img className={ styles.member_photo } src={ photo } />
-      </div>
+      <div className={'padding-vert--md '+styles.team_member}>
+        <div className='col '>
+          <img className={ styles.member_photo } src={ photo } />
+        </div>
 
-      <div className={ 'col  '+ styles.member_info }>
+        <div className={ 'col '+ styles.member_info }>
 
         <h2 className={'margin-bottom--xs '+ styles.member_name }>{frontMatter.name}</h2>
 
-        { frontMatter.title
-          && <h3 className={'margin-bottom--sm ' + styles.member_title }>{frontMatter.title}</h3> }
+    { frontMatter.title
+        && <h3 className={'margin-bottom--sm ' + styles.member_title }>{frontMatter.title}</h3> }
 
-        <div className={styles.member_contact}>
+          <div className={styles.member_contact}>
           { frontMatter.social && socialEntries }
-        </div>
+          </div>
 
-        <div className={ styles.member_text }>
+          <div className={ styles.member_text }>
           {children}
-        </div>
+          </div>
 
+        </div>
       </div>
+
     </div>
   )
 }
