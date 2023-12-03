@@ -74,11 +74,11 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            href: '/',
-            label: 'Home',
-            position: 'left',
-          },
+          // {
+          //   href: '/',
+          //   label: 'Home',
+          //   position: 'left',
+          // },
           // {
           //   href: '/about',
           //   label: 'About Us',
@@ -89,25 +89,13 @@ const config = {
             position: 'right',
           },
           {
-            href: '/pricing',
+            to: 'pricing',
             label: 'Pricing',
-          },
-          {
-            href: '/handbook',
-            label: 'Handbook',
           },
           {
             to: 'blog',
             label: 'Blog',
           },
-          // {
-          //   href: '/contact',
-          //   label: 'Contact',
-          // },
-          // {
-          //   href: '/careers',
-          //   label: 'Careers',
-          // },
           {
             type: 'dropdown',
             label: 'Company',
@@ -117,8 +105,16 @@ const config = {
                 href: '/about',
               },
               {
+                label: 'Team',
+                to: 'team',
+              },
+              {
                 label: 'Careers',
-                href: '/careers'
+                to: 'careers'
+              },
+              {
+                label: 'Handbook',
+                to: 'docs/handbook'
               },
               {
                 label: 'Contact',
