@@ -3,6 +3,8 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import MainWrapper from "@site/src/components/MainWrapper";
 
+import DownloadList from "@site/src/components/DownloadList";
+
 
 export default function Download() {
   const context = useDocusaurusContext();
@@ -18,11 +20,17 @@ export default function Download() {
       fetch('https://api.github.com/repos/Ondsel-Development/FreeCAD/releases/latest')
         .then( (response) => {
           if( response.ok ) {
+            console.log( 'response.ok' );
             return response.json();
+          }else{
+            console.log('response not ok');
           }
         })
         .then( (responseJSON) => {
+          console.log( 'responsejSON: ' );
           console.log( responseJSON );
+          console.log('responseJSON.assets:');
+          setData( responseJSON.assets );
         });
     } catch (err) {
       console.log( err.message );
@@ -43,6 +51,9 @@ export default function Download() {
         <h2 className="text_2xl text_center text_gray">
           Put your designs to work everywhere
         </h2>
+        <div>
+          <DownloadList assets={data} />
+        </div>
       </MainWrapper>
     </Layout>
   );
