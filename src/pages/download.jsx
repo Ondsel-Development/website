@@ -32,7 +32,7 @@ export default function Download() {
           console.log( 'responsejSON: ' );
           console.log( responseJSON );
           console.log('responseJSON.assets:');
-          setData( responseJSON.assets );
+          setData( responseJSON );
           setBusy(false);
         });
     } catch (err) {
@@ -79,11 +79,12 @@ export default function Download() {
                 </ul>
               </div>
 
-              {isBusy ? 'Loading' : <DownloadList assets={data} /> }
+              {isBusy ? 'Loading' : <DownloadList assets={data.assets} /> }
             </div>
 
             <div class='col col--6'>
-              <div>The lastest version is: {isBusy ? '' : data[0].id }</div>
+              <div>The lastest version is: {isBusy ? '' : data.name}</div>
+              <div>Released on {isBusy ? '' : new Date(data.published_at).toLocaleDateString() }</div>
             </div>
 
           {/* {isBusy ? 'Loading' : data.map( (e) => (e.name) ) } */}
