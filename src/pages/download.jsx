@@ -50,46 +50,25 @@ export default function Download() {
   return (
     <Layout title="Download" description={siteConfig.tagline}>
       <MainWrapper className="bg-grid-pattern px_8">
-        <div class='container'>
+        <div className='container'>
           <h1 className="text_6xl text_gray text_center">Download</h1>
-          <h2 className="text_2xl text_center text_gray">
+          <h2 className="text_4xl text_center text_gray">
           Put your designs to work everywhere
           </h2>
-          <div class='row text_gray'>
 
-            <div class='col col--6'>
-              <div class="dropdown dropdown--hoverable">
-                <button class="button button--lg button--primary">Download</button>
-                <ul class="dropdown__menu">
-                  <li>
-                    <a class="dropdown__link" href="#url">Home</a>
-                  </li>
-                  <li>
-                    <a class="dropdown__link" href="#url">Profile</a>
-                  </li>
-                  <li>
-                    <a class="dropdown__link" href="#url">Settings</a>
-                  </li>
-                  <li>
-                    <a class="dropdown__link" href="#url">Help</a>
-                  </li>
-                  <li>
-                    <a class="dropdown__link" href="#url">Logout</a>
-                  </li>
-                </ul>
-              </div>
+          <div className='row text_gray' style={{justifyContent: 'center', textAlign: 'center'}}>
+            <div className='col col--8'>
+            <div>The lastest version is: {isBusy ? '' : data.name}</div>
+            <div>Released on {isBusy ? '' : new Date(data.published_at).toLocaleDateString() }</div>
+            </div>
+          </div>
 
+          <div className='row text_gray margin-top--lg' style={{justifyContent: 'center'}}>
+            <div className='col col--8'>
               {isBusy ? 'Loading' : <DownloadList assets={data.assets} /> }
             </div>
-
-            <div class='col col--6'>
-              <div>The lastest version is: {isBusy ? '' : data.name}</div>
-              <div>Released on {isBusy ? '' : new Date(data.published_at).toLocaleDateString() }</div>
-            </div>
-
-          {/* {isBusy ? 'Loading' : data.map( (e) => (e.name) ) } */}
-
           </div>
+
         </div>
       </MainWrapper>
     </Layout>

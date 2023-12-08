@@ -5,6 +5,10 @@
 window.onload = () => {
   if ( window.location.href.endsWith('download') ){
     console.log( getOS() );
+    var os_detect = document.getElementById('os-detection');
+    if( os_detect ){
+      os_detect.innerHTML = getOS();
+    }
   }
 }
 
