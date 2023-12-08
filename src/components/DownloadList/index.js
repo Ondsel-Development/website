@@ -32,7 +32,7 @@ export default function DownloadList({ assets }) {
     <>
       <div id='downloads'>
 
-        <div id='dl-linux' className='download row'>
+        <div id='dl-linux' className='download row margin-bottom--lg'>
           <div className='col col--6' style={{textAlign: 'right'}}>
             <img src="/img/os_linux.svg" style={{width: '130px', filter: 'invert(1)'}}/>
           </div>
@@ -40,25 +40,67 @@ export default function DownloadList({ assets }) {
             <div>
               {linux && linux.map( (e) => { 
                 return (
-                  <>
-                    <div className='margin-bottom--sm'>
-                      <a className='button button--primary button--lg '
-                        href={e.url}>{e.arch} {e.ext}</a>
-                      <small style={{display: 'block'}}>
-                        <a className='' href={e.hash}>SHA256</a>
-                      </small>
-                    </div>
-                  </>
+                  <div className='margin-bottom--sm' key={e.name}>
+                    <a className='button button--primary button--lg '
+                      href={e.url}>{e.arch} {e.ext}</a>
+                    <small style={{display: 'block'}}>
+                      <a className='' href={e.hash}>SHA256</a>
+                    </small>
+                  </div>
                 )
               })}
             </div>
           </div>
         </div>
 
+        <div id='dl-macos' className='download row margin-bottom--lg'>
+          <div className='col col--6' style={{textAlign: 'right'}}>
+            <img src="/img/os_mac.svg" style={{width: '130px', filter: 'invert(1)'}}/>
+          </div>
+          <div className='col'>
+            <div>
+              {macos && macos.map( (e) => { 
+                return (
+                  <div className='margin-bottom--sm' key={e.name}>
+                    <a className='button button--primary button--lg '
+                      href={e.url}>{e.arch} {e.ext}</a>
+                    <small style={{display: 'block'}}>
+                      <a className='' href={e.hash}>SHA256</a>
+                    </small>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </div>
+
+
+        <div id='dl-windows' className='download row margin-bottom--lg'>
+          <div className='col col--6' style={{textAlign: 'right'}}>
+            <img src="/img/os_windows.svg" style={{width: '130px', filter: 'invert(1)'}}/>
+          </div>
+          <div className='col'>
+            <div>
+              {win && win.map( (e) => { 
+                return (
+                  <div className='margin-bottom--sm' key={e.name}>
+                    <a className='button button--primary button--lg '
+                      href={e.url}>{e.arch} {e.ext}</a>
+                    <small style={{display: 'block'}}>
+                      <a className='' href={e.hash}>SHA256</a>
+                    </small>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </div>
+
+
       </div>
 
-        {macos && macos.map( (e) => (<div>{e.name}</div>) )}
-        {win && win.map( (e) => (<div>{e.name}</div>) )}
+        {/* {macos && macos.map( (e) => (<div>{e.name}</div>) )} */}
+        {/* {win && win.map( (e) => (<div>{e.name}</div>) )} */}
         {/* <hr/> */}
         {/* {assets && assets.map( (e, idx) => ( */}
         {/* <li key={e.id}><a href={e.browser_download_url}>{e.name}</a></li> */}
