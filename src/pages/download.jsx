@@ -5,7 +5,6 @@ import MainWrapper from "@site/src/components/MainWrapper";
 
 import DownloadList from "@site/src/components/DownloadList";
 
-
 export default function Download() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -44,6 +43,7 @@ export default function Download() {
 
   useEffect( () => {
     fetchDownloads();
+    console.log("Getting OS: "+ getOS() );
   }, [] );
 
 

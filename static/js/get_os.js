@@ -4,11 +4,30 @@
  */
 window.onload = () => {
   if ( window.location.href.endsWith('download') ){
-    console.log( getOS() );
-    var os_detect = document.getElementById('os-detection');
-    if( os_detect ){
-      os_detect.innerHTML = getOS();
+    var d = document.getElementById('downloads');
+    let os = getOS();
+    console.log( 'd: '+ d );
+
+    if( os.includes('windows') ){
+      console.log('OS: windows');
+    }else if( os.includes('macos') ){
+      console.log('OS: macos');
+    }else if( os.includes('linux') ){
+      console.log('OS: linux');
+      for( let item of d.children ){
+        console.log( item.id );
+        if( item.id !== 'linux' ){ 
+          item.style.display = "none"; 
+        };
+      };
+    }else{
+      console.log('OS: N/A');
     }
+    
+    // var os_detect = document.getElementById('os-detection');
+    // if( os_detect ){
+    //   os_detect.innerHTML = getOS();
+    // }
   }
 }
 

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import clsx from "clsx";
 
 import styles from "./styles.module.css";
 
@@ -6,15 +7,22 @@ import styles from "./styles.module.css";
 function parseDL( assets, arch, ext ){
   let res = assets.find( ({name}) => name.endsWith(`${arch}.${ext}`) );
   let res256 = assets.find( ({name}) => name.endsWith(`${arch}.${ext}-SHA256.txt`) );
-  return { 'name': res.name, 
+  return { 
+    'name': res.name, 
     'url': res.browser_download_url, 
     'hash': res256.browser_download_url,
     'arch': arch,
-    'ext': ext };
+    'ext': ext 
+  }
 }
 
 
 export default function DownloadList({ assets }) {
+
+  const [show, setShow] = useState(true);
+  const [showLinux, setShowLinux] = useState(false);
+  const [showMacos, setShowMacos] = useState(false);
+  const [showWin, setShowWin] = useState(false);
 
   let linux = ['aarch64', 'x86_64'];
   linux = linux.map( (e) => { 
@@ -28,11 +36,22 @@ export default function DownloadList({ assets }) {
 
   let win = [parseDL( assets, 'x86_64', '7z' )];
 
+
+  useEffect( () => {
+    console.log( 'in DownloadList: '+ getOS() );
+    if( getOS() == 'linux' ){
+      setShow(false);
+      // setShowLinux(true);
+    };
+  }, [] );
+
   return (
     <>
+      {show ? <h1>Testing Button</h1> : null }
+      <button onClick={ () => {setShow(!show); setShowLinux(true)} }>Show/Hide</button>
       <div id='downloads'>
 
-        <div id='dl-linux' className='download row margin-bottom--lg'>
+        <div id='dl-linux' className={clsx('download row margin-bottom--lg', showLinux ? '':'hidden')}>
           <div className='col col--6' style={{textAlign: 'right'}}>
             <img src="/img/os_linux.svg" style={{width: '130px', filter: 'invert(1)'}}/>
           </div>
