@@ -37,18 +37,38 @@ export default function DownloadList({ assets }) {
   let win = [parseDL( assets, 'x86_64', '7z' )];
 
 
+  function showAllDownloads( all = true ){
+      setShowWin(false);
+      setShowMacos(false);
+      setShowLinux(false);
+    if(all){
+      setShowWin(true);
+      setShowMacos(true);
+      setShowLinux(true);
+    }else{
+      let os = getOS();
+      if( os.includes('windows') ){
+        setShowWin(true);
+      }else if ( os.includes('macos') ){
+        setShowMacos(true);
+      }else if ( os.includes('linux') ){
+        setShowLinux(true);
+      }else{
+        showAllDownloads();
+      }
+    }
+  }
+
+
   useEffect( () => {
-    console.log( 'in DownloadList: '+ getOS() );
-    if( getOS() == 'linux' ){
-      setShow(false);
-      // setShowLinux(true);
-    };
+    showAllDownloads(false);
   }, [] );
 
   return (
     <>
-      {show ? <h1>Testing Button</h1> : null }
-      <button onClick={ () => {setShow(!show); setShowLinux(true)} }>Show/Hide</button>
+      {/* {show ? <h1>Testing Button</h1> : null } */}
+      {/* <button onClick={ () => {setShow(!show); showAllDownloads(true);} }>Show/Hide</button> */}
+
       <div id='downloads'>
 
         <div id='dl-linux' className={clsx('download row margin-bottom--lg', showLinux ? '':'hidden')}>
@@ -61,7 +81,7 @@ export default function DownloadList({ assets }) {
                 return (
                   <div className='margin-bottom--sm' key={e.name}>
                     <a className='button button--primary button--lg '
-                      href={e.url}>{e.arch} {e.ext}</a>
+                      href={e.url}>{e.arch} .{e.ext}</a>
                     <small style={{display: 'block'}}>
                       <a className='' href={e.hash}>SHA256</a>
                     </small>
@@ -72,7 +92,7 @@ export default function DownloadList({ assets }) {
           </div>
         </div>
 
-        <div id='dl-macos' className='download row margin-bottom--lg'>
+        <div id='dl-macos' className={clsx('download row margin-bottom--lg', showMacos ? '':'hidden')}>
           <div className='col col--6' style={{textAlign: 'right'}}>
             <img src="/img/os_mac.svg" style={{width: '130px', filter: 'invert(1)'}}/>
           </div>
@@ -82,7 +102,7 @@ export default function DownloadList({ assets }) {
                 return (
                   <div className='margin-bottom--sm' key={e.name}>
                     <a className='button button--primary button--lg '
-                      href={e.url}>{e.arch} {e.ext}</a>
+                      href={e.url}>{e.arch} .{e.ext}</a>
                     <small style={{display: 'block'}}>
                       <a className='' href={e.hash}>SHA256</a>
                     </small>
@@ -94,7 +114,7 @@ export default function DownloadList({ assets }) {
         </div>
 
 
-        <div id='dl-windows' className='download row margin-bottom--lg'>
+        <div id='dl-windows' className={clsx('download row margin-bottom--lg', showWin ? '':'hidden')}>
           <div className='col col--6' style={{textAlign: 'right'}}>
             <img src="/img/os_windows.svg" style={{width: '130px', filter: 'invert(1)'}}/>
           </div>
@@ -104,7 +124,7 @@ export default function DownloadList({ assets }) {
                 return (
                   <div className='margin-bottom--sm' key={e.name}>
                     <a className='button button--primary button--lg '
-                      href={e.url}>{e.arch} {e.ext}</a>
+                      href={e.url}>{e.arch} .{e.ext}</a>
                     <small style={{display: 'block'}}>
                       <a className='' href={e.hash}>SHA256</a>
                     </small>
@@ -115,6 +135,11 @@ export default function DownloadList({ assets }) {
           </div>
         </div>
 
+        <div className='row margin-bottom--lg'>
+          <div className='col' style={{textAlign: 'center'}}>
+            <button className='button button--secondary' onClick={ () => {setShow(!show); {show ? showAllDownloads(true): showAllDownloads(false)}} }>{show ? 'Show':'Hide'} more downloads</button> 
+          </div>
+        </div>
 
       </div>
 
