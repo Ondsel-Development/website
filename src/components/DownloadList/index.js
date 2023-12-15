@@ -71,11 +71,13 @@ export default function DownloadList({ assets }) {
 
       <div id='downloads'>
 
-        <div id='dl-linux' className={clsx('download row margin-bottom--lg', showLinux ? '':'hidden')}>
-          <div className='col col--6' style={{textAlign: 'right'}}>
-            <img src="/img/os_linux.svg" style={{width: '130px', filter: 'invert(1)'}}/>
+        <div id='dl-linux' className={clsx('download row margin-bottom--lg', showLinux ? '':'hidden', styles.download)}>
+          <div className={'col col--6 margin-bottom--md '+ styles.os_icon_row}>
+            <div className={styles.os_icon_wrapper}>
+              <img src="/img/os_linux.svg" className={styles.os_icon}/>
+            </div>
           </div>
-          <div className='col'>
+          <div className={'col '+ styles.os_button_wrapper}>
             <div>
               {linux && linux.map( (e) => { 
                 return (
@@ -92,11 +94,13 @@ export default function DownloadList({ assets }) {
           </div>
         </div>
 
-        <div id='dl-macos' className={clsx('download row margin-bottom--lg', showMacos ? '':'hidden')}>
-          <div className='col col--6' style={{textAlign: 'right'}}>
-            <img src="/img/os_mac.svg" style={{width: '130px', filter: 'invert(1)'}}/>
+        <div id='dl-macos' className={clsx('download row margin-bottom--lg', showMacos ? '':'hidden', styles.download)}>
+          <div className={'col col--6  margin-bottom--md '+ styles.os_icon_row}>
+            <div className={styles.os_icon_wrapper}>
+              <img src="/img/os_mac.svg" className={styles.os_icon}/>
+            </div>
           </div>
-          <div className='col'>
+          <div className={'col '+ styles.os_button_wrapper}>
             <div>
               {macos && macos.map( (e) => { 
                 return (
@@ -114,11 +118,13 @@ export default function DownloadList({ assets }) {
         </div>
 
 
-        <div id='dl-windows' className={clsx('download row margin-bottom--lg', showWin ? '':'hidden')}>
-          <div className='col col--6' style={{textAlign: 'right'}}>
-            <img src="/img/os_windows.svg" style={{width: '130px', filter: 'invert(1)'}}/>
+        <div id='dl-windows' className={clsx('download row margin-bottom--lg', showWin ? '':'hidden', styles.download)}>
+          <div className={'col col--6  margin-bottom--md '+ styles.os_icon_row}>
+            <div className={styles.os_icon_wrapper}>
+              <img src="/img/os_windows.svg" className={styles.os_icon}/>
+            </div>
           </div>
-          <div className='col'>
+          <div className={'col '+ styles.os_button_wrapper}>
             <div>
               {win && win.map( (e) => { 
                 return (
