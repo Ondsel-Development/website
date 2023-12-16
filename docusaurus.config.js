@@ -89,6 +89,10 @@ const config = {
             position: 'right',
           },
           {
+            to: '/',
+            label: 'Home',
+          },
+          {
             to: 'pricing',
             label: 'Pricing',
           },
