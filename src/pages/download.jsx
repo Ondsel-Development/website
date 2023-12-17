@@ -52,9 +52,6 @@ export default function Download() {
       <MainWrapper className="bg-grid-pattern px_8">
         <div className='container'>
           <h1 className="text_6xl text_gray text_center">Download</h1>
-          <h2 className="text_4xl text_center text_gray">
-          Put your designs to work everywhere
-          </h2>
 
           <div className='row text_gray' style={{justifyContent: 'center', textAlign: 'center'}}>
             <div className='col col--8'>
