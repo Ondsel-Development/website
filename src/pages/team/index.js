@@ -4,14 +4,14 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import MainWrapper from "@site/src/components/MainWrapper";
 
-import Pat from "./_pat-david.mdx"
-import Brad from "./_brad-collette.mdx"
-import JohnDupuy from "./_john-dupuy.mdx"
-import AikSiong from "./_aik-siong-koh.mdx"
-import Amritpal from "./_amritpal-singh.mdx"
-import Pierre from "./_pierre-louis-boyer.mdx"
-import Adrian from "./_adrian-insaurralde-avalos.mdx"
-import Alexandre from "./_alexandre_prokoudine.mdx"
+// import Pat from "./_pat-david.js"
+import Brad from "./_brad-collette.js"
+import JohnDupuy from "./_john-dupuy.js"
+import AikSiong from "./_aik-siong-koh.js"
+import Amritpal from "./_amritpal-singh.js"
+import Pierre from "./_pierre-louis-boyer.js"
+import Adrian from "./_adrian-insaurralde-avalos.js"
+import Alexandre from "./_alexandre_prokoudine.js"
 
 
 export default function Team() {
