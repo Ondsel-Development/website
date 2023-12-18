@@ -43,6 +43,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          path: 'docs',
+          routeBasePath: 'docs',
           editUrl:
             'https://github.com/ondsel-development/website/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -66,6 +68,14 @@ const config = {
         path: "./blog",
 
       },
+    ],[
+      "@docusaurus/plugin-content-docs",
+      {
+        id: 'handbook',
+        path: 'handbook',
+        routeBasePath: 'handbook',
+        sidebarPath: './sidebarsHandbook.js',
+      }
     ]
   ],
   themeConfig:
