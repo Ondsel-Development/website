@@ -3,7 +3,7 @@ import TeamMember from "@site/src/components/TeamMember"
 
 const frontmatter = {
   name: "Alexandre Prokoudine",
-  title: "Research and Content Marketer",
+  title: "Researcher and Content Marketer",
   photo: "alexandre_prokoudine.webp",
   social: {
     location: {
