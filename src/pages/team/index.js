@@ -12,6 +12,7 @@ import Amritpal from "./_amritpal-singh.js"
 import Pierre from "./_pierre-louis-boyer.js"
 import Adrian from "./_adrian-insaurralde-avalos.js"
 import Alexandre from "./_alexandre_prokoudine.js"
+import Pieter from "./_pieter-hijma.js"
 
 
 export default function Team() {
@@ -30,6 +31,7 @@ export default function Team() {
             <Pierre/>
             <Adrian/>
             <Alexandre/>
+            <Pieter/>
           </section>
       </MainWrapper>
     </Layout>
