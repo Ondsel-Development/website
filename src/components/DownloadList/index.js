@@ -61,7 +61,7 @@ export default function DownloadList({ assets }) {
 
 
   useEffect( () => {
-    showAllDownloads(false);
+    showAllDownloads(true); {/* Set False to hide other, non-detected OS */}
   }, [] );
 
   return (
@@ -141,7 +141,7 @@ export default function DownloadList({ assets }) {
           </div>
         </div>
 
-        <div className='row margin-bottom--lg'>
+        <div className='row margin-bottom--lg hidden'>
           <div className='col' style={{textAlign: 'center'}}>
             <button className='button button--secondary' onClick={ () => {setShow(!show); {show ? showAllDownloads(true): showAllDownloads(false)}} }>{show ? 'Show':'Hide'} more downloads</button> 
           </div>
