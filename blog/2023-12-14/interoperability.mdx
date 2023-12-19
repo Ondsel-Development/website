@@ -1,0 +1,99 @@
+---
+slug: interoperability
+title: "CAD users want interoperability. Autodesk fails to lead"
+authors:
+
+  - name: Brad Collette
+    title: Ondsel Core Team
+    url: https://github.com/sliptonic
+    image_url: https://avatars.githubusercontent.com/u/538057?v=4
+
+  - name: Rebecca Dodd
+    title: Contributing Writer
+    url: https://www.thebasementoffice.co.uk
+    image_url: /img/Rebecca-Dodd-profile.JPEG
+
+tags: [freecad, education, autodesk, lock-in]
+image: ./titlecard.png
+draft: false
+---
+
+
+
+> “I like to have options. I don’t like the idea of entire industries being
+> beholden unto the whims of big software developers.” — [Taste_of_Based on
+> r/PLC](https://www.reddit.com/r/PLC/comments/tjbcxr/comment/i1j9ktg/)
+
+When we talk to customers, the question of import/export comes up repeatedly. Working with DWG files is necessary for collaborating with upstream or downstream partner organizations, but these proprietary formats make things extremely difficult if anyone in the chain is not using an official Autodesk tool.
+
+> “... Autodesk takes great care to make sure no other CAD tool is 100%
+> compatible. If you edit a .dwg file with an external editor there is a good
+> chance you will damage the file and AutoCAD won’t be able to read it again.
+> This has been a MAJOR headache for decades but unfortunately Autodesk has
+> vendor-locked entire industries.” — [mud_tug on r/CAD](https://www.reddit.com/r/cad/comments/wdkm61/comment/iiiz85c/)
+
+There’s no getting around the fact that Autodesk’s tools and formats are effectively industry standards. We’ve already discussed on this blog how [Autodesk entrenchment begins with students learning AutoCAD at education institutions](https://ondsel.com/blog/hard-lessons), only to discover later that they’ve painted themselves into a corner when it’s too expensive and hard to switch away from. That pipeline leads to entrenchment in industry where the dependence on Autodesk self-perpetuates:
+
+> “We use it because we think everyone else is using it, so it is easier to sub
+> when you are on the same software. Everyone else uses it because they all
+> think we use it. It’s this endless feedback loop and why Autodesk has such a
+> tight grip on the construction industry.” — [To_Fight_The_Night on r/Revit](https://www.reddit.com/r/Revit/comments/t8qod9/comment/hzpjvv4/)
+
+## Why is the de facto ‘industry standard’ not an open standard?
+
+[DWG](https://en.wikipedia.org/wiki/.dwg) has been in use for 50 years and is widely used to exchange files. While the `.dwg` file format itself is not a trademark (despite Autodesk’s [attempts to prevent others from using it](https://www.mccarthy.ca/en/insights/articles/court-refuses-extend-trade-mark-protection-file-extensions)) it is proprietary. Other programs have reverse engineered solutions to work with the format, but Autodesk actively discourages interoperability between its own DWG files and those created or modified by other programs:
+
+> “Autodesk didn’t like the fact that people could use DWG files without paying them, so they made the format progressively more difficult to save and load. Looking at the current format shows they made several attempts at making it difficult, as other programs adapted … In the latest versions of AutoCAD, they've added a key to the format which only they are allowed to use. If another program saves a DWG that loads perfectly well, but does not have that key, AutoCAD will pop up a stern warning about this being an unsupported DWG format that might cause terrible problems. Although it obviously won't.
+
+> In short, they use their dominance of the marketplace to act like money
+> grabbing assholes.” — [quaderrordemonstand on r/CAD](https://www.reddit.com/r/cad/comments/smoi5c/comment/hvxxpdp/)
+
+The challenge with industry standards being closed is that despite Autodesk’s best efforts to maintain a monopoly, not everyone you need to collaborate with has access to the same tooling and same versions. Loss of data and integrity becomes a risk when exchanging files outside of Autodesk’s ecosystem.
+
+Back in 2020, a number of leading design firms called for better interoperability in an [open letter to Autodesk’s CEO](http://extranetevolution.com/2020/07/design-firms-demand-change-at-autodesk/). More than three years later, there doesn’t seem to have been any improvements. Why isn’t there more of an outcry from users?
+
+## Autodesk claims to care about interoperability
+
+Despite actively impeding interoperability of its proprietary file formats, Autodesk pays lip service to the benefits of interoperability (when it suits them).
+
+### Own your data, as long as it’s within our suite
+In a paper titled [“Own Your Data: What Data Portability Means for the Construction Industry”](https://www.autodesk.com/industry/manufacturing/cad-interoperability), Autodesk describes the common pain points of disparate teams trying to collaborate with each other and with contractors.
+
+> “Each member of a construction team will typically store data in a different location or within a tool available only to their own group. Other team members don’t have access to each other’s data, which makes collecting all the important information in one central location a difficult task. The silo effect is also a roadblock to data and information transparency. A system without transparency is not functional in a modern, tech-enabled construction environment.”
+
+They make a great argument for the value of data portability. The natural conclusion of this argument would be for portability across programs using the same format, but Autodesk uses it to promote its own product, [Autodesk Construction Cloud](https://construction.autodesk.com/).
+
+You don’t need everyone to use the same software, but you do need interoperability between software file formats. How does “Own your data” ring true when that data is encoded in a proprietary format?
+
+### Open standards, when it suits us
+
+> Autodesk is also happy to toot its own horn about interoperability when it comes to their products’ capabilities to [read and modify multiple file formats](https://damassets.autodesk.net/content/dam/autodesk/www/industry/bim/interoperability-/assets/q2-adsk-atheletes%20vill%20EGA%20customer-story_V0.7_en-us.pdf).
+
+
+
+
+This sentiment does not appear to extend to Autodesk letting its proprietary file formats play nice with other programs. It also feels disingenuous after they attempted to remove support for exporting STEP files from Fusion360 for personal use licensees (then backpedaled after backlash from the community).
+
+There are many other examples of Autodesk paying lip service to open standards and interoperability, but it’s hard to swallow without any real justification for the company’s continued commitment to keeping DWG closed.
+
+## The real reasons for closed formats
+
+> “… having been through those wars of ‘standard/interoperable file format’ on both the CAD producer and consumer side... (I was even on the IGES committee for a short while in the 1980s.)
+
+> Companies would love to have it.
+
+> CAD companies, on the other hand, not so much. Their goal is to sell more
+> seats (licenses) and maintain the ones they already have.” — [drmacro on the
+> FreeCAD forum](https://forum.freecad.org/viewtopic.php?style=1&p=588551#p588551)
+
+We’re not being unrealistic—we don’t expect altruism from vendors that need to turn a profit. However, [instead of this behavior](https://ondsel.com/blog/autodesk-enshittifies-fusion-360) they could, you know, make a compelling product? Something that performs well and gets new features regularly? Instead the model appears to be focused on buying out and closing down competition and locking users in.
+
+> “Autodesk is so bad at actual software improvement. AutoCAD is still a single-core program with some of the same glitches that have been around since the ‘80s.” — [DoordashJeans on r/civilengineering](https://www.reddit.com/r/civilengineering/comments/10f3i6n/comment/j4v4v35/)
+
+The only half-hearted justification we’ve heard from Autodesk for keeping its proprietary file formats closed is that they [“can’t afford to compromise capabilities for a standard that works just as well across every CAD tool.”](https://damassets.autodesk.net/content/dam/autodesk/www/products/new-fusion-360/docs/Tech-Clarity-eBook-CAD-Interoperability.pdf)
+
+Some information loss between formats is inevitable. The ability to interpret parametric data and recalculate a model requires the entire geometry kernel and CAD application. This kind of lock-in is unavoidable. When it comes to interoperability though, we don’t expect to transfer the HOW part of the system. We only expect to transfer the WHAT (the geometry of the model). Autodesk however is locking customers in by not allowing them to transfer the geometry at all.
+
+If users were able to choose their tools purely based on performance and new features instead of trying to avoid the headache of data transfer, Autodesk’s empire would be threatened.
+
+As an open-core company building around open-source software, openness and interoperability is central to our mission.  We want to give our users the best possible experience. We want them to trust the software and have confidence that we won't use it to lock them in. We want to give them the choice to use our software exclusively or in conjunction with other tools if that's what their workflow requires.  If your CAD vendor can't say the same thing, maybe you should find one who can.
