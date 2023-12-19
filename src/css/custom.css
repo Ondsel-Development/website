@@ -24,6 +24,7 @@
   --ifm-font-family-base: "Rubik";
   --ifm-heading-font-family: "Rubik";
   --ifm-font-family-monospace: "Rubik";
+  --ifm-navbar-link-hover-color: rgba(255, 74, 31, 0.9);
 }
 [data-theme="dark"] {
   --ifm-color-primary: #3a3b3c;
@@ -451,4 +452,12 @@
 }
 .main-wrapper main section {
   flex: 1 0 auto;
+}
+
+/* PD: navbar link color var */
+.navbar__link {
+  --ifm-navbar-link-color: white;
+}
+.dropdown__link {
+  color: var(--ifm-link-color);
 }

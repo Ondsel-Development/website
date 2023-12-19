@@ -74,37 +74,63 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            href: '/',
-            label: 'Home',
-            position: 'left',
-          },
-          {
-            href: '/about',
-            label: 'About Us',
-          },
+          // {
+          //   href: '/',
+          //   label: 'Home',
+          //   position: 'left',
+          // },
+          // {
+          //   href: '/about',
+          //   label: 'About Us',
+          // },
           {
             href: 'https://github.com/Ondsel-Development',
             label: 'GitHub',
             position: 'right',
           },
           {
-            href: '/pricing',
+            to: '/',
+            label: 'Home',
+          },
+          {
+            to: 'pricing',
             label: 'Pricing',
-          },
-          {
-            href: '/contact',
-            label: 'Contact',
-          },
-          {
-            href: '/careers',
-            label: 'Careers',
           },
           {
             to: 'blog',
             label: 'Blog',
-            position: 'left',
           },
+          {
+            type: 'dropdown',
+            label: 'Company',
+            items: [
+              {
+                label: 'About Us',
+                href: '/about',
+              },
+              {
+                label: 'Team',
+                to: 'team',
+              },
+              {
+                label: 'Careers',
+                to: 'careers'
+              },
+              {
+                label: 'Handbook',
+                to: 'docs/handbook'
+              },
+              {
+                label: 'Contact',
+                href: '/contact',
+              },
+            ],
+          }
+          // {
+          //   to: 'blog',
+          //   label: 'Blog',
+          //   position: 'left',
+          // },
         ],
       },
       footer: {
