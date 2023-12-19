@@ -21,16 +21,16 @@ export default function Download() {
       fetch('https://api.github.com/repos/Ondsel-Development/FreeCAD/releases/latest')
         .then( (response) => {
           if( response.ok ) {
-            console.log( 'response.ok' );
+            // console.log( 'response.ok' );
             return response.json();
           }else{
-            console.log('response not ok');
+            // console.log('response not ok');
           }
         })
         .then( (responseJSON) => {
-          console.log( 'responsejSON: ' );
-          console.log( responseJSON );
-          console.log('responseJSON.assets:');
+          // console.log( 'responsejSON: ' );
+          // console.log( responseJSON );
+          // console.log('responseJSON.assets:');
           setData( responseJSON );
           setBusy(false);
         });
