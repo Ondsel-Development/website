@@ -108,10 +108,10 @@ const config = {
                 label: 'About Us',
                 href: '/about',
               },
-              // {
-              //   label: 'Team',
-              //   to: 'team',
-              // },
+              {
+                label: 'Team',
+                to: 'team',
+              },
               {
                 label: 'Careers',
                 to: 'careers'
