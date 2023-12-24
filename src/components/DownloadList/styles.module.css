@@ -1,0 +1,32 @@
+.os_icon_wrapper {
+  --icon-size: 130px;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+}
+
+.os_icon {
+  height: 100%;
+  width: initial;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.os_icon_row {
+  text-align: right;
+  border-right: solid 2px gray;
+}
+
+@media (max-width: 996px) {
+  .os_icon_row {
+    text-align: center;
+  }
+  .os_button_wrapper {
+    text-align: center;
+  }
+}
+

@@ -31,6 +31,9 @@ const config = {
       {
         src: "https://boards.greenhouse.io/embed/job_board/js?for=ondsel",
       },
+      {
+        src: '/js/get_os.js',
+      },
   ],
   presets: [
     [
@@ -91,6 +94,10 @@ const config = {
           {
             to: '/',
             label: 'Home',
+          },
+          {
+            to: 'download',
+            label: 'Download',
           },
           {
             to: 'pricing',
