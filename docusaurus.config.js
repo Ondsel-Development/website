@@ -10,6 +10,7 @@ const config = {
   tagline: 'Put your designs to work...',
   url: 'https://ondsel.com',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
