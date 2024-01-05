@@ -30,16 +30,16 @@ function HomePageHeader() {
 
         <div className="text_center text_hero m_70">
           <p>
-            Access and visualize your FreeCAD models anywhere with our storage and collaboration tool.
+            Collaborate on your 3D CAD designs with open-source tools.
           </p>
         </div>
 
         <div className={styles.buttons}>
           <Link
             className="button rounded_none button--secondary button--lg text_hero"
-            to="/about"
+            to="/download"
           >
-            About Ondsel...
+            Download
           </Link>
         </div>
       </div>
