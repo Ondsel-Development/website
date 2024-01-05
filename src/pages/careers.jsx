@@ -8,7 +8,7 @@ function JobBoardWrapper() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout title="Jobs" description={siteConfig.tagline}>
+    <Layout title="Careers" description={siteConfig.tagline}>
       <JobBoard />
     </Layout>
   );
