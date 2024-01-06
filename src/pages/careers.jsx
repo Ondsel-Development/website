@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import MainWrapper from "@site/src/components/MainWrapper";
 import { useColorMode } from "@docusaurus/theme-common";
 import { useEffect } from "react";
 
@@ -9,7 +10,10 @@ function JobBoardWrapper() {
   const { siteConfig = {} } = context;
   return (
     <Layout title="Careers" description={siteConfig.tagline}>
-      <JobBoard />
+      <MainWrapper>
+        <h1 className="text_6xl text_center">Careers</h1>
+        <JobBoard />
+      </MainWrapper>
     </Layout>
   );
 }
