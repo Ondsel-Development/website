@@ -140,10 +140,12 @@ export default function Pricing() {
               </p>
             </details>
 
+            {/* 
             <details>
             <summary mdxType="summary">Can I make a project private and visible only to my team and me?</summary>
               <p>Yes, all files created in a shared workspace of an organization are automatically private unless specifically set otherwise.</p>
             </details>
+            */}
 
             <details>
             <summary mdxType="summary">Do you have discounts for open hardware projects?</summary>
