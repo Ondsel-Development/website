@@ -20,8 +20,8 @@ const PRICING_PLANS = [
         status: "completed",
       },
       {
-        id: "pfeature-50-models",
-        title: "50 public models in the online vault",
+        id: "pfeature-1gb-disk-space",
+        title: "Upload up to 1GB to the online vault, public models only",
         status: "completed",
       },
       {
@@ -44,8 +44,13 @@ const PRICING_PLANS = [
         status: "completed",
       },
       {
-        id: "pfeature-250-models",
-        title: "250 private and customizable models in the online vault",
+        id: "pfeature-10gb-disk-space",
+        title: "Upload up to 10GB to the online vault, 100 compute minutes",
+        status: "completed",
+      },
+      {
+        id: "pfeature-private models",
+        title: "Private models possible",
         status: "completed",
       },
       {
@@ -73,13 +78,13 @@ const PRICING_PLANS = [
         status: "completed",
       },
       {
-        id: "pfeature-org-workspaces",
-        title: "Organization workspaces",
+        id: "pfeature-unlimited-private-models",
+        title: "Upload up to 50GB to the online vault, 500 compute minutes",
         status: "pending",
       },
       {
-        id: "pfeature-unlimited-private-models",
-        title: "Unlimited private models",
+        id: "pfeature-org-workspaces",
+        title: "Organization workspaces",
         status: "pending",
       },
       {
