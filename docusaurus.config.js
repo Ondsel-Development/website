@@ -42,7 +42,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars-docs.js'),
           path: 'docs',
           routeBasePath: 'docs',
           editUrl:
@@ -74,7 +74,7 @@ const config = {
         id: 'handbook',
         path: 'handbook',
         routeBasePath: 'handbook',
-        sidebarPath: './sidebarsHandbook.js',
+        sidebarPath: './sidebars-handbook.js',
       }
     ]
   ],
@@ -136,7 +136,7 @@ const config = {
               },
               {
                 label: 'Handbook',
-                to: 'docs/handbook'
+                to: 'handbook'
               },
               {
                 label: 'Contact',
