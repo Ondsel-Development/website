@@ -161,6 +161,19 @@ const config = {
             ],
           },
           {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Privacy Policy',
+                to: 'privacy',
+              },
+              {
+                label: 'Terms of Service',
+                to: 'tos',
+              },
+            ],
+          },
+          {
             title: 'FreeCAD',
             items: [
               {
@@ -170,19 +183,6 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/FreeCAD',
-              },
-            ],
-          },
-          {
-            title: 'Ondsel',
-            items: [
-              {
-                label: 'Privacy Policy',
-                to: 'privacy',
-              },
-              {
-                label: 'Terms of Service',
-                to: 'tos',
               },
             ],
           },
