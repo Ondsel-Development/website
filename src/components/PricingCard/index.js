@@ -34,7 +34,7 @@ export default function PricingCard({ plan }) {
                     "button text_xl text_center ease_in_out duration_300",
                     styles.ctaButton
                   )}
-                  href="https://github.com/Ondsel-Development/FreeCAD/releases/tag/0.21.1"
+                  href="https://ondsel.com/download/"
                 >
                   DOWNLOAD
                 </a>
