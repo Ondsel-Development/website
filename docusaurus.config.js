@@ -42,7 +42,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars-docs.js'),
+          path: 'docs',
+          routeBasePath: 'docs',
           editUrl:
             'https://github.com/ondsel-development/website/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -66,6 +68,14 @@ const config = {
         path: "./blog",
 
       },
+    ],[
+      "@docusaurus/plugin-content-docs",
+      {
+        id: 'handbook',
+        path: 'handbook',
+        routeBasePath: 'handbook',
+        sidebarPath: './sidebars-handbook.js',
+      }
     ]
   ],
   themeConfig:
@@ -126,7 +136,7 @@ const config = {
               },
               {
                 label: 'Handbook',
-                to: 'docs/handbook'
+                to: 'handbook'
               },
               {
                 label: 'Contact',
