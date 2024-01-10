@@ -9,15 +9,15 @@ const blogs = {
 
 const handbook = {
   title: "Handbook",
-  url: "/docs/handbook",
+  url: "/handbook",
   items: [
     {
       subtitle: "About the Company",
-      url: "/docs/handbook/About/about_ondsel",
+      url: "/handbook/About/about_ondsel",
     },
     {
       subtitle: "About the Project",
-      url: "/docs/handbook/About/FreeCAD",
+      url: "/handbook/About/FreeCAD",
     },
   ],
 };
