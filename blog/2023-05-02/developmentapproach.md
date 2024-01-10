@@ -112,4 +112,4 @@ Since much of the work we do directly affects the upstream FreeCAD project, we e
 
 It is our hope that at least some of these changes will prove to be efficient and will eventually become the standard for the larger FreeCAD community.
 
-As we flesh out the details of new work processes, we will document them in [Ondsel’s own developers’ handbook](https://ondsel.com/docs/handbook/).
+As we flesh out the details of new work processes, we will document them in [Ondsel’s own developers’ handbook](https://ondsel.com/handbook/).
