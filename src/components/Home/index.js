@@ -102,7 +102,9 @@ function BlogSection({ title, url, data }) {
                   className="text_gray"
                   style={{fontSize: '2rem'}}
                 >
-                  <p>{item.content.frontMatter.title}</p>
+                  <p
+                    className='margin-bottom--lg'
+                    style={{lineHeight: '1.2'}}>{item.content.frontMatter.title}</p>
                 </Link>
               ))}
             </div>
