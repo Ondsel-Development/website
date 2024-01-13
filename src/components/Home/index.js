@@ -88,7 +88,7 @@ export default function Home({ recentPosts }) {
       title={`Put your designs to work ... everywhere ... ${siteConfig.title}`}
       description={siteConfig.tagline}
     >
-      <HomePageHeader />
+      {/* <HomePageHeader /> */}
       <NewHeader/>
 
       <section className={clsx("hero hero--primary ", styles.heroBanner)} style={{background: 'white', color: 'black'}}>
@@ -118,7 +118,7 @@ export default function Home({ recentPosts }) {
       </section>
 
       <main>
-        <HomePageFeatures />
+        {/* <HomePageFeatures /> */}
         <TwoColumnInfo data={recentPosts} />
       </main>
     </Layout>
