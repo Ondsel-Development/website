@@ -110,7 +110,8 @@ export default function Home({ recentPosts }) {
             </div>
 
             <div className='col col-6'>
-              <img src='/img/ondsel-access.png' className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray'}}/>
+              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray'}} width="100%" height="100%" src="https://lens.ondsel.com/share/64d23a83113f02d63fdbff5c" title="Ondsel"></iframe>
+              {/* <img src='/img/ondsel-access.png' className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray'}}/> */}
             </div>
 
           </div>
