@@ -80,6 +80,40 @@ function NewHeader() {
   );
 }
 
+function BlogSection({ title, url, data }) {
+  console.log( data );
+  return (
+    <section className='hero hero--primary bg-grid-pattern'>
+      <div className='container'>
+        <div className='row' style={{justifyContent: 'center'}}>
+          <div className='col col--8'>
+
+            <h3 className='text_hero_img' style={{fontWeight: '400'}}>
+              <Link className="text_gray font_bold text-3xl" to={'/blog'}>
+              Blog
+              </Link>
+            </h3>
+
+            <div>
+              {data.slice(0, 4).map((item, index) => (
+                <Link
+                  key={index}
+                  to={`/blog/${item.content.frontMatter.slug}`}
+                  className="text_gray"
+                  style={{fontSize: '2rem'}}
+                >
+                  <p>{item.content.frontMatter.title}</p>
+                </Link>
+              ))}
+            </div>
+
+          </div>
+        </div>
+    </div>
+    </section>
+  );
+}
+
 export default function Home({ recentPosts }) {
   const { siteConfig } = useDocusaurusContext();
 
@@ -118,10 +152,12 @@ export default function Home({ recentPosts }) {
         </div>
       </section>
 
-      <main>
+      <BlogSection data={recentPosts} />
+
+      {/* <main> */}
         {/* <HomePageFeatures /> */}
-        <TwoColumnInfo data={recentPosts} />
-      </main>
+        {/* <TwoColumnInfo data={recentPosts} /> */}
+      {/* </main> */}
     </Layout>
   );
 }
