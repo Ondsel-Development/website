@@ -86,7 +86,7 @@ function BlogSection({ title, url, data }) {
     <section className='hero hero--primary bg-grid-pattern'>
       <div className='container'>
         <div className='row' style={{justifyContent: ''}}>
-          <div className='col col--8'>
+          <div className='col'>
 
             <h3 className='text_hero_img' style={{fontWeight: '400'}}>
               <Link className="text_gray font_bold text-3xl" to={'/blog'}>
