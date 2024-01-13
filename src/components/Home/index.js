@@ -56,7 +56,7 @@ function NewHeader() {
         <div className='container'>
           <div className='row' style={{padding: '5rem 0'}}>
 
-            <div className='col col-6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+            <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
               <p className='text_hero_img' style={{textAlign: 'left', lineHeight: '1.2'}}>
                 Collaborate with open-source engineering tools
               </p>
@@ -70,7 +70,7 @@ function NewHeader() {
               </div>
             </div>
 
-            <div className='col col-6'>
+            <div className='col col--6'>
               <YouTube v='MI2JMm__bkM' style={{borderRadius: '1.5rem'}}/>
             </div>
 
@@ -95,21 +95,21 @@ export default function Home({ recentPosts }) {
         <div className='container'>
           <div className='row' style={{padding: '5rem 0'}}>
 
-            <div className='col col-6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+            <div className='col col--4' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
               <p className='text_hero_img' style={{textAlign: 'left', lineHeight: '1.2'}}>
                 Access and visualize your 3D CAD models anywhere
               </p>
               <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start'}}>
                 <Link
                   className="button button--primary button--lg text_hero"
-                  to="/download"
+                  to="https://lens.ondsel.com/signup"
                 >
                   Sign Up
                 </Link>
               </div>
             </div>
 
-            <div className='col col-6'>
+            <div className='col col--8'>
               <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray'}} width="100%" height="100%" src="https://lens.ondsel.com/share/64d23a83113f02d63fdbff5c" title="Ondsel"></iframe>
               {/* <img src='/img/ondsel-access.png' className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray'}}/> */}
             </div>
