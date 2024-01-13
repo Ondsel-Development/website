@@ -85,7 +85,7 @@ function BlogSection({ title, url, data }) {
   return (
     <section className='hero hero--primary bg-grid-pattern'>
       <div className='container'>
-        <div className='row' style={{justifyContent: 'center'}}>
+        <div className='row' style={{justifyContent: ''}}>
           <div className='col col--8'>
 
             <h3 className='text_hero_img' style={{fontWeight: '400'}}>
