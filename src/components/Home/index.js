@@ -65,6 +65,7 @@ function NewHeader() {
                 <Link
                   className="button button--secondary button--lg text_hero"
                   to="/download"
+                  style={{ backgroundColor: '#e6421b', color: 'white' }}
                 >
                   Download
                 </Link>
