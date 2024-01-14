@@ -89,14 +89,14 @@ function BlogSection({ title, url, data }) {
         <div className='row' style={{justifyContent: ''}}>
           <div className='col'>
 
-            <h3 className='text_hero_img' style={{fontWeight: '400'}}>
+            <h3 className='text_hero_img margin-bottom--lg' style={{fontWeight: '400', fontSize: '3rem'}}>
               <Link className="text_gray font_bold text-3xl" to={'/blog'}>
               Blog
               </Link>
             </h3>
 
             <div>
-              {data.slice(0, 4).map((item, index) => (
+              {data.slice(0, 5).map((item, index) => (
                 <Link
                   key={index}
                   to={`/blog/${item.content.frontMatter.slug}`}
@@ -133,9 +133,9 @@ export default function Home({ recentPosts }) {
 
       {/* Section for lens signup */}
       {/* ======================= */}
-      <section className={clsx("hero hero--primary ", styles.heroBanner)} style={{background: 'white', color: 'black'}}>
+      <section className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)} style={{color: 'black', filter: 'invert(1)'}}>
         <div className='container'>
-          <div className='row' style={{padding: '5rem 0'}}>
+          <div className='row' style={{padding: '5rem 0', filter: 'invert(1)'}}>
 
             <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
               <p className='text_hero_img' style={{textAlign: 'left', lineHeight: '1.2'}}>
@@ -152,7 +152,7 @@ export default function Home({ recentPosts }) {
             </div>
 
             <div className='col col--6'>
-              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" height="100%" src="https://lens.ondsel.com/share/64d23a83113f02d63fdbff5c" title="Ondsel"></iframe>
+              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" height="100%" src="https://lens.ondsel.com/share/65a2ec5cd934f1f1e66fff96" title="Ondsel"></iframe>
             </div>
 
           </div>
