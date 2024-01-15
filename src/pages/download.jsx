@@ -55,8 +55,8 @@ export default function Download() {
 
           <div className='row text_gray' style={{justifyContent: 'center', textAlign: 'center'}}>
             <div className='col col--8'>
-            <div>The lastest version is: {isBusy ? '' : data.name}</div>
-            <div>Released on {isBusy ? '' : new Date(data.published_at).toLocaleDateString() }</div>
+            <div>The lastest version is: {isBusy ? '' : data.tag_name}</div>
+            {/* <div>Released on {isBusy ? '' : new Date(data.published_at).toLocaleDateString() }</div> */}
             </div>
           </div>
 
