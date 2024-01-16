@@ -61,7 +61,7 @@ const PRICING_PLANS = [
       {
         id: "pfeature-multiple-workspaces",
         title: "Multiple workspaces",
-        status: "pending",
+        status: "completed",
       },
     ],
   },
@@ -89,7 +89,7 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-shareable-workspaces",
-        title: "Shared workspaces",
+        title: "Public workspaces",
         status: "pending",
       },
       {
