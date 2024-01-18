@@ -165,6 +165,13 @@ export default function Pricing() {
               </p>
             </details>
 
+            <details>
+            <summary mdxType="summary">My operating system complains that your builds are not signed. Are you legit?</summary>
+              <p>
+                We are in extended validation process, we will sign our builds as soon as we get the token.
+              </p>
+            </details>
+
             {/* 
             <details>
             <summary mdxType="summary">Can I make a project private and visible only to my team and me?</summary>
