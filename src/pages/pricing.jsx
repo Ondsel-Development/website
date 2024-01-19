@@ -21,12 +21,17 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-1gb-disk-space",
-        title: "Upload up to 1GB to the online vault, public models only",
+        title: "Upload up to 1GB to the online vault, open models only",
         status: "completed",
       },
       {
         id: "pfeature-versions",
         title: "Version history",
+        status: "completed",
+      },
+      {
+        id: "pfeature-multiple-workspaces",
+        title: "Multiple open workspaces",
         status: "completed",
       },
     ],
@@ -49,8 +54,13 @@ const PRICING_PLANS = [
         status: "completed",
       },
       {
-        id: "pfeature-private models",
-        title: "Private models possible",
+        id: "pfeature-open-organizations",
+        title: "Open organizations for team management",
+        status: "completed",
+      },
+      {
+        id: "pfeature-public-workspaces",
+        title: "Private workspaces and models for personal work",
         status: "completed",
       },
       {
@@ -58,17 +68,12 @@ const PRICING_PLANS = [
         title: "Control what viewers can download from the vault",
         status: "completed",
       },
-      {
-        id: "pfeature-multiple-workspaces",
-        title: "Multiple workspaces",
-        status: "completed",
-      },
     ],
   },
   {
     name: "Enterprise",
     slug: "plan-enterprise",
-    price: "Contact Us",
+    price: "$200 + $10 / User / Month **",
     bgColor: "#241310",
     cta: "contact-us",
     features: [
@@ -80,16 +85,21 @@ const PRICING_PLANS = [
       {
         id: "pfeature-unlimited-private-models",
         title: "Upload up to 50GB to the online vault, 500 compute minutes",
-        status: "pending",
+        status: "completed",
+      },
+      {
+        id: "pfeature-open-organizations",
+        title: "Private and open organizations for team management",
+        status: "completed",
       },
       {
         id: "pfeature-org-workspaces",
         title: "Organization workspaces",
-        status: "pending",
+        status: "completed",
       },
       {
-        id: "pfeature-shareable-workspaces",
-        title: "Public workspaces",
+        id: "pfeature-outside-collaborators",
+        title: "Outside collaborators",
         status: "pending",
       },
       {
@@ -162,6 +172,13 @@ export default function Pricing() {
             <summary mdxType="summary">What file formats are supported by Ondsel Lens?</summary>
               <p>
                 Presently, you can upload FCStd and OBJ files to Ondsel Lens. You can export FCStd, STEP, OBJ, STL. If you are interested in support for more file formats, please <a href='https://ondsel.com/contact/'>contact us</a>.
+              </p>
+            </details>
+
+            <details>
+            <summary mdxType="summary">My operating system complains that your builds are not signed. Are you legit?</summary>
+              <p>
+                We are in extended validation process, we will sign our builds as soon as we get the token.
               </p>
             </details>
 

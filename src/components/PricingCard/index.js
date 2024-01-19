@@ -80,7 +80,7 @@ export default function PricingCard({ plan }) {
                   )}
                   href="/contact"
                 >
-                  CALL US
+                  COMING SOON
                 </a>
               )}
               {plan.cta === "notify" && (
