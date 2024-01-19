@@ -2,14 +2,16 @@ import React from "react";
 
 export default function Youtube(props) {
   let url = 'https://www.youtube-nocookie.com/embed/' + props.v;
+
   return (
     <>
-    <div style={{ position: 'relative',
+    <div style={Object.assign({ position: 'relative',
           paddingBottom: '56.25%',
           height: 0,
           overflow: 'hidden', 
           marginBottom: '1rem',
-          }}>
+          }, props.style)}
+    >
       <iframe
         src={url}
         style={{
