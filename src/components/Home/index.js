@@ -74,7 +74,7 @@ function NewHeader() {
 
             <div className='col col--6'>
               {/* <YouTube v='MI2JMm__bkM' style={{borderRadius: '1.5rem'}}/> */}
-              <img src='/img/ondsel_home_featured.webp'/>
+              <img src='/img/ondsel_home_featured.webp' alt='Ondsel assembly example'/>
             </div>
 
           </div>
