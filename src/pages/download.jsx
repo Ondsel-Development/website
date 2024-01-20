@@ -66,17 +66,18 @@ export default function Download() {
             </div>
           </div>
 
+          {/* Pre-Release downloads section */}
           <div className='row text_gray margin-vert--lg' style={{justifyContent: 'center', textAlign: 'center'}}>
             <div className='col col--8'>
-              <h2>Unstable Releases</h2>
+              <h2>Pre-releases</h2>
                 <div className='unstable show'>
-                  <p>The unstable version of Ondsel is: XXX.XXX</p>
+                  <p>The pre-release version of Ondsel is: XXX.XXX</p>
                   <p>This is a blurb about what the unstable release is and that it shouldn't be used for normal production work.  Include the necessary caveats.</p>
 
                   <div class="dropdown dropdown--hoverable">
-                    <button class="button button--lg button--outline button--primary" style={{color: 'white'}}>
-                    <img src="/img/os_linux.svg" class="os_icon_src-components-DownloadList-styles-module margin-right--sm" style={{filter: 'invert(1)', display: 'inline', verticalAlign: 'inherit'}}/>
-                      Linux Unstable
+                    <button class="button button--lg button--outline button--primary margin-horiz--sm margin-bottom--md" style={{color: 'white'}}>
+                      <img src="/img/os_linux.svg" class="os_icon_src-components-DownloadList-styles-module margin-right--sm" style={{filter: 'invert(1)', display: 'inline', verticalAlign: 'inherit'}}/>
+                      Linux <small style={{color: 'gray', fontWeight: '400'}}>[Pre-release]</small> 
                     </button>
                     <ul class="dropdown__menu">
                       <li>
@@ -89,9 +90,9 @@ export default function Download() {
                   </div>
 
                   <div class="dropdown dropdown--hoverable">
-                    <button class="button button--lg button--outline button--primary margin-horiz--md" style={{color: 'white'}}>
+                    <button class="button button--lg button--outline button--primary margin-horiz--sm margin-bottom--md" style={{color: 'white'}}>
                     <img src="/img/os_mac.svg" class="os_icon_src-components-DownloadList-styles-module margin-right--sm" style={{filter: 'invert(1)', display: 'inline', verticalAlign: 'inherit'}}/>
-                      macOS Unstable
+                      macOS <small style={{color: 'gray', fontWeight: '400'}}>[Pre-release]</small>
                     </button>
                     <ul class="dropdown__menu">
                       <li>
@@ -104,9 +105,9 @@ export default function Download() {
                   </div>
 
                   <div class="dropdown dropdown--hoverable">
-                    <button class="button button--lg button--outline button--primary margin-horiz--md" style={{color: 'white'}}>
+                    <button class="button button--lg button--outline button--primary margin-horiz--sm margin-horiz--md margin-bottom--md" style={{color: 'white'}}>
                     <img src="/img/os_mac.svg" class="os_icon_src-components-DownloadList-styles-module margin-right--sm" style={{filter: 'invert(1)', display: 'inline', verticalAlign: 'inherit'}}/>
-                      Windows Unstable
+                      Windows <small style={{color: 'gray', fontWeight: '400'}}>[Pre-release]</small>
                     </button>
                     <ul class="dropdown__menu">
                       <li>
