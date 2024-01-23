@@ -62,6 +62,7 @@ function NewHeader() {
                 Collaborate with open-source engineering tools
               </p>
               <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}>
+
                 <Link
                   className="button button--secondary button--lg text_hero"
                   to="/download"
@@ -69,6 +70,13 @@ function NewHeader() {
                 >
                   Download
                 </Link>
+
+                <Link
+                  className="button button--primary button--lg text_hero margin-left--md"
+                  to="/blog/introducing-ondsel-es/"
+                  style={{borderColor: 'white',}}
+                >What's New</Link>
+
               </div>
             </div>
 
