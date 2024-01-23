@@ -74,7 +74,7 @@ function NewHeader() {
                 <Link
                   className="button button--primary button--lg text_hero margin-left--md"
                   to="/blog/introducing-ondsel-es/"
-                  style={{borderColor: 'white',}}
+                  style={{borderColor: 'white', fontWeight: 'normal'}}
                 >What's New</Link>
 
               </div>
