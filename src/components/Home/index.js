@@ -73,8 +73,7 @@ function NewHeader() {
             </div>
 
             <div className='col col--6'>
-              {/* <YouTube v='MI2JMm__bkM' style={{borderRadius: '1.5rem'}}/> */}
-              <img src='/img/ondsel_home_featured.webp' alt='Ondsel assembly example' style={{boxShadow: '0px 0px 100px 14px rgba(255,255,255,0.1)'}}/>
+              <YouTube v='x2F1A0MYhMk' style={{borderRadius: '1.5rem'}}/>
             </div>
 
           </div>
@@ -154,7 +153,7 @@ export default function Home({ recentPosts }) {
             </div>
 
             <div className='col col--6'>
-              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" height="100%" src="https://lens.ondsel.com/share/65a2ec5cd934f1f1e66fff96" title="Ondsel"></iframe>
+              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" height="100%" src="https://lens.ondsel.com/share/65af04b361821ca0c25d2afc" title="Ondsel"></iframe>
             </div>
 
           </div>
