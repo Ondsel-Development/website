@@ -7,7 +7,7 @@ const frontmatter = {
   photo: "amritpal-singh.webp",
   social: {
     location: {
-      label: 'Employee, India'
+      label: 'India'
     }
   }
 }

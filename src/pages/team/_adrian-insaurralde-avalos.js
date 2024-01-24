@@ -7,7 +7,7 @@ const frontmatter = {
   photo: "adrian-insaurralde.webp",
   social: {
     location: {
-      label: 'Independent Contractor, Paraguay'
+      label: 'Paraguay'
     }
   }
 }

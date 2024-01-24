@@ -9,7 +9,7 @@ const frontmatter = {
     {
       location:
         {
-          label: 'Independent Contractor, Netherlands',
+          label: 'Netherlands',
         },
     },
 }

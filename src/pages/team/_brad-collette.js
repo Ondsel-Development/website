@@ -7,7 +7,7 @@ const frontmatter = {
   photo: "bradcollette.jpg",
   social: {
     location: {
-      label: 'Employee, USA'
+      label: 'USA'
     }
   }
 }

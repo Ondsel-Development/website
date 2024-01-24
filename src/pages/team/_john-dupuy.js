@@ -7,7 +7,7 @@ const frontmatter = {
   photo: "john-dupuy.webp",
   social: {
     location: {
-      label: 'Employee, USA'
+      label: 'USA'
     }
   }
 }
