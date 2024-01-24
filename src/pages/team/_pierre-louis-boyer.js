@@ -15,7 +15,7 @@ const frontmatter = {
   photo: "pierre-louis-boyer.webp",
   social: {
     location: {
-      label: 'Employee, France'
+      label: 'France'
     }
   }
 }
@@ -33,7 +33,6 @@ export default function Member(){
  - Has been hacking on UX/UI improvements and the Sketcher workbench since 2022
  - Lead developer of the integrated assembly workbench
  - Lead developer and maintainer of the Ondsel Lens addon for FreeCAD
- - test
 `}
 
 </TeamMember>

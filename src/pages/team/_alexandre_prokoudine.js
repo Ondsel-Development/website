@@ -7,7 +7,7 @@ const frontmatter = {
   photo: "alexandre_prokoudine.webp",
   social: {
     location: {
-      label: 'Independent Contractor, Serbia'
+      label: 'Serbia'
     }
   }
 }
