@@ -4,18 +4,20 @@ sidebar_position: 1
 
 # About Ondsel
 
-Ondsel is an open-core company built around the awesome FreeCAD Project.
+Ondsel is an open-core company built around the awesome
+[FreeCAD](https://www.freecad.org/) project founded by long-time FreeCAD 
+contributors with funding from
+[Open Core Ventures](https://opencoreventures.com/). We are a 
+[public benefit corporation](https://ondsel.com/handbook/About/public_benefit_corp/) — 
+a company where the usual list of stakeholders expands to include employees,
+contributors, and the user community. 
 
-Formed in January of 2023, we're still getting started but we're building on one of the oldest and most successful design tools in the open source world: FreeCAD
+Formed in January of 2023, we're building Ondsel Engineering Suite,
+a FOSS 3D CAD program integrated with Lens, our online system for vaulting CAD 
+files and product data management.
 
-We're building tools to make FreeCAD more collaborative and integrated with your other systems.
+Ondsel ES ships with built-in tools for constrained sketching and parametric 3D 
+modeling, finite element analysis (FEA), and computer-aided machining (CAM).
+It supports many open file formats including STEP, IGES, STL, SVG, DXF and many
+others. Builds are available for Windows, Linux, and macOS.
 
-## FreeCAD
-
-FreeCAD is a powerful open-source 3D parametric modeling tool. It is multi-platform (Windows, Mac, Linux).
-It reads and writes many open file formats including STEP, IGES, STL, SVG, DXF and many others.
-
-It provides workbenches for Finite Element Analysis (FEA), Computer Aided Machining (CAM), Architecture, Building Information Modeling (BIM) and 
-supports many styles of parametric design.
-
-FreeCAD has a large and active developer base and has been in development for more than twenty years.
