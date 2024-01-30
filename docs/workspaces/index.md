@@ -1,6 +1,7 @@
 ---
 title: Workspaces
 description: Managing workspaces in Ondsel Lens
+sidebar_position: 4
 ---
 
 ## Basics

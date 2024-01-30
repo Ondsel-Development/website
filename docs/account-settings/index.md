@@ -1,6 +1,7 @@
 ---
 title: Account settings
 description: Changing settings specific to you Ondel Lens account
+sidebar_position: 7
 ---
 
 There are two ways to access account settings:

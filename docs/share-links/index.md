@@ -1,6 +1,7 @@
 ---
 id: share-links
 title: Share links
+sidebar_position: 5
 ---
 
 ## Managing share links

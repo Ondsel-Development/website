@@ -1,6 +1,7 @@
 ---
 title: Organizations
 description: Managing organizations in Ondsel Lens
+sidebar_position: 3
 ---
 
 ## Basics
