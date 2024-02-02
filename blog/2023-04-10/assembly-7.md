@@ -1,6 +1,7 @@
 ---
 slug: default-assembly-workbench-7
 title: "Assembly Workbench: What We Learned and What's Coming Next"
+description: "Now that the study of assembly workbenches and tools is done, let's discuss key takeaways and propose a way forward for the project."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

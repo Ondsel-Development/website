@@ -1,6 +1,7 @@
 ---
 slug: default-assembly-workbench-5
 title: "Exploring the Assembly 4 workbench"
+description: "In this next installment of the assembly series we are looking at Assembly4, the workbench with workflow built around local coordinate systems."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

@@ -1,6 +1,7 @@
 ---
 slug: default-assembly-workbench-4
 title: "Exploring the Assembly 3 workbench"
+description: "The fourth part in the series where we explore the possibility of creating a default assembly workbench for FreeCAD. This time we are looking at Assembly3."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team
