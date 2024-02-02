@@ -1,6 +1,7 @@
 ---
 slug: autodesk-enshittifies-fusion-360
 title: "Autodesk continues to enshittify Fusion 360 with a 27% price increase"
+description: "Autodesk’s latest announcement of bumping the Fusion 360 price yet again makes people—especially small businesses—cringe, and it’s easy to see why."
 authors:
 
   - name: Brad Collette
@@ -13,10 +14,9 @@ image: ./titlecard.png
 draft: false
 ---
 
-Look, there are good reasons why the price of a software product could go up: rising R&D and maintenance costs, market saturation, rising inflation rate etc. But Autodesk’s latest announcement of bumping the Fusion 360 price yet again makes people—especially small businesses—cringe and it’s easy to see why. It’s about what you do and how you communicate that to users:
+Look, there are good reasons why the price of a software product could go up: rising R&D and maintenance costs, market saturation, rising inflation rate etc. But Autodesk’s latest announcement of bumping the Fusion 360 price yet again makes people—especially small businesses—cringe, and it’s easy to see why. It’s about what you do and how you communicate that to users:
 
 ![Fusion 360 price change announcement](fusion360-price-increase.jpg)
-
 
 Source: [Lemmy.World](https://lemmy.world/post/9022106)
 

@@ -1,6 +1,7 @@
 ---
 slug: default-assembly-workbench-3
 title: "Exploring the A2plus workbench"
+description: "As part of the assembly workbenches study, we are looking at A2plus, a stable workbench with simple workflow"
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

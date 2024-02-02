@@ -1,6 +1,7 @@
 ---
 slug: default-assembly-workbench-2
 title: "Exploring the Assembly 2 workbench"
+description: "Let's take a closer look at the first 3rd-party assembly workbench developed for FreeCAD ever."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

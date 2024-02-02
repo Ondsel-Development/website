@@ -1,6 +1,7 @@
 ---
 slug: chatgpt-screwtape
 title: ChatGPT acts demonic about open-source software
+description: "C.S. Lewis's famous The Screwtape Letters made me wonder what Uncle Screwtape would think of the modern world, software development, and open-source software."
 authors:
   name: Brad Collette
   title: Ondsel Core Team

@@ -1,6 +1,7 @@
 ---
 slug: default-assembly-workbench-6
 title: "Exploring BodyBuilder, Manipulator, and Part-o-magic"
+description: "Before we summarize our findings, let's look at assembly-like workbenches and addons for FreeCAD that help aligning parts against each other."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team
