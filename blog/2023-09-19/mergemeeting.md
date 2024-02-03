@@ -1,6 +1,7 @@
 ---
 slug: merge-meeting
-title: "Live merge meetings: What we learned from merging 75 Pull Requests in 30 days"
+title: "Live merge meetings: what we learned from merging 75 pull requests in 30 days"
+description: "Pull request rot is a quick way to turn off first-time and long-time contributors. The merge meeting is one way to get PRs moving again."
 authors:
 
   - name: Brad Collette

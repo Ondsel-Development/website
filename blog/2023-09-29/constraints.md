@@ -1,6 +1,7 @@
 ---
 slug: ondsel-made-constraining-sketches-faster-and-easier
 title: "Ondsel made constraining sketches faster and easier"
+description: "One of the hallmark features of FreeCAD is increased cognitive load. Our new Dimension tool replaces mutiple other tools and helps constraining sketches faster."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

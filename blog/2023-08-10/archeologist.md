@@ -1,6 +1,7 @@
 ---
 slug: archeologists-will-study-the-bones-of-your-pull-request
 title: Someday an archeologist will study the bones of your pull request
+description: "Getting a contribution merged as an amateur or hobbyist is no small feat, and yet we rarely take the time to acknowledge and celebrate when this happens."
 authors:
 
   - name: Brad Collette
@@ -26,7 +27,6 @@ Besides working on [Ondsel](https://ondsel.com/), I mostly work on the [Path Wor
 As a maintainer of FreeCAD, I’ve spoken to lots of first-time contributors. I generally coach them through the PR process rather than doing it for them. Once they get a PR merged, they get a real thrill from it. It feels good to contribute something to a project.
 
 Open-source projects are always encouraging users to step up and become contributors. Getting a contribution merged as an amateur or hobbyist is no small feat, and yet we rarely take the time to acknowledge and celebrate when this happens.
-
 
 ## You pay time for free software
 

@@ -1,6 +1,7 @@
 ---
 slug: software-bounties-are-a-dumb-idea
 title: "Software bounties are a dumb idea"
+description: "There are many ideas how to help FOSS developer earn a living. Bounties are a common solution, but they barely ever work, while better alternatives exist."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

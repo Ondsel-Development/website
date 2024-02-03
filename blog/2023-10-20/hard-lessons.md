@@ -1,6 +1,7 @@
 ---
 slug: hard-lessons
 title: "Autodesk is teaching students hard life-lessons about vendor lock-in"
+description: "Proprietary educational licenses set students up to learn some hard lessons about vendor lock-in once they go out on their own."
 authors:
 
   - name: Brad Collette
@@ -50,7 +51,6 @@ Of course, it is important to introduce students to industry-standard, commercia
 
 Students should at least understand that the choice of which software they use has long-term implications:
 
-
 - Will they be able to switch to something else later if it becomes too expensive or no longer serves their needs?
 - Will it work on their own computer when they don’t have access to their current setup?
 
@@ -83,4 +83,3 @@ To any students reading this, it’s also up to you to take responsibility for y
 The [FreeCAD Project Association](https://fpa.freecad.org/) is interested in broadening the use of FreeCAD in education. They’ve set up a brief survey to gather feedback and start building a network of interested people. They’d love to hear from folks in academia but also non-traditional educators making YouTube content or paid courses.
 
 ## *[Take The Survey](https://forms.gle/zXZFP5yf2ZwrnPbN7)*
-

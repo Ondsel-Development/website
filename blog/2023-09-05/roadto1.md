@@ -1,6 +1,7 @@
 ---
 slug: the-road-to-freecad-1-0-is-shorter-than-you-think
 title: "The road to FreeCAD 1.0 is shorter than you think"
+description: "At the hackathon in Vancouver, FreeCAD team members formalized major roadmap items for v1.0 released. Let's talk about respective challenges."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team
@@ -18,8 +19,6 @@ draft: false
 ---
 
 Historically, the duration of FreeCAD development cycles has been uneven, anywhere between a few months and 2+ years.
-
-
 
 ![Timeline of FreeCAD releases](release-timeline.webp)
 
@@ -58,8 +57,6 @@ The existing materials system in FreeCAD is overly simplistic, all over the plac
 
 Earlier this year, we posted an [implementation proposal](https://ondsel.com/blog/freecad-needs-a-better-materials-system/) for a new materials system written in collaboration with Dave Carter who volunteered to actually do the work. Dave is, in fact, knee-deep in that project and has made a lot of progress (the branch with his code is [public](https://github.com/davesrocketshop/FreeCAD/tree/post_21)). Moreover, users have been [very supportive](https://forum.freecad.org/viewtopic.php?t=78242) of his effort.
 
-
-
 ![Editor for new material cards](materials-new-cards-editor.webp)
 
 The first pull request [has already been filed](https://github.com/FreeCAD/FreeCAD/pull/10368) and is undergoing review. Further plan with materials is to apply the toponaming development model: break all further work down into small pieces, so that any developer could be part of that effort. Once the initial patch has been merged and further work has been decomposed into small items, more developers can join the effort. All further work will be done in pull requests. This will make it possible to deliver the minimum viable implementation in time for v1.0.
@@ -67,7 +64,6 @@ The first pull request [has already been filed](https://github.com/FreeCAD/FreeC
 ## First-run wizard
 
 FreeCAD has a difficult learning curve. Improving the initial user experiences is a topic that resurfaces regularly. We even covered that in a recent blog post. Here is the gist of the issue.
-
 
 First of all, people can’t really agree on the scope of the first-run wizard. There are literally dozens of settings that users requested to be editable when you run the program for the first time. But when you dig deeper into the reasoning, several things become obvious.
 
@@ -77,8 +73,6 @@ Some configuration options appear to be personal preference but might also have 
 
 Other things that people want to configure should probably be solved in other ways. A great example of this is configuring which workbenches are available and active for a new user. 
 Should the system present a bewildering array of workbenches to a new user or should it hide potentially useful tools in an effort to be streamlined? Reasonable people disagree. In this case, the right answer might be to improve the Start workbench. This would provide a fast track to the workbench based on that task that they need to accomplish. Initial mockup was created and then turned into a [pull request](https://github.com/FreeCAD/FreeCAD/pull/10171) by Qewer during the hackathon. This patch has already been accepted and will be part of v1.0.
-
-
 
 ![Updated start screen](updated-start-screen.webp)
 

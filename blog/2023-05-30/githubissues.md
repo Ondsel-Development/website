@@ -1,6 +1,7 @@
 ---
 slug: better-github-issues 
 title: What does it mean that my GitHub project has 900 open issues?
+description: "Issue creation should be the start of a conversation to result in meaningful change, and maintainers can play a more significant role to get us there."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team
@@ -16,11 +17,12 @@ tags: [freecad, development]
 image: ./titlecard.png
 draft: false
 ---
+
 Discussions about FOSS issue practices often center around getting issue creation right. Have we set contributors up for success with guidelines and issue templates? Are we asking them to look at existing issues for their proposal first? These are bare minimum requirements. 
 
 We act like someone creates an issue and throws it over the wall, after which someone else picks it up to move it forward—all of which hinges on writing a good issue. If the issue goes stale, it wasn't a good issue, right?
 
-But issue creation should be _the start of a conversation_, and for that, maintainers should be heavily involved in collaborating on issues. [Stale PRs](http://danluu.com/discourage-oss/) get a lot of airtime, but issues habitually going stale is just as bad for open source project velocity.  Effective issues—the ones that actually result in meaningful change—invite conversation and encourage action, and maintainers can play more of a role in fostering that type of issue than you might think.
+But issue creation should be _the start of a conversation_, and for that, maintainers should be heavily involved in collaborating on issues. [Stale PRs](http://danluu.com/discourage-oss/) get a lot of airtime, but issues habitually going stale is just as bad for open source project velocity. Effective issues—the ones that actually result in meaningful change—invite conversation and encourage action, and maintainers can play more of a role in fostering that type of issue than you might think.
 
 ## What makes a good issue?
 

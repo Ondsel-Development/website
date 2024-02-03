@@ -1,6 +1,7 @@
 ---
 slug: freecad-approach-to-software-development-needs-to-change
 title: "FreeCAD’s Approach to Software Development Needs to Change"
+description: "The volunteer-driven development approach served the FreeCAD community well in the past, but it has become harder and harder to make significant changes."
 authors:
 
   - name: Brad Collette
