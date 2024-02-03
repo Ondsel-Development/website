@@ -3,15 +3,15 @@ slug: how-to-build-3rd-party-addons-for-freecad-that-don’t-suck
 title: "How to build 3rd-party addons for FreeCAD that don’t suck"
 description: "Many great addon ideas die because the implementation suffers from common and avoidable mistakes. Let's discuss how to avoid some of them."
 authors:
- - name: Brad Collette
-  title: Ondsel Core Team
-  url: https://github.com/sliptonic
-  image_url: https://avatars.githubusercontent.com/u/538057?v=4
+  - name: Brad Collette
+    title: Ondsel Core Team
+    url: https://github.com/sliptonic
+    image_url: https://avatars.githubusercontent.com/u/538057?v=4
 
- - name: Alexandre Prokoudine
-  title: Contributing Writer
-  url: https://github.com/prokoudine
-  image_url: https://avatars.githubusercontent.com/u/57467?v=4
+  - name: Alexandre Prokoudine
+    title: Contributing Writer
+    url: https://github.com/prokoudine
+    image_url: https://avatars.githubusercontent.com/u/57467?v=4
 
 tags: [freecad, development, addons]
 image: ./titlecard.png
