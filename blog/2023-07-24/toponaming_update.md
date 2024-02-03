@@ -1,6 +1,7 @@
 ---
 slug: milestone-toponaming-fix-phase-2-done
 title: "Milestone: Ondsel and FreeCAD team complete phase 2 of the toponaming fix"
+description: "We've been working with the FreeCAD community on mitigating the topological naming issue for the past half a year. It's time for a progress update."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

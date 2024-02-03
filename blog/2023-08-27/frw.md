@@ -1,6 +1,7 @@
 ---
 slug: freecad-needs-a-first-run-wizard
 title: "FreeCAD needs a first-run wizard, but nobody knows what it should do"
+description: "FreeCAD is commonly criticized for being difficult to get started with. This criticism, while overstated at times, is nevertheless quite often valid."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team
@@ -20,7 +21,6 @@ draft: false
 FreeCAD is commonly criticized for being difficult to get started with. 
 
 ![Quote 1](quote1.webp)
-
 
 ![Quote 2](quote2.webp)
 

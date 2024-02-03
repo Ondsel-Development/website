@@ -1,6 +1,7 @@
 ---
 slug: default-assembly-workbench-1
 title: "FreeCAD needs a default assembly workbench - Introduction"
+description: "There are multiple 3rd-party assembly addons for FreeCAD. We are planning to evaluate existing options, and here is our methodology."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

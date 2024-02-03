@@ -1,6 +1,7 @@
 ---
 slug: freecad-topological-naming
 title: "Don't hold your breath for FreeCAD's topological naming fix"
+description: "FreeCAD's topological naming problem is legendary. Some claim it's #1 reason holding back widespread adoption of the program. Will FreeCAD ever have a solution?"
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

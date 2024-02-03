@@ -1,6 +1,7 @@
 ---
 slug: evaluating-github-profile
 title: "I hire people to work on a FOSS project. Here's how I evaluate GitHub profiles"
+description: "Should hiring managers base a decision on someone’s GitHub profile? No. But will it ever hurt to have a robust GitHub account? Also no. Here is why."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team
@@ -16,6 +17,7 @@ tags: [freecad, development]
 image: ./titlecard.png
 draft: false
 ---
+
 Should hiring managers base a decision on someone’s GitHub profile? No. But will it ever hurt to have a robust GitHub account? Also no.
 
 I’m a hiring manager for a new open core company, and I watched the discussion under [@manuel_frigerio’s tweet](https://twitter.com/manuel_frigerio/status/1629059975418089474) blow up with amusement. The debate about using people’s GitHub profiles to make hiring decisions isn’t new. The typical backlash ensued and Manuel has since made his tweets private. And sure, using someone’s GitHub profile, particularly their contribution graph, to judge their skills as a developer is flawed.
