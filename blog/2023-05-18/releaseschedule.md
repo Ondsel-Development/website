@@ -1,6 +1,7 @@
 ---
 slug: freecad-unpredictable-release-schedule-hurts-users-and-developers
 title: "FreeCAD's unpredictable release schedule hurts users and developers"
+description: "There's a problem with running development FreeCAD builds for actual work and it's going to get uglier soon."
 authors:
   - name: Brad Collette
     title: Ondsel Core Team

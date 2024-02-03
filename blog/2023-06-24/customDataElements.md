@@ -1,6 +1,7 @@
 ---
 slug: build-system-for-custom-data-elements
 title: "Let’s Build a Core System for Custom Data Elements in FreeCAD"
+description: "One of the sorely missing features in FreeCAD is a convenient system for creating custom properties and interacting with them."
 authors:
 
   - name: Alexandre Prokoudine
