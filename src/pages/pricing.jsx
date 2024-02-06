@@ -16,7 +16,7 @@ const PRICING_PLANS = [
     cta: "download-now",
     features: [
       { id: "pfeature-core-freecad",
-        title: "Full 3D CAD design suite for the desktop",
+        title: "Full 3D CAD design suite for the desktop, works offline",
         status: "completed",
       },
       {
@@ -131,12 +131,22 @@ export default function Pricing() {
             <h3 className='text_2xl' style={{borderBottom: 'solid 1px gray', display: 'inline-block'}}>Frequently Asked Questions</h3>
 
             <details>
+            <summary mdxType="summary">Who is behind Ondsel Inc. and what is their relation to FreeCAD?</summary>
+              <p>
+                Ondsel Inc. was founded by Brad Collette, a long-time contributor
+                to FreeCAD, author of several books on FreeCAD, and maintainer of the
+                Path (CAM) workbench. The company also employs several other coding
+                and non-coding contributors to FreeCAD and its ecosystem.
+              </p>
+            </details>
+
+            <details>
             <summary mdxType="summary">What is the difference between FreeCAD and Ondsel ES?</summary>
               <p>
                 Ondsel Engineering Suite (ES) provides collaboration features, new tools and workflow improvements, as well as user experience polish currently unavailable in vanilla FreeCAD.
               </p>
               <p>
-                The collaboration part is <a href="https://lens.ondsel.com/signup">Ondsel Lens</a>, an online vaulting service for 3D CAD projects. You can store files privately and create share links when you need to make them publicly visible. It is integrated into the modified version of FreeCAD using an <a href="https://github.com/Ondsel-Development/Ondsel-Lens">open-source addon</a>.
+                The collaboration part is <a href="https://lens.ondsel.com/signup">Ondsel Lens</a>, an online vaulting service for 3D CAD projects. You can store files privately and create share links when you need to make them publicly visible. It is integrated into the modified version of FreeCAD using an <a href="https://github.com/Ondsel-Development/Ondsel-Lens">open-source addon</a>. This feature is optional, you can use Ondsel ES offline.
               </p>
               <p>
                 Ondsel ES also provides early access to the new integrated assembly workbench scheduled to be included in FreeCAD 1.0. Additionally, Ondsel ES ships with various Sketcher improvements: easier dimensioning, simplified constraining, tool settings, and new transformation tools.
