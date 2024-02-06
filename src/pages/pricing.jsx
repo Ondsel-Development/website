@@ -140,6 +140,7 @@ export default function Pricing() {
               </p>
             </details>
 
+            <details>
             <summary mdxType="summary">What is the difference between FreeCAD and Ondsel ES?</summary>
               <p>
                 Ondsel Engineering Suite (ES) provides collaboration features, new tools and workflow improvements, as well as user experience polish currently unavailable in vanilla FreeCAD.
