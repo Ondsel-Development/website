@@ -5,9 +5,9 @@ sidebar_position: 1
 # About Ondsel
 
 Ondsel is an open-core company built around the awesome
-[FreeCAD](https://www.freecad.org/) project founded by long-time FreeCAD 
-contributors with funding from
-[Open Core Ventures](https://opencoreventures.com/). We are a 
+[FreeCAD](https://www.freecad.org/) project founded by a long-time FreeCAD 
+contributor Brad Collette, maintainer of the Path workbench and author of two
+books on FreeCAD. Funding was provided by [Open Core Ventures](https://opencoreventures.com/). We are a 
 [public benefit corporation](https://ondsel.com/handbook/About/public_benefit_corp/) — 
 a company where the usual list of stakeholders expands to include employees,
 contributors, and the user community. 
