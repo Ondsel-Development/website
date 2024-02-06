@@ -145,7 +145,7 @@ export default function Pricing() {
                 Ondsel Engineering Suite (ES) provides collaboration features, new tools and workflow improvements, as well as user experience polish currently unavailable in vanilla FreeCAD.
               </p>
               <p>
-                The collaboration part is <a href="https://lens.ondsel.com/signup">Ondsel Lens</a>, an online vaulting service for 3D CAD projects. You can store files privately and create share links when you need to make them publicly visible. It is integrated into the modified version of FreeCAD using an <a href="https://github.com/Ondsel-Development/Ondsel-Lens">open-source addon</a>. This feature is optional, you can make use Ondsel ES offline.
+                The collaboration part is <a href="https://lens.ondsel.com/signup">Ondsel Lens</a>, an online vaulting service for 3D CAD projects. You can store files privately and create share links when you need to make them publicly visible. It is integrated into the modified version of FreeCAD using an <a href="https://github.com/Ondsel-Development/Ondsel-Lens">open-source addon</a>. This feature is optional, you can use Ondsel ES offline.
               </p>
               <p>
                 Ondsel ES also provides early access to the new integrated assembly workbench scheduled to be included in FreeCAD 1.0. Additionally, Ondsel ES ships with various Sketcher improvements: easier dimensioning, simplified constraining, tool settings, and new transformation tools.
