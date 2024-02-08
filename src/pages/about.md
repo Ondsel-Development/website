@@ -17,7 +17,7 @@ a FOSS 3D CAD program integrated with Lens, our online system for vaulting CAD
 files and product data management.
 
 Ondsel ES ships with built-in tools for constrained sketching and parametric 3D 
-modeling, finite element analysis (FEA), and computer-aided machining (CAM).
+modeling, finite element analysis (FEA), and computer-aided manufacturing (CAM).
 It supports many open file formats including STEP, IGES, STL, SVG, DXF and many
 others. Builds are available for Windows, Linux, and macOS.
 
