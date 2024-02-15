@@ -1,0 +1,81 @@
+---
+slug: foss-projects-need-product-owners
+title: "FOSS projects like FreeCAD suffer without product owners"
+authors:
+
+  - name: Brad Collette
+    title: Ondsel Core Team
+    url: https://github.com/sliptonic
+    image_url: https://avatars.githubusercontent.com/u/538057?v=4
+
+tags: [freecad, development]
+image: ./titlecard.png
+draft: false
+---
+
+FOSS projects often struggle to build and follow a coherent development roadmap that lets contributors add new features while also improving code quality, removing deprecated features, and generally improving the application. After all, it’s more fun to work on new features than it is to write unit tests, refactor code, and fix bugs.
+
+Young projects don’t have much technical debt and usually only have a couple contributors.  The code base is small. Most of the people working on it share a common vision and understand how the code serves that purpose. As the project grows and attracts users, contributions come from people who don’t share the original vision. The project may have to choose between accepting a poorly implemented feature or rejecting it and losing a potentially valuable contributor.  Technical debt increases and It becomes difficult to make substantial changes.
+
+Mature projects, in contrast, have built up systems and processes to manage technical debt. But this transition from adolescence to maturity is rough.  FOSS projects that have successfully made that transition share some similarities. They often have a company or a non-profit organization backing the development. They have strong leadership and well defined guidelines for contributions.  They also have both software developers and domain experts contributing to the development roadmap. The importance of the domain experts can’t be overstated. Sometimes called “product owner”, this person serves a key role. Let’s talk about this role in software projects: why it’s a must in software development in general, why there aren’t many of them in FOSS projects, and what projects like FreeCAD could do to get them.
+
+## Who is a product owner?
+
+The “product vision” is the future state of the product that an organization is bringing to life. It’s the shared goal about where the development is heading. The main job of a product owner (PO) is to maintain the product vision and ensure its consistent implementation.  This sets a number of expectation of a PO:
+
+* **Domain expertise.** The product owner needs to be a generalist, someone who follows the industry, knows about new developments, knows what everybody is talking about and why they are talking about it. Deep technical knowledge is  important but so is understanding how a tool gets used in a wide range of contexts.
+* **Basic understanding of the software development process.** A good PO doesn’t need to be capable of writing great code, but they should be comfortable translating user language to developers language and back. They should also be at home with basic software development methodologies.
+* **Organization skills.** POs do not manage the development process, but they help organize it and play a major role in setting priorities: what gets developed first and what should wait until the next step.
+
+Here are some of the things that a product owner might do on a daily basis:
+
+* Talk to users and stakeholders to refine the product vision and document it.
+* Clarify feature requests and bug reports to understand _why_ the feature is needed or how a bug is affecting users.
+* Make decisions that affect development, such as priority and scope of tasks, as well as trade-offs where they have to keep in mind business value, needs of users, and a variety of constraints.
+* Maintain the product backlog and user stories to keep them up-to-date.
+* Work with product owners of other applications or other parts of the same application to identify shared goals, communicate priority, find opportunities for collaboration, and avoid risk.
+* Manage risks by adjusting priorities, scope of tasks, and allocated resources to support a workable development plan.
+
+POs tend to have a pretty good grasp of reality: what customers want and — more importantly — what they _need_. The distinction between “want” and “need” is vital. POs don’t just understand _what_ is important, they understand _why_ it matters and they can explain it.
+
+While users might be quick to suggest is a new option or feature, implementing everything without a plan results in application bloat, preference creep,  and makes the overall user experience worse. I knowledgable PO will understand what the user needs and will seek ways to meet the need without comprising application quality.  It takes a particular mindset and set of skills to see the real solution and to get a team to build it.
+
+Product owners work closely with the development team.  The understand the strengths and weaknesses of the team and what each person already has on their plate.  The can help schedule and prioritize tasks so the team can move fast to reach goals. They’re often the first to recognize new talent and expand the organization. They are best positioned to make trade-offs between the changes that users request and the time, budget, and technical debt that the change incurs.
+
+This means product owners pretty much sit at the junction of UX, technology, and business. That makes them uniquely qualified to guard the vision for the product.
+
+In a professional development shop, POs play a vital and necessary role and they have a lot of authority. In FOSS projects, this would never work. Such central control doesn’t exist in projects comprised primarily of volunteers. In order to be effective, a PO would need to excel through encouragement, persuasion, and influence. They need to build consensus and be excellent at communicating.
+
+## FreeCAD has done fine without product owners until now. Why change?
+
+FreeCAD has historically had maintainers who each oversee a workbench or a functional area. They coordinate development and collectively have the final word on pull requests. This combines the role of the PO (domain expert) and maintainer (code expert) into one person. This model works reasonably well early but tends to break down when the maintainer leaves the project. It’s easy to see why. The loss of a single person eliminates both domain and code expertise and it is nearly impossible to find someone else capable of assuming the role.
+
+I can speak from personal experience how difficult it is to maintain a workbench. Even though I’m one of the original authors and current maintainer of the Path (CAM) workbench, I have no professional experience with CNC/CAM. I lack deep domain expertise.   While I get lots of support from our power users, I still struggle to know what features we should build and in what order. As maintainer of Path, I would  welcome a product owner to help establish a vision and organize us to build it.
+
+
+Apart from Path, another example is the FEM workbench. Most contributions lately are coming from _marioalexis84_ who now has a grant from the FreeCAD Project Association to work on electromagnetic system simulations. But the workbench currently lacks an active captain.  It needs someone in a leadership position to set priorities straight and attract new contributors. To aid that, _NewJoker_ recently created a [project board](https://github.com/orgs/FreeCAD/projects/19) for the FEM workbench. We think this could be a great test case for the entire idea of product owners in FreeCAD and we encourage the community to support them.
+
+## This isn’t a novel concept
+
+FreeCAD wouldn’t be the first project to organize itself this way. There are some great examples of FOSS projects with product owners that we can learn from.
+
+**MuseScore Studio** (formerly MuseScore) and **Audacity**, both currently under the wing of [Muse Group](https://www.mu.se/). The company originally hired Martin Keary as head of design, who then hired Bradley Kunda to design UX/UI and later promoted him to become the product owner of MuseScore Studio. Bradley played a large role in the v4.0 release in 2022 and supervised the release of v4.1 and v4.2 in 2023 — all with major new features and quality-of-life improvements.
+
+[**Blender**](https://www.blender.org/) is the darling of the FOSS community but also quite an exception in terms of how everything is organized. They have a physical location where people come to work, and their Studio team of animators and CG artists has direct access to developers — a development model that is rather hard to copy for other projects. Blender divides the project into modules and assign module owners. Module owners are primarily developers, but they also “decide on implementation and design issues [...] and approve or reject patches and feature requests”. While Blender doesn't use the term “product owners”, the important thing is the close working relationship between those responsible for the code and those with deep domain expertise.
+
+## Next steps
+
+We’re glad to see FreeCAD is starting to take steps in this area and we think the project should go farther and try to identify other areas where product owners could make a positive change by working in parallel with the maintainers.   We’d love to be able to tell you how that should happen, but alas, herein lies the problem.
+
+There is no good place to have a discussion about how the project should be managed and a roadmap developed. Moreover, there is simply no established process to assign product owners. Even maintainers just “happen”: people do great work, get silently accepted by the community in a leadership role, then someone with enough privileges on GitHub gives them the rights to merge PRs.  Strangely, this bottom-up organic process has worked and might work equally well for product owners.
+
+Ondsel is not calling for a formal structure to be implemented. We’re not asking for product owners to be appointed and rule with an iron fist. We’re suggesting that having people in this role will lead to a different set of conversations. It will lead to a better decision making process and more transparency.  It should lead to less conflict on the forum and better capture of ideas in Github issues.
+
+This lack of a formal process is less of an issue than not having product owners in the FreeCAD community. Establishing a way to formally elect or appoint POs can happen down the road if having them improves the development process. The first step is to identify people who can do the work and start building trust and procedures that work. There are multiple communication channels: the forum, the Discord server, /r/FreeCAD, various social networks. Let’s have discussions there and see if there’s a general consensus about the following things:
+
+* Who would make good product owners?
+* What FreeCAD modules do you think would benefit from a strategic vision?
+* What other projects do you think have done it well?
+* What can we learn from their experience?
+
+We’ll watch discussions in these communication channels closely and do another post with takeaways.
