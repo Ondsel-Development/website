@@ -13,9 +13,9 @@ image: ./titlecard.png
 draft: false
 ---
 
-## 100 Days
-
 It’s hard to believe that it’s been just over three months since Ondsel started operations.  One hundred days, in fact.  I thought it would be fun to take a moment and consider what we’ve been able to accomplish in that time.
+
+<!-- truncate -->
 
 First, we built a team.  Besides myself, Ondsel now has five people working on the future of FreeCAD.  We were able to recruit, interview, hire, equip, and onboard five exceptionally talented people who hit the ground running and started contributing to FreeCAD.
 

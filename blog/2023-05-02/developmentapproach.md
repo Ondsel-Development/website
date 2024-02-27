@@ -21,6 +21,8 @@ draft: false
 
 Historically, the development process in the FreeCAD community has been entirely volunteer-driven. This approach served the community amazingly well — up to a point. We got a very capable 3D CA* program out of it, but as the project grew, it became harder and harder to make significant changes. 
 
+<!-- truncate -->
+
 Case in point: the entire toponaming fix is going to span two major releases (0.21 and 1.0). Why? It involves patching a lot of code and writing a lot of unit tests. It also requires knowing the internals of FreeCAD very well and communicating well with lots of people. It takes a particular kind of mind to sit quietly for weeks on end and hack on a boring architectural fix. 
 
 Similarly, improving UX/UI requires specific hands-on experience, as well as ability to cooperate. Fixing one task panel or layout is easy.  Making the whole application feel consistent and polished is quite another. And developing a default assembly workbench implies not only being great at many things at once (math, data structure design, UX/UI), but also encouraging a consensus among multiple stakeholders.  Doing your own thing is infinitely easier.

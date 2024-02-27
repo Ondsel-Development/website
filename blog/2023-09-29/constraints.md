@@ -20,6 +20,8 @@ draft: false
 
 One of the hallmark features of FreeCAD is that various parts of its UI have a lot of similar options, which means a lot of cognitive load, especially for beginners. A very popular “offender” here is the geometry constraints toolbar in Sketcher. It has 18 different constraint options, more than most popular commercial CAD offerings like Fusion 360, Onshape, and Creo. That's not a bad thing on its own, but it adds a lot of mileage when you need to dimension an entire complex sketch.
 
+<!-- truncate -->
+
 ![Constraint options in FreeCAD 0.21](contextual-constraints-0-21.webp)
 
 Before joining Ondsel, Pierre-Louis Boyer (@paddle) started implementing a feature called _contextual constraints_ to help users constrain faster. Since joining Ondsel, he has finished the [patch](https://github.com/FreeCAD/FreeCAD/pull/9810), and after some discussion and code review it was merged to become part of future FreeCAD 1.0. This new feature is quite nice and surpasses what many commercial CAD applicaitons are able to do. So let’s take it for a drive and kick the tires!

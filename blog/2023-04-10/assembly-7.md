@@ -22,6 +22,8 @@ We started this series with the [assumption](https://ondsel.com/blog/default-ass
 
 Our research had a number of limitations though. We avoided exploring the earliest solutions such as the [original workbench](https://forum.freecad.org/viewtopic.php?t=3828) by Jürgen Riegel and [FreeGCS](https://forum.freecad.org/viewtopic.php?t=1523) because they were incomplete. We also decided against studying both [Exploded Assembly](https://github.com/JMG1/ExplodedAssembly) and [Animation](https://github.com/microelly2/Animation) workbenches because this type of feature deserves dedicated attention.
 
+<!-- truncate -->
+
 From this research and the discussion that followed, we came away with a handful of important takeaways. We suggest that these ideas should influence the direction of the FreeCAD project.
 
 In this article, we’ll describe what we learned. We’ve taken the liberty of making some specific recommendations for a way forward and we also discuss what we believe is Ondsel’s role.

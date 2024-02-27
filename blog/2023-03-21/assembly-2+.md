@@ -20,6 +20,8 @@ draft: false
 
 We’ve already talked about the need for a [default assembly workbench](https://ondsel.com/blog/default-assembly-workbench-1) in FreeCAD and [reviewed Assembly 2](https://ondsel.com/blog/default-assembly-workbench-2). Now let’s get into the nitty-gritty of the A2plus workbench.
 
+<!-- truncate -->
+
 ## History
 
 A FreeCAD user kbwbe started working on this project in 2018 following [experiments](https://forum.freecad.org/viewtopic.php?style=1&t=29207) with a new solver developed on top of the pre-existing Assembly 2 workbench:

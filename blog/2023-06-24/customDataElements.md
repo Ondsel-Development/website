@@ -23,6 +23,8 @@ One of the sorely missing features in FreeCAD is a convenient system for creatin
 
 A common use case is constraining multiple features in a sketch to the same value. Instead of tweaking every instance of a horizontal distance constraint, you would create a custom data element (or property) called “Length” and then reference it via the Expression Engine. Then every time you change the value of that custom element, the entire sketch is updated automatically.
 
+<!-- truncate -->
+
 This is an extremely handy feature, so there is a strong community demand for this. Most recently, it was brought up twice during the ["Complaint Session"](https://forum.freecad.org/viewtopic.php?t=75768) at FOSDEM. And even a quick glance at the larger CAD market suggests that it’s useful for more than just a group of FreeCAD users: Inventor, SolidWorks, NX, Creo all have a way to create a custom data element and use it with expressions.
 
 Much like with [assemblies](https://ondsel.com/blog/default-assembly-workbench-1), the community made several attempts to create a solution, but all of them have various shortcomings which we’ll discuss below.

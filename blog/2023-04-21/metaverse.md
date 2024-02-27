@@ -20,6 +20,8 @@ draft: false
 
 VR CAD is usually portrayed like Tony Stark designing Iron Man suits, putting the emphasis on VR as an evolution of design tools. This is Hollywood stupid. VR design/UI isn't mature enough for that. Instead, we should be thinking about VR as a sharing environment where a designer can demonstrate a model in context. 
 
+<!-- truncate -->
+
 ## VR for design is a long way from being useful
 
 The current discourse around VR and CAD potential focuses too much on using VR for design: gamifying the experience and building things with goggles on. Design takes time—sometimes a LOT of it. Wearing VR gear for any period of time gets uncomfortable quickly and is both physically and mentally fatiguing. 

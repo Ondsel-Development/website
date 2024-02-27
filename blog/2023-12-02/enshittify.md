@@ -20,6 +20,8 @@ Look, there are good reasons why the price of a software product could go up: ri
 
 Source: [Lemmy.World](https://lemmy.world/post/9022106)
 
+<!-- truncate -->
+
 Isn’t it just a fancy way of saying “We know you love Fusion, so we think we’ll get away with making you pay more for it”?
 
 This isn’t the first time. In 2020, they ripped useful features out of the free tier and moved it to the paid tier while promising to “continue to make Fusion 360 the most affordable end-to-end product development tool in the market”. Or, as one user at Lemmy.World said:

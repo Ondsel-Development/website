@@ -22,6 +22,8 @@ Should hiring managers base a decision on someone’s GitHub profile? No. But wi
 
 I’m a hiring manager for a new open core company, and I watched the discussion under [@manuel_frigerio’s tweet](https://twitter.com/manuel_frigerio/status/1629059975418089474) blow up with amusement. The debate about using people’s GitHub profiles to make hiring decisions isn’t new. The typical backlash ensued and Manuel has since made his tweets private. And sure, using someone’s GitHub profile, particularly their contribution graph, to judge their skills as a developer is flawed.
 
+<!-- truncate -->
+
 ![unpopular tweet](./tweet.png)
 
 # How _not_ to evaluate a candidate based on their GitHub account

@@ -20,6 +20,8 @@ draft: false
 
 FreeCAD has a basic implementation of a materials system. While it works in some scenarios, we think it can be vastly improved to become a lot more useful. Let’s discuss what’s already available, what’s missing, and what’s a possible way forward with this. But first, why are we even discussing it?
 
+<!-- truncate -->
+
 We are introducing a new co-author in this post. Dave Carter has been a FreeCAD user since v0.16 (primarily for rocketry and 3D printing). He worked over 40 years as a software developer in government, supply chain, and automotive industries. He is the main person behind the [Rocket](https://github.com/davesrocketshop/Rocket) workbench that helps design model and amateur rockets and components for them. Dave volunteered to lead the effort creating an updated materials system for FreeCAD and has been actively working towards that goal for the past several weeks.
 
 ## Why A Good Materials System Is Important
