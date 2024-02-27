@@ -13,6 +13,8 @@ image: /img/Ondsel_OpenGraph.jpg
 
 I recently came across an audio recording of C.S. Lewis's famous [_The Screwtape Letters_ read by John Cleese](https://www.youtube.com/playlist?list=PLA8BAC9375345E6C7). It's excellent and made me wonder what Uncle Screwtape would think of the modern world, software development, and open-source software.  I was inspired to ask [ChatGPT](https://openai.com/blog/chatgpt/).  What follows is an unedited transcript.
 
+<!-- truncate -->
+
 I'm not sure what impresses me more; how well it understands open-source or how well it imitates a demon!
 
 >![sliptonic](./sliptonic.webp) Contributors to an open-source software project need to feel appreciated. Write a paragraph in the style of "The Screwtape letters" that illustrates this point. Pretend that you are Uncle Screwtape

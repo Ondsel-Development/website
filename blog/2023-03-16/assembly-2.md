@@ -20,6 +20,8 @@ draft: false
 
 This is part two of our series on the need for an integrated default assembly workbench for FreeCAD. [Part One](/blog/default-assembly-workbench-1) gives and introduction and explains our methods. In this part, we take a closer look at Assembly 2, one of the early approaches to adding this feature set to FreeCAD.
 
+<!-- truncate -->
+
 ### History
 
 A FreeCAD user publicly known as Hamish started this project in late 2014. This is the [original announcement](https://forum.freecad.org/viewtopic.php?style=4&t=8577):

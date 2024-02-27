@@ -18,7 +18,11 @@ image: ./titlecard.png
 draft: false
 ---
 
-This is the first post in the series where we discuss the need for an integrated assembly workbench, review existing 3rd-party options, and discuss takeaways from our research. Further posts:
+This is the first post in the series where we discuss the need for an integrated assembly workbench, review existing 3rd-party options, and discuss takeaways from our research.
+
+<!-- truncate -->
+
+Further posts:
 
 - [Assembly 2 workbench](https://ondsel.com/blog/default-assembly-workbench-2/)
 - [Exploring the A2plus workbench](https://ondsel.com/blog/default-assembly-workbench-3/)

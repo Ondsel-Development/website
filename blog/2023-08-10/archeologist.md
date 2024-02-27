@@ -19,10 +19,11 @@ image: ./titlecard.png
 draft: false
 ---
 
+Besides working on [Ondsel](https://ondsel.com/), I mostly work on the [Path Workbench](https://wiki.freecad.org/Path_Workbench). Path has a unique user base made up of hobbyists and machinists. These people are using Path to generate G-code for the CNC machines and the code almost always has to be tailored for a specific machine.
 
-## Why do we see a lot of first-time contributors to the Path Workbench?
+Once you’ve edited the G-code once or twice, it’s natural to want to customize your postprocessor and that means editing a little Python code. Occasionally, one step leads to another and the user wants to contribute their changes ‘upstream’ so they can be used by others. It’s a common story and is, in fact, exactly how I got involved in open-source development.
 
-Besides working on [Ondsel](https://ondsel.com/), I mostly work on the [Path Workbench](https://wiki.freecad.org/Path_Workbench). Path has a unique user base made up of hobbyists and machinists. These people are using Path to generate G-code for the CNC machines and the code almost always has to be tailored for a specific machine. Once you’ve edited the G-code once or twice, it’s natural to want to customize your postprocessor and that means editing a little Python code. Occasionally, one step leads to another and the user wants to contribute their changes ‘upstream’ so they can be used by others. It’s a common story and is, in fact, exactly how I got involved in open-source development.
+<!-- truncate -->
 
 As a maintainer of FreeCAD, I’ve spoken to lots of first-time contributors. I generally coach them through the PR process rather than doing it for them. Once they get a PR merged, they get a real thrill from it. It feels good to contribute something to a project.
 

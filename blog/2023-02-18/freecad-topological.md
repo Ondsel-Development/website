@@ -26,6 +26,8 @@ Will FreeCAD _ever_ have a solution? Yes. But it’s going to take time.
 
 Let’s back up a bit.
 
+<!-- truncate -->
+
 # What is topological naming, and why is it a problem in FreeCAD?
 
 Topological naming is the process of giving persistent names to elements of a solid model, such as faces, edges, and vertices. By naming these elements, we can attach features, dimensions, and other attributes to them.

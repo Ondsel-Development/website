@@ -21,6 +21,8 @@ draft: false
 
 Pull request rot is a quick way to turn off first-time and long-time contributors. The merge meeting is one way to get PRs moving again.
 
+<!-- truncate -->
+
 > “It isn’t just about the license, but the way that Hashicorp has maintained the Terraform project. … there are open issues and pull requests that just get ignored as Hashicorp clearly doesn’t see value in open source contributors.” – [tedivm on Hacker News](https://news.ycombinator.com/item?id=37135553)
 
 Tensions around the application of open source philosophy have been discussed a lot in recent weeks, and I want to touch on one of the objections to the recent [Hashicorp news](https://news.ycombinator.com/item?id=37081306) here. We’ve talked about [stale issues](https://ondsel.com/blog/better-github-issues) on this blog before, and we can see in the above quote that ignored issues and PRs do have a real impact on contributor motivation and sentiment towards a project. There are a lot of reasons why some PRs slip through the cracks, but there are things you can do to catch them.

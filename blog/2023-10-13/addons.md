@@ -22,6 +22,8 @@ There’s well over 200 various addons for FreeCAD available just in the officia
 
 For some developers, creating an add-on is a way to test ideas and see if they resonate with a larger audience. For others, it’s the first step towards contributing to FreeCAD itself. The add-on ecosystem is hugely important for the community at large.
 
+<!-- truncate -->
+
 But many great ideas die because the add-on implementation suffers from one or more common and avoidable mistakes:
 
 - Not designed to make contributions from other developers easy.

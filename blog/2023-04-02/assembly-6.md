@@ -18,10 +18,11 @@ image: ./titlecard.png
 draft: false
 ---
 
-
 In the previous posts in this series we’ve already discussed reasons to create a [default assembly workbench](https://ondsel.com/blog/default-assembly-workbench-1) and then explored existing options: [Assembly 2](https://ondsel.com/blog/default-assembly-workbench-2), [A2plus](https://ondsel.com/blog/default-assembly-workbench-3), [Assembly 3](https://ondsel.com/blog/default-assembly-workbench-4), and [Assembly 4](https://ondsel.com/blog/default-assembly-workbench-5).
 
 There are several more tools that provide a subset of their features, and these tools regularly come up in discussions on creating assemblies: the [BodyBuilder](https://github.com/Freedman-CB1/BodyBuilder) macro, the [Manipulator](https://github.com/easyw/Manipulator) workbench, and the [Part-o-magic](https://github.com/DeepSOIC/Part-o-magic) workbench. Since none of them can realistically serve as a foundation for a potential default assembly workbench, in this review, we’ll focus on their interaction models to see what we can learn from them.
+
+<!-- truncate -->
 
 But before we do that, let’s quickly discuss the topic of exploded assemblies — a representation of the assembly design where parts are roughly in the right position, but at a certain distance from each other. We considered looking at the [Exploded Assembly](https://github.com/JMG1/ExplodedAssembly) workbench in this post, because creating such a view is a very common use case. However, after a quick study we found the following.
 

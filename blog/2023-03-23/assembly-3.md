@@ -21,6 +21,8 @@ draft: false
 
 This is the fourth part in the series where we explore the possibility of creating a default assembly workbench for FreeCAD. We started out with a [conversation](https://ondsel.com/blog/default-assembly-workbench-1) about why we need a default assembly workbench in the program, then [reviewed Assembly 2](https://ondsel.com/blog/default-assembly-workbench-2) and [A2plus](https://ondsel.com/blog/default-assembly-workbench-3/). Now let’s talk about the Assembly 3 workbench.
 
+<!-- truncate -->
+
 ## History
 
 In 2013, Jonathan Westhues took the FOSS community by surprise releasing the source code of [SolveSpace](https://solvespace.com/index.pl), his parametric 2D/3D CAD software built around a very capable custom solver. Some 4 years later, Zheng Lei aka “realthunder” created a Python binding for the solver, then used it to create his own assembly workbench for FreeCAD.

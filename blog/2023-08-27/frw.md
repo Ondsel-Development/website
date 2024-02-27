@@ -26,6 +26,8 @@ FreeCAD is commonly criticized for being difficult to get started with.
 
 This criticism, while possibly overstated, is valid.
 
+<!-- truncate -->
+
 - Features get more development attention and the UX/UI design is usually an afterthought and “anything goes”. As a result, there’s not much consistency across the program.
 - The learning curve for modern CAD systems is a wall. There is even occasionally pushback against simplifying UX, because “CAD programs are _supposed_ to be difficult and take a lot of time to learn". Effort to improve UI is seen as "dumbing it down”.
 - The program is trying to be many things at once: a 2D drafting program, a 3D design program, an Arch/BIM program, a CNC program, a structural analysis program — and that’s just a subset of workbenches available by default. All the while not much thought has been given to help users navigate the options when they see it for the first time, or customize FreeCAD for their use cases.
