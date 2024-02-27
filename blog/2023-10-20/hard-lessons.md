@@ -21,6 +21,8 @@ draft: false
 
 It’s common for vendors to make free licenses available to educational institutions, and while this can be helpful for enabling students to learn the tools of the trade, it can also set them up to learn some hard lessons about vendor lock-in once they go out on their own.
 
+<!-- truncate -->
+
 To add context to this piece we’ve included insights from [Dr Lukas du Plessis](https://za.linkedin.com/in/lukas-du-plessis-21424240), Senior Lecturer in the Department of Mechanical and Aeronautical Engineering at the University of Pretoria (specializing in Machine Design and Manufacturing). Dr du Plessis introduced FreeCAD to his second-year curriculum back in 2020.
 
 ## Why is proprietary CAD software the default at universities?

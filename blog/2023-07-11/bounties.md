@@ -18,9 +18,9 @@ image: ./titlecard.png
 draft: false
 ---
 
-## Bounties don’t help users fund FOSS projects
-
 Funding free/libre software projects is difficult. For the last 5+ years, the knee jerk reaction has been to say “just do what Blender Foundation does, they got everything right”. But contributors come with different backgrounds. Some are perfectly fine about thinking like entrepreneurs, others would rather stick to programming, or designing interfaces, or bug triaging, or writing documentation etc.
+
+<!-- truncate -->
 
 So there are various ideas on how to work around that and still help teams earn a living. One idea we come across really often is bounties. The general idea of a bounty is this: someone identifies an issue and offers some money to fix it, other people can bring more money, then someone implements a fix or a feature and takes the money.
 

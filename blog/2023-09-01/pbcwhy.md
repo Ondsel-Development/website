@@ -13,11 +13,12 @@ image: ./titlecard.png
 draft: false
 ---
 
-
 > For what shall it profit a man, if he shall gain the whole world, and lose his own soul?
 > -Mark 8:36
 
 Late last year I was talking with [Open Core Ventures](https://opencoreventures.com/) about the possibility of starting Ondsel.  It was exciting to hear from people outside the FreeCAD community who shared the vision that this software was important and could be so much more than it already is. As the idea of actually starting a company took hold, the first important decision was which legal structure the new company would have. Two things that I read deeply affected me and shaped the final decision.
+
+<!-- truncate -->
 
 The first was [an article by Jen Barnette that highlighted five considerations for being a public benefits corporation](https://www.cooleygo.com/delaware-public-benefit-corporation-is-it-right-for-you-a-five-part-test/) (PBC).
 

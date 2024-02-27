@@ -20,6 +20,8 @@ draft: false
 
 Back in February, we [posted](https://ondsel.com/blog/freecad-topological-naming/) an explanation of the toponaming issue in FreeCAD and a proposal of getting this fixed in the upstream project, with RealThunder’s LinkStage3 fork as a guideline. Since then, we’ve made a lot of progress, but even more work is yet to be done.
 
+<!-- truncate -->
+
 In this post, we’d like to explain how we are separating this work into stages, why FreeCAD 0.21 is not going to be much different from previous releases in terms of toponaming, and what our plan for the next development cycle is.
 
 While this progress is cause to celebrate, we also caution users to understand that models can (and will) break for reasons besides toponaming even after this project is done.

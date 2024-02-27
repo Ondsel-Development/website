@@ -14,6 +14,8 @@ draft: false
 
 When Autodesk changed their license for Fusion 360 in September of 2020 there was a collective scream from the user community. Hobbyists, YouTubers, and makers felt betrayed. Now, after more than two years, we can see the effect. Many of those people left Fusion and never looked back.
 
+<!-- truncate -->
+
 >>“	‘I have altered the deal. Pray I do not alter it further.’
 >>	— Darth Vader
 >

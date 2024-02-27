@@ -20,6 +20,8 @@ draft: false
 
 There's a problem with running development FreeCAD builds for actual work and it's going to get uglier soon. Here's the deal.
 
+<!-- truncate -->
+
 ## What's Wrong With The Dev Builds?
 
 What users want from FreeCAD is a stable, reliable platform that is trustworthy for doing their work. What they also want are various new features and quality-of-life improvements.

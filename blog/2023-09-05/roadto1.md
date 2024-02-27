@@ -24,6 +24,8 @@ Historically, the duration of FreeCAD development cycles has been uneven, anywhe
 
 We already talked about reasons and ways to make releases more predictable in [one of the recent posts](https://ondsel.com/blog/freecad-unpredictable-release-schedule-hurts-users-and-developers). But the truth is, this is a much older conversation that has been going on in the community for years now: at FOSDEM, in the forum, and in various other venues and social channels. The hackathon in Vancouver was a perfect opportunity for the developers community to set some boundaries for v1.0.
 
+<!-- truncate -->
+
 We ended up formalizing a list of [4 major items](https://freecad.github.io/DevelopersHandbook/roadmap/next.html) for the v1.0 roadmap that we think are a must-have to constitute the next release. None of these items are big news, we’ve all known about them for a while: the complete topological naming fix, a default Assembly workbench, a new implementation of a materials system, and the first-run wizard.
 
 So let’s cast a quick glance at these items and talk about respective challenges.

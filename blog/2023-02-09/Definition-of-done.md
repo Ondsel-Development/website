@@ -18,9 +18,11 @@ image: ./titlecard.png
 draft: False
 ---
 
-_First-timers can have a hard time getting started with open source. It doesn’t have to be that way._
+First-timers can have a hard time getting started with open source. It doesn’t have to be that way.
 
 Open-source projects are dependent on an engaged community of contributors, but fostering that community comes with its challenges. Depending on what stage an open source project is at, what the community needs from contributors changes. The good news is that intentional coaching and engagement from project maintainers can work at any stage.
+
+<!-- truncate -->
 
 The common gripes with getting started as a new open source contributor usually center around how welcoming the project is and how easy it is to get your contribution merged. There are a few ways that projects can make it hard (both intentionally and not). Here are some examples:
 
