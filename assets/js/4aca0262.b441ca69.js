@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[5729],{4661:s=>{s.exports=JSON.parse('{"label":"survey","permalink":"/blog/tags/survey","allTagsPath":"/blog/tags","count":2}')}}]);
