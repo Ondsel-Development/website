@@ -93,8 +93,8 @@ export default function Download() {
             <div className='col col--8'>
               <h2 class='text_4xl'>Pre-releases</h2>
                 <div className='unstable show'>
-                  <p>The latest pre-release version of Ondsel was built on {isBusy ? '' : prerelease.created_at}</p>
-                  <p>⚠️ This is a prerelease. It shouldn't be used for normal production work. ⚠️ </p>
+                  <p>The latest pre-release version of Ondsel ES was built on {isBusy ? '' : prerelease.created_at}</p>
+                  <p>⚠️ This is intended for testing purposes only. Please don't use it for regular work. ⚠️ </p>
 
                   {isBusy ? 'Loading' : <DownloadListPrerelease assets={prerelease.assets} /> }
 
