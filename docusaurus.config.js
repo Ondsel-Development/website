@@ -35,6 +35,11 @@ const config = {
       {
         src: '/js/get_os.js',
       },
+      // {
+      //   src: 'https://cse.google.com/cse.js?cx=41a4acc6630294506',
+      //   async: false,
+      //   defer: false,
+      // },
   ],
   presets: [
     [
@@ -143,7 +148,12 @@ const config = {
                 href: '/contact',
               },
             ],
-          }
+          },
+          {
+            type: 'html',
+            position: 'right',
+            value: '<form action="https://google.com/search" method="get"><input type="hidden" name="sitesearch" value="ondsel.com" /><input placeholder="Search" type="search" results name="q" /><input value="🔎" type="submit"></form>',
+          },
           // {
           //   to: 'blog',
           //   label: 'Blog',
