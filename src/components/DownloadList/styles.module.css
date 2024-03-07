@@ -4,8 +4,13 @@
   height: var(--icon-size);
   border-radius: 50%;
   background-color: white;
+  border: solid 2px black;
   display: inline-block;
   padding: 20px;
+}
+
+.download:hover .os_icon_wrapper{
+  box-shadow: var(--ifm-global-shadow-md) !important;
 }
 
 .os_icon {

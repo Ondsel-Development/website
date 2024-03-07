@@ -46,6 +46,12 @@
   background-repeat: repeat;
 }
 
+.bg-grid-pattern-light {
+  background-image: url("/img/bg-grid-white.png");
+  background-repeat: repeat;
+}
+
+
 .wrapper {
   display: flex;
   align-items: center;
