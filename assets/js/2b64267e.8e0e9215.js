@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[6368],{90348:a=>{a.exports=JSON.parse('{"label":"part-o-magic","permalink":"/blog/tags/part-o-magic","allTagsPath":"/blog/tags","count":1}')}}]);

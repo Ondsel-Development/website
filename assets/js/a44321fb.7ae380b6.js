@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[6055],{39459:l=>{l.exports=JSON.parse('{"label":"lock-in","permalink":"/blog/tags/lock-in","allTagsPath":"/blog/tags","count":2}')}}]);

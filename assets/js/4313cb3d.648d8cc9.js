@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[3247],{64157:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/development","page":1,"postsPerPage":10,"totalPages":3,"totalCount":25,"nextPage":"/blog/tags/development/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

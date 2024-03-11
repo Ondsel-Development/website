@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[2282],{13402:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/survey","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
