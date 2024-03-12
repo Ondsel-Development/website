@@ -1,6 +1,11 @@
 import React from "react";
 
-export default function CheckIcon({ width = 32, height = 37, fillColor = '#FFFFFF' }) {
+export default function CheckIcon({ 
+  width = 32, 
+  height = 37, 
+  // fillColor = '#FFFFFF' 
+  fillColor = '#e6421b' 
+}) {
   return (
     <svg
       width={width}

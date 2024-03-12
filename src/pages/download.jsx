@@ -71,25 +71,25 @@ export default function Download() {
 
   return (
     <Layout title="Download" description={siteConfig.tagline}>
-      <MainWrapper className="bg-grid-pattern px_8">
+      <MainWrapper className="bg-grid-pattern-light px_8">
         <div className='container'>
-          <h1 className="text_6xl text_gray text_center">Download</h1>
+          <h1 className="text_6xl text_center">Download</h1>
 
-          <div className='row text_gray' style={{justifyContent: 'center', textAlign: 'center'}}>
+          <div className='row' style={{justifyContent: 'center', textAlign: 'center'}}>
             <div className='col col--8'>
             <div>The latest version of Ondsel ES is: {isBusy ? '' : data.tag_name}</div>
             {/* <div>Released on {isBusy ? '' : new Date(data.published_at).toLocaleDateString() }</div> */}
             </div>
           </div>
 
-          <div className='row text_gray margin-top--lg' style={{justifyContent: 'center'}}>
+          <div className='row margin-top--lg' style={{justifyContent: 'center'}}>
             <div className='col col--8'>
               {isBusy ? 'Loading' : <DownloadList assets={data.assets} /> }
             </div>
           </div>
 
           {/* Pre-Release downloads section */}
-          <div className='row text_gray margin-vert--lg' style={{justifyContent: 'center', textAlign: 'center'}}>
+          <div className='row margin-vert--lg' style={{justifyContent: 'center', textAlign: 'center'}}>
             <div className='col col--8'>
               <h2 class='text_4xl'>Pre-releases</h2>
                 <div className='unstable show'>

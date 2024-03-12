@@ -38,7 +38,7 @@ function HomePageHeader() {
         <div id='test' className={styles.buttons}>
           <Link
             className="button rounded_none button--secondary button--lg text_hero"
-            to="/download"
+            to="https://lens.ondsel.com/signup/"
           >
             Download
           </Link>
@@ -65,7 +65,7 @@ function NewHeader() {
 
                 <Link
                   className="button button--secondary button--lg text_hero"
-                  to="/download"
+                  to="https://lens.ondsel.com/signup/"
                   style={{ backgroundColor: '#e6421b', color: 'white' }}
                 >
                   Download

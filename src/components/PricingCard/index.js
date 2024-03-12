@@ -34,9 +34,9 @@ export default function PricingCard({ plan }) {
                     "button text_xl text_center ease_in_out duration_300",
                     styles.ctaButton
                   )}
-                  href="https://ondsel.com/download/"
+                  href="https://lens.ondsel.com/signup"
                 >
-                  DOWNLOAD
+                  GET STARTED
                 </a>
               )}
               {plan.cta === "get-started" && (

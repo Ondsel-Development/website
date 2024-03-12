@@ -1,0 +1,75 @@
+---
+slug: path-wb-going-away
+title: "The Path workbench in FreeCAD is going away. That's good news"
+authors:
+
+  - name: Brad Collette
+    title: Ondsel Core Team
+    url: https://github.com/sliptonic
+    image_url: https://avatars.githubusercontent.com/u/538057?v=4
+
+tags: [freecad, CAM, Path]
+image: ./titlecard.png
+draft: false
+---
+
+Ondsel is committed to improving the user experience and we spend a lot of time listening to our users.  We often hear the same suggestions and complaints that we’ve heard before but sometimes we get surprised. One of those surprises came out of our recent [user survey](https://ondsel.com/blog/freecad-user-survey-results-part-1/).
+
+Some users were surprised to learn that FreeCAD has a CAM workbench.  Even though Path has been part of the core FreeCAD experience for more than nine years, it seems many users didn’t know about it.
+
+<!-- truncate -->
+
+We dug a little deeper to understand this and the mystery is simply one of naming; users were confused by the name ‘Path’.
+
+That’s understandable.  The word ‘path’ is horribly overloaded in FreeCAD.  In some parts of the application a ‘path’ is what you use to sweep a shape along.  In other parts it refers to an operating system file path. Users coming to FreeCAD from other applications expect the functionality to be called ‘CAM’ for Computer Aided Manufacturing.
+
+Ondsel has taken the lead to resolve this problem.
+We [opened an issue](https://github.com/FreeCAD/FreeCAD/issues/12560) and invited a comment and then [did the work to rename the workbench](https://github.com/FreeCAD/FreeCAD/pull/12665).
+Users of the FreeCAD weekly builds or Onsel’s pre-release build should see the change soon.
+
+# Why was FreeCAD’s CAM module named ‘Path’ anyway?
+
+Path was started in 2015.  At the time, there had already been an attempt to write a CAM workbench.  The effort had gone cold but wasn’t completely abandoned.  The older workbench was incompatible with the new effort so we chose the name ‘Path’ to avoid confusion and conflict.  In the subsequent years, the Path workbench started getting lots of contributions and grew quickly.  The old CAM workbench got completely abandoned and eventually removed from the source tree entirely.
+
+# Why change the name now?
+
+With the old workbench removed, there’s no longer a conflict over the name.  FreeCAD is getting close to a 1.0 release and changing the name after that will be even more difficult.
+
+# What to expect
+
+Changing a workbench name isn’t technically difficult but it presents some unavoidable complications.
+
+### Bugs
+
+Changing the workbench name means changing the text string in many different places.  While we’ve taken pains to do this as methodically as possible, it possible -even likely- that we missed some instances or made other mistakes.  These bugs should be trivial to fix but extreme edge cases might crop up for some time.
+
+### Documentation
+
+Changing documentation that the FreeCAD project controls is pretty easy but published books, videos, tutorials, and other content will be obsolete.  Users searching on YouTube for ‘FreeCAD CAM workbench’ won’t see existing content that refers to the old name.
+
+### Social media channels
+
+Path has had an active community of users and developers on many different platforms.  Discord, the FreeCAD forum, and others have dedicated channels that will have to be renamed to avoid confusion in the long run but renaming will cause confusion in the short term.
+
+### Translation
+
+The translation system relies on ‘context strings’ to group text for translation.  When the workbench name and the related commands change names, many of the context strings also change.  This will present some extra work for translators to catch up so translations in some languages may lag for a bit.
+
+### User Macros
+
+If users have written scripts that use the old path commands, those scripts will break.  The fixes should be simple - simply change the command name from
+```
+path_<command>
+```
+to
+```
+CAM_<command>
+```
+
+## Is all this disruption really worth it?
+
+Absolutely!  As we’ve pointed out in the past, the overall user experience is the single biggest complaint users have about FreeCAD.   Making that experience more consistent and predictable is the only way to address the problem even if it causes disruption in the short term.
+
+## Is there anything users can do?
+
+If you created any tutorials on the former Path workbench, once FreeCAD 1.0 and the next version of Ondsel ES are released, you can adjust all references where possible. If you contribute to FreeCAD’s localization, you can fix obsolete references in translations. Likewise, you can help developers fix their macros and addons.

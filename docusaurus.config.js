@@ -107,10 +107,6 @@ const config = {
             label: 'Home',
           },
           {
-            to: 'download',
-            label: 'Download',
-          },
-          {
             to: 'pricing',
             label: 'Pricing',
           },

@@ -117,15 +117,15 @@ export default function Pricing() {
 
   return (
     <Layout title="Pricing" description={siteConfig.tagline}>
-      <MainWrapper className="bg-grid-pattern px_8">
-        <h1 className="text_6xl text_gray text_center">Pricing</h1>
-        <h2 className="text_2xl text_center text_gray">
+      <MainWrapper className="bg-grid-pattern-light px_8">
+        <h1 className="text_6xl text_center">Pricing</h1>
+        <h2 className="text_2xl text_center ">
           Put your designs to work everywhere
         </h2>
         <PricingCardList plans={PRICING_PLANS} />
 
         <div className={clsx("container margin-top--xl margin-bottom--xl", styles.faq)}>
-          <div className='row text_gray' style={{justifyContent: 'center', textAlign: 'center'}}>
+          <div className='row ' style={{justifyContent: 'center', textAlign: 'center'}}>
             <div className='col col--6'>
 
             <h3 className='text_2xl' style={{borderBottom: 'solid 1px gray', display: 'inline-block'}}>Frequently Asked Questions</h3>
