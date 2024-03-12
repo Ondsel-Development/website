@@ -463,3 +463,14 @@
 .dropdown__link {
   color: var(--ifm-link-color);
 }
+
+
+/* PD: styling search bar */
+/* ====================== */
+#searchInput {
+  padding: 0.1rem 0.5rem;
+}
+#searchSubmit {
+  stroke: #e6421b;
+  color: #e6421b;
+}

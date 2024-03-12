@@ -152,7 +152,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: '<form action="https://google.com/search" method="get"><input type="hidden" name="sitesearch" value="ondsel.com" /><input placeholder="Search" type="search" results name="q" /><input value="🔎" type="submit"></form>',
+            value: '<form action="https://google.com/search" method="get"><input type="hidden" name="sitesearch" value="ondsel.com" /><input id="searchInput" placeholder="Search" type="search" results name="q" /><button id="searchSubmit" type="submit"><svg viewBox="0 0 16 16" height="16" width="16" style="vertical-align: middle;"><g transform="translate(0 -1036.4)"><ellipse style="color-rendering:auto;shape-rendering:auto;stroke-width:2;fill:none;" rx="5.0368" ry="5.0368" cy="1042.4" cx="9.9632"></ellipse><path style="stroke-width:3;fill:none" d="m1.0607 1051.3 5.114-5.114"></path></g></svg></button></form>',
           },
           // {
           //   to: 'blog',
