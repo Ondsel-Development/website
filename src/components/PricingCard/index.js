@@ -12,7 +12,7 @@ export default function PricingCard({ plan }) {
 
   return (
     <div
-      className={clsx("relative rounded_5xl", styles.pricingCard)}
+      className={clsx("relative rounded_5xl shadow--md", styles.pricingCard)}
       style={bgStyle}
     >
       <div className="relative z_40 text_gray flex flex_col justify_between h_full">
