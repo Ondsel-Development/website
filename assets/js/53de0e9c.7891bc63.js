@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[8313],{38016:(e,l,n)=>{n.r(l),n.d(l,{default:()=>o});var s=n(67294);const o=()=>((0,s.useEffect)((()=>{window.location.href="https://lens.ondsel.com/download-and-explore"}),[]),null)}}]);
