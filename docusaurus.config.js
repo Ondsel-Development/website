@@ -115,6 +115,10 @@ const config = {
             label: 'Blog',
           },
           {
+            to: 'support',
+            label: 'Support',
+          },
+          {
             type: 'dropdown',
             label: 'Company',
             items: [
