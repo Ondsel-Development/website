@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[1297],{46264:e=>{e.exports=JSON.parse('{"label":"blenderbim","permalink":"/blog/tags/blenderbim","allTagsPath":"/blog/tags","count":1}')}}]);
