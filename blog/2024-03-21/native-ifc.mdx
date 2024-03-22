@@ -28,7 +28,7 @@ In this post, we’ll focus on just one aspect of this love-hate relationship: i
 
 <!-- truncate -->
 
-To add context to this article, we’ve included insights from Ryan Schultz, a US-based architect with 20+ of experience, founder of [OpeningDESIGN](http://openingdesign.com/) and active member of the [OSArch](https://osarch.org/) community.
+This post was written in collaboration with Yorik van Havre, maintainer of the Arch and BIM workbenches. To add context to this article, we’ve also included insights from Ryan Schultz, a US-based architect with 20+ of experience, founder of [OpeningDESIGN](http://openingdesign.com/) and active member of the [OSArch](https://osarch.org/) community.
 
 ## IFC? BIM?
 
@@ -118,7 +118,7 @@ FreeCAD’s [NativeIFC module](https://github.com/yorikvanhavre/FreeCAD-NativeIF
 
 ![NativeIFC in FreeCAD](native-ifc-freecad.webp)
 
-While BlenderBIM has already switched to using IFC-SPF as a native file format instead of .blend, Yorik’s approach is slightly different. Once the module has been merged, FreeCAD will be storing original IFC data in a container inside a regular FreeCAD file.
+While BlenderBIM has already switched to using IFC-SPF as a native file format instead of .blend, Yorik’s approach is slightly different. Once the module has been merged, you will have two options. FreeCAD will be able to open IFC files directly and save back to them, but it will also be able to store original IFC data in a container inside a regular FreeCAD file.
 
 The Native IFC module also plugs into FreeCAD’s existing set of architecture modeling tools that have already been used in production in smaller projects.
 
