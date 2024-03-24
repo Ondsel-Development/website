@@ -15,9 +15,9 @@ for FreeCAD
 - Ondsel's [kinematic solver](https://github.com/Ondsel-Development/OndselSolver)
 developed for FreeCAD's integrated assembly workbench
 
-The Ondsel Lens service itself is dicussed on a Telegram group that stays
-private for the duration of the closed beta testing program. We accept
-requests for joining the program [here](https://ondsel.com/contact/).
+Reports against the Ondsel Lens service can be submitted on our official
+[Discord server](https://discord.gg/7jmzezyyfP), either in the #feedback 
+or in the #lens channels.
 
 We will also do our best to respond to requests about our products on social
 media channels. We are present and active here:
@@ -33,5 +33,7 @@ kinematic solver are handled the usual way: we assign a developer, try to reprod
 and then fix the reported issue.
 
 Reports and requests for the Lens platform are currently coming mostly through
-the dedicated Telegram chat or privately. We file those as issues on GitHub and
-additionally manage those via Trello to manage internal releases.
+chats on the Discord server or privately. We file those as issues on GitHub and
+additionally manage those via a different project management system to manage 
+internal releases.
+
