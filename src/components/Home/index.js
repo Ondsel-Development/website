@@ -65,7 +65,7 @@ function NewHeader() {
 
                 <Link
                   className="button button--secondary button--lg text_hero"
-                  to="https://lens.ondsel.com/signup"
+                  to="https://lens.ondsel.com/download-and-explore"
                   style={{ backgroundColor: '#e6421b', color: 'white' }}
                 >
                   Download
