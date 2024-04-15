@@ -104,7 +104,7 @@ export default function DownloadList({ assets }) {
 
       <div class="dropdown dropdown--hoverable">
         <button class="button button--lg button--outline button--primary margin-horiz--sm margin-horiz--md margin-bottom--md" style={{backgroundColor: 'white'}}>
-          <img src="/img/os_mac.svg" class="os_icon_src-components-DownloadList-styles-module margin-right--sm" style={{filter: 'invert(0)', display: 'inline', verticalAlign: 'inherit'}}/>
+          <img src="/img/os_windows.svg" class="os_icon_src-components-DownloadList-styles-module margin-right--sm" style={{filter: 'invert(0)', display: 'inline', verticalAlign: 'inherit'}}/>
           Windows <small style={{color: 'gray', fontWeight: '400'}}>[Pre-release]</small>
         </button>
         <ul class="dropdown__menu">
