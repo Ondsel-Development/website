@@ -81,7 +81,7 @@ function NewHeader() {
             </div>
 
             <div className='col col--6'>
-              <YouTube v='x2F1A0MYhMk' style={{borderRadius: '1.5rem'}}/>
+              <YouTube v='LNd_elOE9Cg' style={{borderRadius: '1.5rem'}}/>
             </div>
 
           </div>
@@ -161,7 +161,7 @@ export default function Home({ recentPosts }) {
             </div>
 
             <div className='col col--6'>
-              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" height="100%" src="https://lens.ondsel.com/share/65af04b361821ca0c25d2afc" title="Ondsel"></iframe>
+              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" height="100%" src="https://lens.ondsel.com/share/65e5746c725cff308d4de802" title="Ondsel"></iframe>
             </div>
 
           </div>
