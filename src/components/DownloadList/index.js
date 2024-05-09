@@ -24,12 +24,12 @@ export default function DownloadList({ assets }) {
   const [showMacos, setShowMacos] = useState(false);
   const [showWin, setShowWin] = useState(false);
 
-  let linux = ['aarch64', 'x86_64'];
+  let linux = ['x86_64', 'aarch64'];
   linux = linux.map( (e) => { 
     return parseDL( assets, e, 'AppImage' );
   });
 
-  let macos = ['arm64', 'x86_64'];
+  let macos = ['arm64', 'intel-x86_64'];
   macos = macos.map( (e) => {
     return parseDL( assets, e, 'dmg' );
   })
