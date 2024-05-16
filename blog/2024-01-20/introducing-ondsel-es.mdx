@@ -30,7 +30,7 @@ We are happy to announce the release of Ondsel Engineering Suite 2024.1, our int
 Back when we launched Ondsel, we looked at what’s going on with the CAD market and how open-source alternatives can play a role. We came back with several important takeaways:
 
 * **Licencing policies of proprietary CAD vendors annoy users to no end.** Even some of the more affordable mainstream 3D CAD solutions, while rather powerful, drive users nuts: more and more limitations to what you can do, vendor lock-in, formerly free features disappearing behind paywalls etc.
-* **FOSS tools are usually rejected by professional users unless they are mature..** Many users flee from those mainstream CAD platforms to open-source, but they have to deal with various technical limitations, missing features, and general lack of UX/UI polish.
+* **FOSS tools are usually rejected by professional users unless they are mature.** Many users flee from those mainstream CAD platforms to open-source, but they have to deal with various technical limitations, missing features, and general lack of UX/UI polish.
 * **Collaboration is really important.** A lot of users need a convenient platform to upload and share/visualize a project (vaulting) or even work together on a project (PDM).
 
 So our thinking was: we should focus on a polished user experience and features that are essential to professional use. Let’s build something we feel good about recommending to someone working on a deadline. And let’s build a service for vaulting and collaboration.
@@ -63,7 +63,7 @@ Most of the work on the integrated Assembly workbench has been done by Dr. Aik-S
 
 ## UX/UI and Sketcher
 
-Before joining Ondsel, Pierre-Louis spent some time developing various improvements for the Sketcher workbench, [largely supported by the community](https://forum.freecad.org/viewtopic.php?t=65521). With Ondsel backing his work, he completed these patches and got most of them merged into the upstream project.. You can try them for yourself today in Ondsel ES.
+Before joining Ondsel, Pierre-Louis spent some time developing various improvements for the Sketcher workbench, [largely supported by the community](https://forum.freecad.org/viewtopic.php?t=65521). With Ondsel backing his work, he completed these patches and got most of them merged into the upstream project. You can try them for yourself today in Ondsel ES.
 
 **Smart dimensioning.** Once you select two geometric features, the Dimension tool will figure out what the most applicable constraint for that combination is and apply it. This new tool effectively replaces half a dozen separate constraint tools: horizontal and vertical distance, distance, radius, diameter, angle. You can pretty much dimension an entire sketch with just one tool.
 
@@ -92,6 +92,8 @@ Before joining Ondsel, Pierre-Louis spent some time developing various improveme
 ![Rotate / Polar Patterns](rotate-polar-patterns.webp)
 
 **Copying and pasting in Sketcher.** Now you can select geometry in Sketcher and cut or copy and paste it using conventional shortcuts or the main menu.
+
+As for **overall UX/UI improvements**, the default user interface theme used by Ondsel ES is [OpenDark](https://github.com/obelisk79/OpenTheme/), a project by Joe Sardos aka "Obelisk". This seems to be a popular customnization choice among users, so we went with it.
 
 ## Collaboration with Ondsel Lens
 
@@ -153,7 +155,7 @@ The source code of Ondsel ES is [public](https://github.com/Ondsel-Development/F
 
 We contribute our changes to the upstream project. The Ondsel team is relatively small, we wouldn’t be able to maintain a hard fork. It’s in our best interests to play fairly with the community.
 
-Files created by Ondsel ES are FreeCAD files. Anything you create with Ondsel can be opened in FreeCAD and vice versa.  This compatibility is important to us and we know it’s important to our users. One caveat: Ondsel ES includes the new Assembly workbench because we think it’s important to get feedback early and to let users build the most common kinds of assemblies that they need.  But this workbench functionality is still being reviewed by the upstream project.   Assemblies you create in Ondsel can be opened in FreeCAD but will not have the full assembly functionality until the entirety of the workbench has been accepted..
+Files created by Ondsel ES are FreeCAD files. Anything you create with Ondsel can be opened in FreeCAD and vice versa. This compatibility is important to us and we know it’s important to our users. One caveat: Ondsel ES includes the new Assembly workbench because we think it’s important to get feedback early and to let users build the most common kinds of assemblies that they need. But this workbench functionality is still being reviewed by the upstream project. Assemblies you create in Ondsel can be opened in FreeCAD but will not have the full assembly functionality until the entirety of the workbench has been accepted.
 
 As for the files that you upload to Lens, your original 3D CAD designs will always remain your property.
 
