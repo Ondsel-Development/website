@@ -64,8 +64,6 @@ The next batch of new features is a series of new joint types that are useful in
 
 **Rack and Pinion** simulates the conversion from linear motion to circular or vice versa. To create it, you need a part with a sliding joint and a part with a revolute joint.
 
-<!-- ![Rack and Pinion](.mp4) -->
-
 The **Screw** joint simulates the motion that is both sliding and revolution:
 
 <video width="100%" height="100%" controls>
@@ -81,8 +79,6 @@ The **Gears** joint helps simulating a gears system:
 </video>
 
 The **Belt** joint allows simulating transmission of power multiple shafts using pulleys or gears and an elastic belt or a gear chain.
-
-<!-- ![Belt](.mp4) -->
 
 The new joint types are less tested and should be considered experimental.
 
@@ -168,6 +164,12 @@ We implemented **TabBar** — a new way to switch between workbenches that makes
 The tab bar is configurable. First off, you can add workbenches that we disabled by default by simply clicking the **+** button and choosing a workbench of interest. The pre-existing “Workbench selector position” applies to TabBar as well. You can also choose the style: icons, icons + text, or just text.
 
 Lastly, you can easily go back to using the combobox list for switching between workbenches. The option is on the _Workbenches / Available Workbenches_ page of the _Preferences_ dialog. Alternatively, you can get there by clicking the **+** button and selecting _Preferences_ at the bottom of the list of workbenches.
+
+## Custom first-run wizard vs upstream solution
+
+In version 2024.1, we introduced a custom first-run wizard made in anticipation of a better upstream solution. This solution is now available and built into the new Start page thanks to the work by Chris Hennes. So we removed the custom wizard.
+
+While at that, we shipped the updated OpenDark theme by Joe Sardos, as well as his new OpenLight theme, both being parts of the [OpenTheme](https://github.com/obelisk79/OpenTheme/) project.
 
 ## Quick measure
 
