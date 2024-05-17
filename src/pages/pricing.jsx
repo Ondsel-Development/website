@@ -161,6 +161,13 @@ export default function Pricing() {
             </details>
 
             <details>
+            <summary mdxType="summary">Can I use Ondsel ES for commercial projects?</summary>
+              <p>
+                Yes. As Ondsel ES is available under the terms of LGPLv2.1, you are free to use it for any purpose.
+              </p>
+            </details>
+
+            <details>
             <summary mdxType="summary">What is your policy for submitting your changes back to FreeCAD?</summary>
               <p>
                 We collaborate with the FreeCAD community on multiple projects we lead, such as the toponaming issue mitigation, integrated assembly workbench, and UX/UI improvements. These changes are submitted as pull requests once we consider them complete after passing internal and public testing.
