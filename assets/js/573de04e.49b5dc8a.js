@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[5973],{86769:a=>{a.exports=JSON.parse('{"label":"toponaming","permalink":"/blog/tags/toponaming","allTagsPath":"/blog/tags","count":1}')}}]);
