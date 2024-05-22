@@ -15,7 +15,7 @@ authors:
     image_url: https://avatars.githubusercontent.com/u/57467?v=4
 
 tags: [ondsel, es, freecad, toponaming]
-#image: ./titlecard.png
+image: ./titlecard.png
 draft: false
 ---
 
@@ -33,7 +33,9 @@ After more than a year of work, the last phase of the toponaming project is now 
 
 Because the application is doing more work to keep track of the geometry, we expected some performance impact. The team has been watching this closely and investigating potential performance regressions. So far, things actually look really good. Performance impact appears to be negligible. Much of that is thanks to RealThunder's extensive optimization.
 
-The upstream team will not ship FreeCAD 1.0 without TNP fixes enabled. Any day now, they are enabling the patches in weekly builds to start getting the new code to a wider user base (as compared to the team that worked on the toponaming code).
+The upstream team will not ship FreeCAD 1.0 without TNP fixes enabled. On Monday, they [enabled](https://github.com/FreeCAD/FreeCAD/issues/8432#issuecomment-2121349967) the mitigation patchset in weekly builds by default to start getting the new code to a wider user base (as compared to the team that worked on the toponaming code).
+
+![TNP announcement on GitHub](announcement.webp)
 
 ## What we have learned
 
