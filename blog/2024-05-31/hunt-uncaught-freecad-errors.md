@@ -23,6 +23,8 @@ There’s a valid question: how can FOSS CAD programs possibly compete with prop
 
 Ondsel ES and FreeCAD have been developing a kind of symbiotic relationship. We build on FreeCAD, so we rely on it being great, but FreeCAD also benefits from new features and improvements we are bringing. However the upstream project is also larger than any group of developers: literally, everyone can help improve it, including non-programmers.
 
+<!-- truncate -->
+
 FreeCAD v1.0 is now right around the corner. It’s coming with [toponaming issue mitigation](https://ondsel.com/blog/toponaming-problem-is-history/), brand new [integrated assembly workbench](), vastly [improved BIM workflow](https://yorik.uncreated.net/blog/2024-007-freecad-news-21) for architects, and [many UI/UX improvements](https://ondsel.com/blog/ondsel-es-2024-2/#further-sketcher-improvements) in Sketcher and TechDraw. Now it’s time to mobilize the masses and focus on polishing the program so that it behaves like an actual v1.0 release.
 
 For contributors who are not developers, there are translations to update and documentation to write. But as users, there’s something else you do to help the project and gain something else in return.
