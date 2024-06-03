@@ -31,7 +31,10 @@ For contributors who are not developers, there are translations to update and do
 
 FreeCAD has a particular kind of bug still lurking that we want to clean up. The program is rather strict about what it expects users to do. And if a user does the “wrong” thing, quite often the program won’t crash, but instead it will display a cryptic message in the Report View panel. For example, you can use zero in a sketch constraint, and you will see something like this:
 
-![screenshot or video]()
+<video width="100%" height="100%" controls>
+  <source src="/video/fc-1-0-bughunt-example.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 We want to eliminate this behavior as much as possible. So here is our proposal. 
 
