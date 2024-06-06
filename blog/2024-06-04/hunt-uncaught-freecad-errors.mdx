@@ -1,0 +1,59 @@
+---
+slug: hunt-uncaught-freecad-errors
+title: "FreeCAD bug hunt has begun! Crush silly bugs. Win awesome swag"
+description: "It’s time to mobilize the masses and focus on polishing FreeCAD so that it behaves like an actual v1.0 release."
+authors:
+
+  - name: Brad Collette
+    title: Ondsel Core Team
+    url: https://github.com/sliptonic
+    image_url: https://avatars.githubusercontent.com/u/538057?v=4
+
+  - name: Alexandre Prokoudine
+    title: Contributing Writer
+    url: https://github.com/prokoudine
+    image_url: https://avatars.githubusercontent.com/u/57467?v=4
+
+tags: [ondsel, es, freecad, bugs]
+image: ./titlecard.jpg
+draft: false
+---
+
+There’s a valid question: how can FOSS CAD programs possibly compete with proprietary offerings? The answer is the community. Commercial CAD vendors need to pay for everything, but FreeCAD has an army of passionate volunteers and contributors. Grants for developers and Ondsel’s involvement are rather recent happenings. Mostly, the community has been managing the project for over 20 years on a shoestring budget or no budget at all — that is rather impressive.
+
+Ondsel ES and FreeCAD have been developing a kind of symbiotic relationship. We build on FreeCAD, so we rely on it being great, but FreeCAD also benefits from new features and improvements we are bringing. However the upstream project is also larger than any group of developers: literally, everyone can help improve it, including non-programmers.
+
+<!-- truncate -->
+
+FreeCAD v1.0 is now right around the corner. It’s coming with [toponaming issue mitigation](https://ondsel.com/blog/toponaming-problem-is-history/), brand new [integrated assembly workbench](https://ondsel.com/blog/assembly-workbench-preview/), vastly [improved BIM workflow](https://yorik.uncreated.net/blog/2024-007-freecad-news-21) for architects, and [many UI/UX improvements](https://ondsel.com/blog/ondsel-es-2024-2/#further-sketcher-improvements) in Sketcher and TechDraw. Now it’s time to mobilize the masses and focus on polishing the program so that it behaves like an actual v1.0 release.
+
+For contributors who are not developers, there are translations to update and documentation to write. But as users, there’s something else you do to help the project and gain something else in return.
+
+FreeCAD has a particular kind of bug still lurking that we want to clean up. The program is rather strict about what it expects users to do. And if a user does the “wrong” thing, quite often the program won’t crash, but instead it will display a cryptic message in the Report View panel. For example, you can use zero in a sketch constraint, and you will see something like this:
+
+<video width="100%" height="100%" controls>
+  <source src="/video/fc-1-0-bughunt-example.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+We want to eliminate this behavior as much as possible. So here is our proposal. 
+
+- **If you are a developer, submit a report about this issue, provide a fix in a pull request, and we will send you a commemorative sticker for your laptop.**
+
+- **If you are a user, submit a report about this issue to use, we will try to reproduce it, then fix it in Ondsel ES, submit the fix to the upstream project, and send you a commemorative sticker for your laptop.**
+
+Here are some of the methods to find those bugs:
+
+* Input unexpected values
+* Enter a ‘0’ where it wants a number
+* Enter a letters where it wants a number
+* Enter unicode or special characters
+* Try random combinations of settings in task panels that take them
+* Drag panels around
+* Try other preference settings
+
+Just to clarify: we are not looking for feature requests or general bug reports. We are looking for very specific reports on uncaught errors that are displayed in the Report View panel, like on the screenshot above.
+
+To reach us, you can use either [Discord](https://discord.gg/7jmzezyyfP) or the [issue tracker](https://github.com/Ondsel-Development/FreeCAD/issues), if Discord doesn’t work for you. If you want a sticker, we’ll ask for your address privately.
+
+Let’s make FreeCAD v1.0 even more fun to use together!
