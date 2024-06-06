@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ondsel.com/blog</id>
     <title>Ondsel Blog</title>
-    <updated>2024-05-22T00:00:00.000Z</updated>
+    <updated>2024-06-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ondsel.com/blog"/>
     <subtitle>Ondsel Blog</subtitle>
     <icon>https://ondsel.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[FreeCAD bug hunt has begun! Crush silly bugs. Win awesome swag]]></title>
+        <id>https://ondsel.com/blog/hunt-uncaught-freecad-errors</id>
+        <link href="https://ondsel.com/blog/hunt-uncaught-freecad-errors"/>
+        <updated>2024-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s time to mobilize the masses and focus on polishing FreeCAD so that it behaves like an actual v1.0 release.]]></summary>
+        <content type="html"><![CDATA[<p>There’s a valid question: how can FOSS CAD programs possibly compete with proprietary offerings? The answer is the community. Commercial CAD vendors need to pay for everything, but FreeCAD has an army of passionate volunteers and contributors. Grants for developers and Ondsel’s involvement are rather recent happenings. Mostly, the community has been managing the project for over 20 years on a shoestring budget or no budget at all — that is rather impressive.</p><p>Ondsel ES and FreeCAD have been developing a kind of symbiotic relationship. We build on FreeCAD, so we rely on it being great, but FreeCAD also benefits from new features and improvements we are bringing. However the upstream project is also larger than any group of developers: literally, everyone can help improve it, including non-programmers.</p><p>FreeCAD v1.0 is now right around the corner. It’s coming with <a href="https://ondsel.com/blog/toponaming-problem-is-history/" target="_blank" rel="noopener noreferrer">toponaming issue mitigation</a>, brand new <a href="https://ondsel.com/blog/assembly-workbench-preview/" target="_blank" rel="noopener noreferrer">integrated assembly workbench</a>, vastly <a href="https://yorik.uncreated.net/blog/2024-007-freecad-news-21" target="_blank" rel="noopener noreferrer">improved BIM workflow</a> for architects, and <a href="https://ondsel.com/blog/ondsel-es-2024-2/#further-sketcher-improvements" target="_blank" rel="noopener noreferrer">many UI/UX improvements</a> in Sketcher and TechDraw. Now it’s time to mobilize the masses and focus on polishing the program so that it behaves like an actual v1.0 release.</p><p>For contributors who are not developers, there are translations to update and documentation to write. But as users, there’s something else you do to help the project and gain something else in return.</p><p>FreeCAD has a particular kind of bug still lurking that we want to clean up. The program is rather strict about what it expects users to do. And if a user does the “wrong” thing, quite often the program won’t crash, but instead it will display a cryptic message in the Report View panel. For example, you can use zero in a sketch constraint, and you will see something like this:</p><video width="100%" height="100%" controls=""><source src="/video/fc-1-0-bughunt-example.mp4" type="video/mp4">Your browser does not support the video tag.</video><p>We want to eliminate this behavior as much as possible. So here is our proposal. </p><ul><li><p><strong>If you are a developer, submit a report about this issue, provide a fix in a pull request, and we will send you a commemorative sticker for your laptop.</strong></p></li><li><p><strong>If you are a user, submit a report about this issue to use, we will try to reproduce it, then fix it in Ondsel ES, submit the fix to the upstream project, and send you a commemorative sticker for your laptop.</strong></p></li></ul><p>Here are some of the methods to find those bugs:</p><ul><li>Input unexpected values</li><li>Enter a ‘0’ where it wants a number</li><li>Enter a letters where it wants a number</li><li>Enter unicode or special characters</li><li>Try random combinations of settings in task panels that take them</li><li>Drag panels around</li><li>Try other preference settings</li></ul><p>Just to clarify: we are not looking for feature requests or general bug reports. We are looking for very specific reports on uncaught errors that are displayed in the Report View panel, like on the screenshot above.</p><p>To reach us, you can use either <a href="https://discord.gg/7jmzezyyfP" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://github.com/Ondsel-Development/FreeCAD/issues" target="_blank" rel="noopener noreferrer">issue tracker</a>, if Discord doesn’t work for you. If you want a sticker, we’ll ask for your address privately.</p><p>Let’s make FreeCAD v1.0 even more fun to use together!</p>]]></content>
+        <author>
+            <name>Brad Collette</name>
+            <uri>https://github.com/sliptonic</uri>
+        </author>
+        <author>
+            <name>Alexandre Prokoudine</name>
+            <uri>https://github.com/prokoudine</uri>
+        </author>
+        <category label="ondsel" term="ondsel"/>
+        <category label="es" term="es"/>
+        <category label="freecad" term="freecad"/>
+        <category label="bugs" term="bugs"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[FreeCAD's topological naming problem is (officially) history]]></title>
         <id>https://ondsel.com/blog/toponaming-problem-is-history</id>
