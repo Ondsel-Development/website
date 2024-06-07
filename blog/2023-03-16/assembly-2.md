@@ -18,7 +18,7 @@ image: ./titlecard.png
 draft: false
 ---
 
-This is part two of our series on the need for an integrated default assembly workbench for FreeCAD. [Part One](/blog/default-assembly-workbench-1) gives and introduction and explains our methods. In this part, we take a closer look at Assembly 2, one of the early approaches to adding this feature set to FreeCAD.
+This is part two of our series on the need for an integrated default assembly workbench for FreeCAD. [Part One](/blog/default-assembly-workbench-1/) gives and introduction and explains our methods. In this part, we take a closer look at Assembly 2, one of the early approaches to adding this feature set to FreeCAD.
 
 <!-- truncate -->
 
