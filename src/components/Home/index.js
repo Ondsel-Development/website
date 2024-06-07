@@ -140,16 +140,218 @@ export default function Home({ recentPosts }) {
       <NewHeader/>
 
 
-      {/* Section for lens signup */}
+      {/* Section for design */}
       {/* ======================= */}
+
       <section className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)} style={{color: 'black', filter: 'invert(1)'}}>
         <div className='container'>
           <div className='row' style={{padding: '5rem 0', filter: 'invert(1)'}}>
 
             <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
-              <p className='text_hero_img' style={{textAlign: 'left', lineHeight: '1.2'}}>
-                Access and visualize your 3D CAD models anywhere
+              <h3 className='text_hero_img margin-bottom--lg' style={{fontWeight: '400', fontSize: '3rem', textAlign: 'left'}}>
+                Design products from scratch
+              </h3>
+              <p style={{textAlign: 'left', lineHeight: '1.2'}}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
+              {/* <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}> */}
+              {/*   <Link */}
+              {/*     className="button button--primary button--lg text_hero" */}
+              {/*     to="https://lens.ondsel.com/signup" */}
+              {/*   > */}
+              {/*     Sign Up */}
+              {/*   </Link> */}
+              {/* </div> */}
+            </div>
+
+            <div className='col col--6'>
+              <img src="/img/home-design.webp" title="Design products from scratch" />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Section for assemblies */}
+      {/* ======================= */}
+
+      <section className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)} style={{color: 'black', filter: 'invert(0)'}}>
+        <div className='container'>
+          <div className='row' style={{padding: '5rem 0', filter: 'invert(1)'}}>
+
+            <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+              <h3 className='text_hero_img margin-bottom--lg' style={{fontWeight: '400', fontSize: '3rem', textAlign: 'left'}}>
+                Create and test assemblies
+              </h3>
+              <p style={{textAlign: 'left', lineHeight: '1.2'}}>
+                Build complex kinematic assemblies from multiple parts: links parts, connect them with joints,
+                test the motion by dragging parts. Create multiple exploded views and generate bill of materials.
+              </p>
+              {/* <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}> */}
+              {/*   <Link */}
+              {/*     className="button button--primary button--lg text_hero" */}
+              {/*     to="https://lens.ondsel.com/signup" */}
+              {/*   > */}
+              {/*     Sign Up */}
+              {/*   </Link> */}
+              {/* </div> */}
+            </div>
+
+            <div className='col col--6' style={{filter: 'invert(1)'}}>
+              <img src="/img/home-assembly.webp" title=" Create and test assemblies" />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Section for FEA */}
+      {/* ======================= */}
+
+      <section className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)} style={{color: 'black', filter: 'invert(1)'}}>
+        <div className='container'>
+          <div className='row' style={{padding: '5rem 0', filter: 'invert(1)'}}>
+
+            <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+              <h3 className='text_hero_img margin-bottom--lg' style={{fontWeight: '400', fontSize: '3rem', textAlign: 'left'}}>
+                Stress-test your models
+              </h3>
+              <p style={{textAlign: 'left', lineHeight: '1.2'}}>
+                Find issues in your design prototypes with finite element analysis.
+                Apply mechanical, thermal, electromagnetic, and fluid boundary conditions
+                to see where your design could be improved.
+              </p>
+              {/* <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}> */}
+              {/*   <Link */}
+              {/*     className="button button--primary button--lg text_hero" */}
+              {/*     to="https://lens.ondsel.com/signup" */}
+              {/*   > */}
+              {/*     Sign Up */}
+              {/*   </Link> */}
+              {/* </div> */}
+            </div>
+
+            <div className='col col--6'>
+              <img src="/img/home-fea.webp" title="Finite element analysis" />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Section for techdraw */}
+      {/* ======================= */}
+
+      <section className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)} style={{color: 'black', filter: 'invert(0)'}}>
+        <div className='container'>
+          <div className='row' style={{padding: '5rem 0', filter: 'invert(1)'}}>
+
+            <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+              <h3 className='text_hero_img margin-bottom--lg' style={{fontWeight: '400', fontSize: '3rem', textAlign: 'left'}}>
+                Generate industry-grade documentation
+              </h3>
+              <p style={{textAlign: 'left', lineHeight: '1.2'}}>
+                Create technical documentation for manufacturing, easily add dimensions and engineering tolerances.
+                Create complex sections and detail views, add bills of materials.
+              </p>
+              {/* <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}> */}
+              {/*   <Link */}
+              {/*     className="button button--primary button--lg text_hero" */}
+              {/*     to="https://lens.ondsel.com/signup" */}
+              {/*   > */}
+              {/*     Sign Up */}
+              {/*   </Link> */}
+              {/* </div> */}
+            </div>
+
+            <div className='col col--6' style={{filter: 'invert(1)'}}>
+              <img src="/img/home-techdraw.webp" title="Generate industry-grade documentation" />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Section for CAM/CNC */}
+      {/* ======================= */}
+
+      <section className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)} style={{color: 'black', filter: 'invert(1)'}}>
+        <div className='container'>
+          <div className='row' style={{padding: '5rem 0', filter: 'invert(1)'}}>
+
+            <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+              <h3 className='text_hero_img margin-bottom--lg' style={{fontWeight: '400', fontSize: '3rem', textAlign: 'left'}}>
+                Simulate machining and generate G-Code
+              </h3>
+              <p style={{textAlign: 'left', lineHeight: '1.2'}}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              {/* <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}> */}
+              {/*   <Link */}
+              {/*     className="button button--primary button--lg text_hero" */}
+              {/*     to="https://lens.ondsel.com/signup" */}
+              {/*   > */}
+              {/*     Sign Up */}
+              {/*   </Link> */}
+              {/* </div> */}
+            </div>
+
+            <div className='col col--6'>
+              <img src="/img/home-fea.webp" title="Simulate machining and generate G-Code" />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Section for PDM and Lens signup */}
+      {/* ======================= */}
+
+      <section className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)} style={{color: 'black', filter: 'invert(0)'}}>
+        <div className='container'>
+          <div className='row' style={{padding: '5rem 0', filter: 'invert(1)'}}>
+
+            <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+              <h3 className='text_hero_img margin-bottom--lg' style={{fontWeight: '400', fontSize: '3rem', textAlign: 'left'}}>
+                Collaborate on product design
+              </h3>
+              <p style={{textAlign: 'left', lineHeight: '1.2'}}>
+                 Manage development of complex projects with our cloud PDM system. Organize projects with workspaces,
+                 invite contributors, use versions to iterate on design.
+              </p>
+              <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}>
+                <Link
+                  className="button button--primary button--lg text_hero"
+                  to="https://lens.ondsel.com/signup"
+                >
+                  Sign Up
+                </Link>
+              </div>
+            </div>
+
+            <div className='col col--6' style={{filter: 'invert(1)'}}>
+              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" height="100%" src="https://lens.ondsel.com/share/65e5746c725cff308d4de802" title="Ondsel"></iframe>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Section for fun model sharing */}
+      {/* ======================= */}
+
+      <section className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)} style={{color: 'black', filter: 'invert(1)'}}>
+        <div className='container'>
+          <div className='row' style={{padding: '5rem 0', filter: 'invert(1)'}}>
+
+            <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+              <h3 className='text_hero_img margin-bottom--lg' style={{fontWeight: '400', fontSize: '3rem', textAlign: 'left'}}>
+                Access and visualize your 3D CAD models anywhere
+              </h3>
               <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}>
                 <Link
                   className="button button--primary button--lg text_hero"
@@ -168,6 +370,39 @@ export default function Home({ recentPosts }) {
         </div>
       </section>
 
+      {/* Section for customizable models */}
+      {/* ======================= */}
+
+      <section className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)} style={{color: 'black', filter: 'invert(0)'}}>
+        <div className='container'>
+          <div className='row' style={{padding: '5rem 0', filter: 'invert(1)'}}>
+
+            <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+              <h3 className='text_hero_img margin-bottom--lg' style={{fontWeight: '400', fontSize: '3rem', textAlign: 'left'}}>
+                Publish customizable models online
+              </h3>
+              <p style={{textAlign: 'left', lineHeight: '1.2'}}>
+                Use variable sets in Ondsel ES to create parametric models and publish them on Lens
+                so that anybody could create their own variations and download them
+                for 3D printing or manufacturing.
+              </p>
+              <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}>
+                <Link
+                  className="button button--primary button--lg text_hero"
+                  to="https://lens.ondsel.com/signup"
+                >
+                  Learn
+                </Link>
+              </div>
+            </div>
+
+            <div className='col col--6' style={{filter: 'invert(1)'}}>
+              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" height="100%" src="https://lens.ondsel.com/share/65e5746c725cff308d4de802" title="Ondsel"></iframe>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       <BlogSection data={recentPosts} />
 
