@@ -33,7 +33,7 @@ We initiated the [FPA Handbook](https://fpa.freecad.org/handbook/) and contribut
 
 We initiated the new[ Developer’s Handbook](https://freecad.github.io/DevelopersHandbook/) and are continuing to add new content to it as well.
 
-We started our own [handbook](https://ondsel.com/docs/handbook) which will be an indispensable part of our company culture.
+We started our own [handbook](https://ondsel.com/handbook/) which will be an indispensable part of our company culture.
 
 We published more than a dozen blog posts including a seven-part series on Assembly.
 

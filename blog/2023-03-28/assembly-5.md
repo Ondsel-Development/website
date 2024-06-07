@@ -17,7 +17,7 @@ image: ./titlecard.png
 draft: false
 ---
 
-In the previous posts in this series, we talked about the need for a [default assembly workbench](https://ondsel.com/blog/default-assembly-workbench-1) in FreeCAD and reviewed [Assembly 2](https://ondsel.com/blog/default-assembly-workbench-2), [A2plus](https://ondsel.com/blog/default-assembly-workbench-3), and [Assembly 3](https://ondsel.com/blog/default-assembly-workbench-4). Let’s talk about Assembly 4.
+In the previous posts in this series, we talked about the need for a [default assembly workbench](https://ondsel.com/blog/default-assembly-workbench-1/) in FreeCAD and reviewed [Assembly 2](https://ondsel.com/blog/default-assembly-workbench-2/), [A2plus](https://ondsel.com/blog/default-assembly-workbench-3/), and [Assembly 3](https://ondsel.com/blog/default-assembly-workbench-4/). Let’s talk about Assembly 4.
 
 <!-- truncate -->
 

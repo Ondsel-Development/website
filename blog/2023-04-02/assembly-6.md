@@ -18,7 +18,7 @@ image: ./titlecard.png
 draft: false
 ---
 
-In the previous posts in this series we’ve already discussed reasons to create a [default assembly workbench](https://ondsel.com/blog/default-assembly-workbench-1) and then explored existing options: [Assembly 2](https://ondsel.com/blog/default-assembly-workbench-2), [A2plus](https://ondsel.com/blog/default-assembly-workbench-3), [Assembly 3](https://ondsel.com/blog/default-assembly-workbench-4), and [Assembly 4](https://ondsel.com/blog/default-assembly-workbench-5).
+In the previous posts in this series we’ve already discussed reasons to create a [default assembly workbench](https://ondsel.com/blog/default-assembly-workbench-1/) and then explored existing options: [Assembly 2](https://ondsel.com/blog/default-assembly-workbench-2/), [A2plus](https://ondsel.com/blog/default-assembly-workbench-3/), [Assembly 3](https://ondsel.com/blog/default-assembly-workbench-4/), and [Assembly 4](https://ondsel.com/blog/default-assembly-workbench-5/).
 
 There are several more tools that provide a subset of their features, and these tools regularly come up in discussions on creating assemblies: the [BodyBuilder](https://github.com/Freedman-CB1/BodyBuilder) macro, the [Manipulator](https://github.com/easyw/Manipulator) workbench, and the [Part-o-magic](https://github.com/DeepSOIC/Part-o-magic) workbench. Since none of them can realistically serve as a foundation for a potential default assembly workbench, in this review, we’ll focus on their interaction models to see what we can learn from them.
 
