@@ -3,7 +3,7 @@ import Link from "@docusaurus/Link";
 
 export default function BlogList({ title, url, data }) {
   return (
-    <div>
+    <div style={{filter: 'invert(0)'}}>
       <div className="m_20">
         <Link className="text_gray font_bold text-3xl" to={url}>
           {title}
