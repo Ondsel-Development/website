@@ -21,7 +21,7 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-1gb-disk-space",
-        title: "Upload up to 1GB to the online vault, open models only",
+        title: "Upload up to 1GB to the cloud PDM system, open models only",
         status: "completed",
       },
       {
@@ -31,7 +31,7 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-multiple-workspaces",
-        title: "Multiple open workspaces",
+        title: "Multiple open workspaces in the cloud PDM system",
         status: "completed",
       },
     ],
@@ -50,7 +50,7 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-10gb-disk-space",
-        title: "Upload up to 10GB to the online vault, 100 compute minutes",
+        title: "Upload up to 10GB to the cloud PDM system, 100 compute minutes",
         status: "completed",
       },
       {
@@ -65,7 +65,7 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-control-download-formats",
-        title: "Control what viewers can download from the vault",
+        title: "Control what viewers can download from the PDM system",
         status: "completed",
       },
     ],
@@ -94,7 +94,7 @@ const PRICING_PLANS = [
       },
       {
         id: "pfeature-org-workspaces",
-        title: "Organization workspaces",
+        title: "Organization workspaces in the cloud PDM system",
         status: "completed",
       },
       {
