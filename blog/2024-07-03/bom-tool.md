@@ -1,6 +1,6 @@
 ---
 slug: introducing-bom-tool
-title: "Bill of Materials is important. It should be everywhere and parametric"
+title: "BOM generation should be a core feature, so let's do it"
 description: "Ondsel recently implemented a bill of materials tool as part of the integrated assembly workbench."
 authors:
 
