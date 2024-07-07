@@ -14,11 +14,10 @@ authors:
     url: https://github.com/prokoudine
     image_url: https://avatars.githubusercontent.com/u/57467?v=4
 
-tags: [ondsel, es, freecad, bugs]
+tags: [ondsel es, freecad, bom, assembly]
 image: ./titlecard.jpg
 draft: false
 ---
-
 
 Back when we did the [user survey](https://ondsel.com/blog/freecad-user-survey-results-part-1/), the generation of bills of materials (BOM) was the next important thing after the ability to create assemblies. People don’t even need collision detection as much as they need their BOMs. Based on this data, Pierre-Louis Boyer (Ondsel) recently added a Bill of Materials tool to the Assembly workbench for the upcoming Ondsel ES v2024.3 and FreeCAD v1.0. It is already available in weekly builds of Ondsel ES and the upstream project. 
 
