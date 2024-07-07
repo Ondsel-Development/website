@@ -23,7 +23,7 @@ Back when we did the [user survey](https://ondsel.com/blog/freecad-user-survey-r
 
 <!-- truncate -->
 
-<Youtube v="AkOUwitfuOA" />
+<Youtube v="K0Ggtt2eTjQ" />
 
 The implementation differs from that of other existing BOM solutions for FreeCAD. Let’s talk about why we did it that way and what the future might bring.
 
