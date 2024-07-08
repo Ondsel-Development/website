@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[7883],{86606:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/assembly","page":1,"postsPerPage":10,"totalPages":2,"totalCount":11,"nextPage":"/blog/tags/assembly/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
