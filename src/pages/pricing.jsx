@@ -54,6 +54,11 @@ const PRICING_PLANS = [
         status: "completed",
       },
       {
+        id: "pfeature-multidoc",
+        title: "Render assemblies in the cloud PDM system",
+        status: "completed",
+      },
+      {
         id: "pfeature-open-organizations",
         title: "Open organizations for team management",
         status: "completed",
