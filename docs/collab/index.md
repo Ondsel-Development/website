@@ -1,7 +1,7 @@
 ---
-title: Introduction
-description: Welcome to Ondsel Lens documentation
-sidebar_position: 1
+title: Collaboration
+description: Collaboration with Ondsel Lens
+sidebar_position: 8
 ---
 
 Ondsel Lens is an online vaulting and PDM service. Lens will help you showcase
