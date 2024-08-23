@@ -4,10 +4,20 @@
         <title>Ondsel Blog</title>
         <link>https://ondsel.com/blog</link>
         <description>Ondsel Blog</description>
-        <lastBuildDate>Thu, 08 Aug 2024 07:51:22 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Introducing STEP support on Lens]]></title>
+            <link>https://ondsel.com/blog/step-on-lens</link>
+            <guid>https://ondsel.com/blog/step-on-lens</guid>
+            <pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Upload, visualize, explore, and share STEP geometry in the online data management system]]></description>
+            <content:encoded><![CDATA[<p>We launched Ondsel Lens in 2023 as a FreeCAD-first product data management system. But there is one thing we cannot deny: STEP is a hugely important standard in the industry. If you go from one 3D CAD program to another, more often than not it’s what you use for model exchange. Even if you go from KiCad to SolidWorks, STEP is how you store your PCB designs for use in assemblies.</p><p>So we’ve just added support for STEP files in Ondsel Lens. You can upload, version, visualize and explore STEP geometry, you can also create share links for it and allow downloading the original file and STL and OBJ versions of it.</p><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:1rem"><iframe src="https://www.youtube-nocookie.com/embed/Rk0QE-YZoqw?" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe></div><p>For STEP files, we also display the entire model hierarchy in the tree view. This is new, it's something we are not doing for FreeCAD files yet, although we are planning to.</p><p>The tree view interface also uses checkboxes for selecting objects in the tree. This is a temporary solution, but if the majority of users end up loving it, we might keep it, so we are looking for your feedback.</p><p><img loading="lazy" alt="Tree view in STEP files" src="/assets/images/step-treeview-a359ddf1c09eafd3edbdb5bee13ded0f.webp" width="2560" height="1440" class="img_ev3q"></p><p>You can already try yourself: <a href="https://lens.ondsel.com/" target="_blank" rel="noopener noreferrer">sign in</a>, upload a STEP file, and look around.</p><p>Many more exciting changes are coming, stay tuned!</p>]]></content:encoded>
+            <category>lens</category>
+            <category>step</category>
+        </item>
         <item>
             <title><![CDATA[How to share you first 3D CAD project on Lens]]></title>
             <link>https://ondsel.com/blog/share-your-3d-cad-project-on-lens</link>
