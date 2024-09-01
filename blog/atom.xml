@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ondsel.com/blog</id>
     <title>Ondsel Blog</title>
-    <updated>2024-08-23T00:00:00.000Z</updated>
+    <updated>2024-09-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ondsel.com/blog"/>
     <subtitle>Ondsel Blog</subtitle>
     <icon>https://ondsel.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[How to back up and restore your Ondsel ES preferences with Lens]]></title>
+        <id>https://ondsel.com/blog/backuo-restore-preferences</id>
+        <link href="https://ondsel.com/blog/backuo-restore-preferences"/>
+        <updated>2024-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[FIXME]]></summary>
+        <content type="html"><![CDATA[<p>Earlier this year, we shipped Ondsel ES 2024.2 with a small nifty feature: backing up your entire Ondsel ES preferences to Lens and then restoring them. Here is a quick guide on how to do that.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-why">The “Why”<a href="#the-why" class="hash-link" aria-label="Direct link to The “Why”" title="Direct link to The “Why”">​</a></h2><p>There are two main reasons why you might want to do it.</p><p>As Ondsel ES is based on FreeCAD, it inherits the ultimate configurability of the original application. But it also means that sometimes customization experiments can go wrong and you might want to revert to defaults. However, since Ondsel ES builds on top of FreeCAD, reverting to defaults means you are getting the default FreeCAD look and settings, which isn’t necessarily a desirable thing.</p><p>Secondly, if you customized Ondsel ES just the way you want it and you need to apply the same settings across multiple computers, you might want an easy way to do that — one that doesn’t involve emailing yourself or your teammates a <a href="https://wiki.freecad.org/Preference_Packs" target="_blank" rel="noopener noreferrer">preferences pack</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-how">The “How”<a href="#the-how" class="hash-link" aria-label="Direct link to The “How”" title="Direct link to The “How”">​</a></h2><p>To <strong>revert to personal Ondsel defaults</strong>, all you need to do is go to the Lens panel, log in, right-click on the “Default (Personal)” workspace and select “Download preferences for Personal”. </p><p><img loading="lazy" alt="Download for Personal" src="/assets/images/backup-prefs-download-for-personal-19341d9eb0d301eaded1073938014bf1.webp" width="1216" height="1120" class="img_ev3q"></p><p>Ondsel ES will apply changes and ask whether you want to restart now or later to see the defaults in action. This is pretty much it.</p><p><img loading="lazy" alt="Restart warning" src="/assets/images/backup-prefs-restart-warning-ece0d962e7e93ddc897786e2e9c0906f.webp" width="932" height="470" class="img_ev3q"></p><p>To <strong>create new personal Ondsel defaults</strong>, do the same, but instead of downloading, select the “Upload preferences for Personal” option. This will rewrite Ondsel ES defaults on your Lens account. Now every time you download preferences from your personal organization, your own defaults will be used.</p><p><img loading="lazy" alt="Upload for Personal" src="/assets/images/backup-prefs-upload-for-personal-3e87d463cb858b2cdb8e1ccc8af878a9.webp" width="1216" height="1120" class="img_ev3q"></p><p>Do you want to <strong>create new defaults for a team</strong>? Do the same, but this time right-click over any workspace that belongs to your team’s organization and select the “Upload preferences for ORGANIZATION_NAME” option.</p><p><img loading="lazy" alt="Upload for company" src="/assets/images/backup-prefs-upload-for-company-58485872b6bf82696ca9f18561841fa6.webp" width="1216" height="1120" class="img_ev3q"></p><p>Do you want to <strong>apply the same defaults to an entire team</strong>? Get them to log in with their accounts on Lens, then right-click over any workspace that belongs to the team’s organization and select the “Download preferences for ORGANIZATION_NAME” option.</p><p><img loading="lazy" alt="Download for Personal" src="/assets/images/backup-prefs-download-for-company-f1669f4e4c9d64936a9c20e19c94e8a0.webp" width="1216" height="1120" class="img_ev3q"></p><p>It’s that easy.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-whats-next">The “What’s Next?”<a href="#the-whats-next" class="hash-link" aria-label="Direct link to The “What’s Next?”" title="Direct link to The “What’s Next?”">​</a></h2><p>This simple idea could be extended later on. Perhaps, it would be useful to not only distribute preferences for a team, but also easily roll out 3rd-party addons and your own custom scripts? Or do something else? <a href="https://ondsel.com/contact/" target="_blank" rel="noopener noreferrer">Talk to us!</a></p>]]></content>
+        <author>
+            <name>Alexandre Prokoudine</name>
+            <uri>https://github.com/prokoudine</uri>
+        </author>
+        <category label="lens" term="lens"/>
+        <category label="step" term="step"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing STEP support on Lens]]></title>
         <id>https://ondsel.com/blog/step-on-lens</id>
