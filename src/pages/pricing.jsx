@@ -7,6 +7,8 @@ import clsx from "clsx";
 
 import PricingCardList from "@site/src/components/PricingCardList";
 
+import PriceMatrix from "@site/src/components/PriceMatrix";
+
 const PRICING_PLANS = [
   {
     name: "Solo",
@@ -116,6 +118,18 @@ const PRICING_PLANS = [
   },
 ];
 
+
+const OPTIONS = {
+  'Storage': {
+    'Public models storage': { solo: false, peer: true, enterprise: 'Coming' },
+    'Private models storage': { solo: false, peer: false, enterprise: true },
+  },
+  'Privacy': {
+      'Public organizations': { solo: true, peer: true, enterprise: true },
+  },
+};
+
+
 export default function Pricing() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -127,6 +141,9 @@ export default function Pricing() {
         <h2 className="text_2xl text_center ">
           Put your designs to work everywhere
         </h2>
+
+        <PriceMatrix opts={OPTIONS}/>
+
         <PricingCardList plans={PRICING_PLANS} />
 
         <div className={clsx("container margin-top--xl margin-bottom--xl", styles.faq)}>
