@@ -12,3 +12,17 @@
 .option_group {
   /* margin-top: 1rem; */
 }
+
+.option_row {
+  border-bottom: dashed 1px rgba(0,0,0,0.2);
+}
+
+.option_row_last {
+  margin-bottom: 2rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: gray;
+}

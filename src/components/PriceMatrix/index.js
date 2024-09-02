@@ -61,10 +61,19 @@ function RenderOpts({ k, opts }) {
   return (
     <>
       <h4>{k}</h4>
-      {Object.keys( opts[k] ).map( (e) => {
+      {Object.keys( opts[k] ).map( (e, idx) => {
+
+        let last = idx == Object.keys( opts[k] ).length - 1;
+        let classes = clsx ({
+            [styles.option_row]: true
+          },
+          {
+            [styles.option_row_last]: last,
+          });
+
         return (
           <>
-            <p>{e}</p>
+            <p className={classes} style={{marginLeft: '1rem'}}>{e}</p>
           </>
         )
       } )}
@@ -97,10 +106,19 @@ function RenderPlanDeux( {opts, plan} ){
           <>
             <h4>&nbsp;</h4>
 
-            {Object.values( opts[k] ).map( (e) => {
+            {Object.values( opts[k] ).map( (e, idx) => {
+
+              let last = idx == Object.keys( opts[k] ).length - 1;
+              let classes = clsx ({
+                  [styles.option_row]: true
+                },
+                {
+                  [styles.option_row_last]: last,
+                });
+
               return (
               <>
-                <p>{e[plan] === 'No' ? '-' : e[plan]}</p>
+                <p className={classes}>{e[plan] === 'No' ? '-' : e[plan]}</p>
               </>
               )
             }
@@ -119,49 +137,61 @@ export default function PriceMatrix() {
     <>
 
       <div className={clsx('container shadow--tl', styles.container)}>
-        <div className='row'>
 
-          <div className='col col--3'>
+        <div className='row row--no-gutters'>
+
+          <div className='col col--5'>
+            <h2>&nbsp;</h2>
+            <div className='price'>&nbsp;</div>
+          </div>
+
+          <div className='col'>
             <div>
-              <h3>&nbsp;</h3>
-              <div>&nbsp;</div>
+              <h2>Solo</h2>
+              <div className={clsx(styles.price)}>Free</div>
             </div>
+          </div>
 
+          <div className='col'>
+            <div>
+              <h2>Peer</h2>
+              <div className={clsx(styles.price)}>$10 /month</div>
+            </div>
+          </div>
+
+          <div className='col'>
+            <div>
+              <h2>Enterprise</h2>
+              <div className={clsx(styles.price)}>$100 /user</div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div className='row row--no-gutters'>
+
+          <div className='col col--5'>
             {Object.keys( opts ).map( (k) => ( 
               <RenderOpts k={k} opts={opts}/>
             ))}
           </div>
 
-          <div className='col col--3'>
-            <div>
-              <h2>Solo</h2>
-              <div>Free</div>
-            </div>
-
+          <div className='col'>
             <RenderPlanDeux opts={opts} plan='solo' />
-
             {/* {Object.keys( opts ).map( (k) => ( */} 
             {/*   <RenderPlan k={k} opts={opts} plan='solo' /> */}
             {/* ))} */}
           </div>
-          <div className='col col--3'>
-            <div>
-              <h2>Peer</h2>
-              <div>$10 /month</div>
-            </div>
-            
+
+          <div className='col'>
             <RenderPlanDeux opts={opts} plan='peer' />
-
           </div>
-          <div className='col col--3'>
-            <div>
-              <h2>Enterprise</h2>
-              <div>$100 /user</div>
-            </div>
-            
+
+          <div className='col'>
             <RenderPlanDeux opts={opts} plan='enterprise' />
-
           </div>
+
         </div>
 
       </div>
