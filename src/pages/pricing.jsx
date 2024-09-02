@@ -119,17 +119,6 @@ const PRICING_PLANS = [
 ];
 
 
-const OPTIONS = {
-  'Storage': {
-    'Public models storage': { solo: false, peer: true, enterprise: 'Coming' },
-    'Private models storage': { solo: false, peer: false, enterprise: true },
-  },
-  'Privacy': {
-      'Public organizations': { solo: true, peer: true, enterprise: true },
-  },
-};
-
-
 export default function Pricing() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -142,7 +131,7 @@ export default function Pricing() {
           Put your designs to work everywhere
         </h2>
 
-        <PriceMatrix opts={OPTIONS}/>
+        <PriceMatrix/>
 
         <PricingCardList plans={PRICING_PLANS} />
 

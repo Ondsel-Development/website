@@ -1,6 +1,14 @@
 
 .container {
   background-color: white;
-  border: solid 1px red;
   border-radius: 0.5rem;
+  padding-top: 2rem;
+  /*
+  padding: 1.5rem;
+  border: solid 1px red;
+  */
+}
+
+.option_group {
+  /* margin-top: 1rem; */
 }
