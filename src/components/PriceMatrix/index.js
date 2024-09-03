@@ -131,12 +131,44 @@ function RenderPlanDeux( {opts, plan} ){
 }
 
 
+function RenderPlanMobile( {opts, plan} ){
+  return (
+    <>
+      {Object.keys( opts ).map( (k) => {
+        return (
+          <>
+            <div className='col'>
+              <h4 style={{marginBottom: 0, marginTop: '1rem'}}>{k}</h4>
+            </div>
+
+              {Object.keys( opts[k] ).map( (e,idx) => {
+                return (
+                  <>
+                    <div class='col' style={{display: 'flex',}}>
+                      <div style={{flex: 1}}>{e}</div>
+                      <div>{ opts[k][e][plan] == 'No' ? '-' : opts[k][e][plan] }</div>
+                    </div>
+                  </>
+                )
+              } )}
+          </>
+        )
+      })}
+      {/* <div class='col' style={{display: 'flex',}}> */}
+      {/*   <div>Control over downloadable formats</div> */}
+      {/*   <div>Free, unlimited</div> */}
+      {/* </div> */}
+    </>
+  )
+}
+
+
 export default function PriceMatrix() {
   let opts = OPTIONS;
   return (
     <>
 
-      <div className={clsx('container shadow--tl', styles.container)}>
+      <div className={clsx('container shadow--tl', styles.container, styles.big)}>
 
         <div className='row row--no-gutters'>
 
@@ -193,6 +225,22 @@ export default function PriceMatrix() {
           </div>
 
         </div>
+
+      </div>
+
+      {/* Small screens <996px */}
+      <div className={clsx('container shadow--tl', styles.container, styles.small)}>
+        <div className='row row--no-gutters'>
+          <div className='col'>
+            <h2 style={{marginBottom: 0}}>Solo</h2>
+            <div className={clsx(styles.price)}>Free</div>
+          </div>
+        </div>
+
+        <div className='row'>
+          <RenderPlanMobile opts={opts} plan='solo'/>
+        </div>
+
 
       </div>
 

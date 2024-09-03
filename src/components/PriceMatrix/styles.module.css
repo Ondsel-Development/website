@@ -2,11 +2,28 @@
 .container {
   background-color: white;
   border-radius: 0.5rem;
-  padding-top: 2rem;
   /*
   padding: 1.5rem;
   border: solid 1px red;
   */
+}
+
+.small { 
+  display: none; 
+  padding-top: 1rem;
+}
+
+.big {
+  padding-top: 2rem;
+}
+
+@media (max-width: 996px) {
+  .big {
+    display: none;
+  }
+  .small {
+    display: initial;
+  }
 }
 
 .option_group {
