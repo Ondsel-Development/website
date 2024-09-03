@@ -11,6 +11,8 @@
 .small { 
   display: none; 
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .big {
