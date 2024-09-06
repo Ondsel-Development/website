@@ -26,6 +26,13 @@
   .small {
     display: initial;
   }
+  .plan_heading {
+    position: sticky;
+    top: 3.0rem;
+    padding-top: 1.5rem;
+    background-color: white;
+    border-bottom: solid 1px gray;
+  }
 }
 
 .option_group {

@@ -230,7 +230,7 @@ export default function PriceMatrix() {
 
       {/* Small screens <996px */}
       <div className={clsx('container shadow--tl', styles.container, styles.small)}>
-        <div className='row row--no-gutters'>
+        <div className={clsx('row row--no-gutters', styles.plan_heading)}>
           <div className='col' style={{display: 'flex'}}>
             <h2 style={{marginBottom: 0, flex: 1,}}>Solo</h2>
             <div className={clsx(styles.price)}>Free</div>
@@ -243,7 +243,7 @@ export default function PriceMatrix() {
       </div>
 
       <div className={clsx('container shadow--tl', styles.container, styles.small)}>
-        <div className='row row--no-gutters'>
+        <div className={clsx('row row--no-gutters', styles.plan_heading)}>
           <div className='col' style={{display: 'flex'}}>
             <h2 style={{marginBottom: 0, flex: 1,}}>Peer</h2>
             <div className={clsx(styles.price)}>$10 /month</div>
@@ -256,7 +256,7 @@ export default function PriceMatrix() {
       </div>
 
       <div className={clsx('container shadow--tl', styles.container, styles.small)}>
-        <div className='row row--no-gutters'>
+        <div className={clsx('row row--no-gutters', styles.plan_heading)}>
           <div className='col' style={{display: 'flex'}}>
             <h2 style={{marginBottom: 0, flex: 1,}}>Enterprise</h2>
             <div className={clsx(styles.price)}>$100 /user</div>
