@@ -56,7 +56,7 @@ This video works as a very good introduction to the topic:
 
 If you want to take an even deeper dive, the [GeoTol channel on YouTube](https://www.youtube.com/@GeoTolPro/videos) provides very useful information that is not tied to a specific CAD.
 
-While we specifically refer to ASME GD&T in this post, this is not the only standard that deals with dimensioning and tolerancing, as well as with the use of gages, acceptance testing etc. Another common option is ISO’s Geometrical Product Specifications. GD&T and GPS have an overlapping scope and a few fundamentals differences (you can use [this guide](https://www.gdandtbasics.com/iso-vs-asme-standards/) for reference). The two standards also use different terminology for the same tolerances and _mostly_ the same symbols. In the future, it would be useful to provide means to work in either GD&T or in ISO-GPS context.
+While we specifically refer to ASME GD&T in this post, this is not the only standard that deals with dimensioning and tolerancing, as well as with the use of gauges, acceptance testing etc. Another common option is ISO’s Geometrical Product Specifications. GD&T and GPS have an overlapping scope and a few fundamentals differences (you can use [this guide](https://www.gdandtbasics.com/iso-vs-asme-standards/) for reference). The two standards also use different terminology for the same tolerances and _mostly_ the same symbols. In the future, it would be useful to provide means to work in either GD&T or in ISO-GPS context.
 
 From users’ perspective, any GD&T implementation should allow doing three things: attaching tolerance constraints to features, displaying them on the screen on a 2D drawing, importing and exporting GD&T data from and to STEP files. Let’s see what’s available in FreeCAD.
 
@@ -94,9 +94,9 @@ You can create GD&T annotations in 2D drawings with TechDraw. However, the workf
 
 1. Add a view of a part.
 2. Use the Balloon tool to add a balloon to a geometry feature.
-3. Change balloon’s settings to use a rectangular frame.
+3. Change the balloon’s settings to use a rectangular frame.
 4. Use a different tool to construct balloon's label from presets.
-5. Copy/paste that label into balloon's text box.
+5. Copy/paste that label into the balloon's text box.
 
 ![Hacking up GD&T frames in TechDraw](techdraw-gdt-frames.webp)
 
