@@ -12,7 +12,14 @@ function JobBoardWrapper() {
     <Layout title="Careers" description={siteConfig.tagline}>
       <MainWrapper>
         <h1 className="text_6xl text_center">Careers</h1>
-        <JobBoard />
+        <div class='row' style={{justifyContent: 'center', textAlign: 'center'}}>
+        <div class='col col--8'>
+          <p>
+            Currently, we have no job openings.
+          </p>
+        </div>  
+        </div>
+        {/* <JobBoard /> */}
       </MainWrapper>
     </Layout>
   );

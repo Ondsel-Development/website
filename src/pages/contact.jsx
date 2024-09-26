@@ -21,22 +21,21 @@ export default function Contact() {
         <div class='row' style={{justifyContent: 'center', textAlign: 'left'}}>
           <div class='col col--8'>
 
-            <h2>Chat</h2>
+            <h2>Business inquiries</h2>
+
             <p>
-            To chat with Ondsel developers and community members publicly, please join the <a href='https://discord.gg/7jmzezyyfP'>Discord server</a>.
+              If you have questions about using Ondsel ES and Lens in a professional
+              environment, need assistance, or just want to provide feedback and tell
+              us how we could improve our products and services for your industry and
+              your business, please email
+              us: <a href='mailto:info@ondsel.com'>info@ondsel.com</a>.
             </p>
 
-            <h2>Social</h2>
             <p>
-              You can follow us on <a href='https://twitter.com/ondsel'>X (Twitter)</a> and <a href='https://www.facebook.com/ondsel'>Facebook</a>.
+              For regular user support, please join our <a href="https://discord.gg/7jmzezyyfP">Discord server</a>.
             </p>
 
-            <h2>Private Requests</h2>
-            <p>
-            For private requests, please email us at <a href='mailto:info@ondsel.com'>info@ondsel.com</a>.
-            </p>
-
-            <h2>Physical Address</h2>
+            <h2>Address</h2>
             <address>
               Ondsel, Inc.<br/>
               548 Market St.<br/>
