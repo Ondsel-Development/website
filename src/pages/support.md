@@ -11,6 +11,10 @@ the [Discord server](https://discord.gg/7jmzezyyfP).
 
 ## Frequently Asked Questions
 
+**I need to show you a problematic file on Lens. How do I share it with the Ondsel team privately?**
+
+When you create a new share link for usethe file, under "Protection" please choose PIN, then set the 6-digits code and send both the share link URL and the PIN either to one of our team members (typically @prokoudine, but also @sliptonic, @pieterhijma, @paddlestroke) on Discord privately or to [support@ondsel.com](mailto:support@ondsel.com).
+
 **Is there a tutorial for using the integrated assembly workbench?**
 
 An introduction to concepts and general workflow is [available in our blog](https://ondsel.com/blog/assembly-wb-prerelease/). You can also watch a recent [extended tutorial by MangoJelly](https://www.youtube.com/watch?v=MZYiDnftsns).
