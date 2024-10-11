@@ -66,6 +66,15 @@ When you create multiple share links for the same model, it’s typically becaus
 
 **Persistent connection**. The addon now handles network connectivity issues gracefully and doesn’t log you out when you temporarily lose Internet access.
 
+**Share link handling**. You can now open a model from a share link directly in Ondsel ES when you are browsing Lens in a browser. The workflow is similar to what you get when e.g. clicking Zoom links. This works on both Linux, Windows, and macOS.
+
+<video width="100%" height="100%" controls>
+  <source src="/video/2024/lens-2024-10-update/open-in-oes.mp4" />
+  Your browser does not support the video tag.
+</video>
+
+The feature sounds like a minor thing, but it actually required both server-side changes and developing some rather unusual macOS-specific code (Windows and Linux implementations were comparatively trivial). 
+
 **Reloadable objects**. You can link a STEP file directly now (“File > Add Reloadable Object”), whether it’s located in a local folder on your computer or uploaded to a website (and you have a direct URL). When the linked file changes, Ondsel ES displays a different icon for the linked part that suggests you might want to reload that file. Just click the Recompute button in the toolbar.
 
 ![](ondsel-addon-2024-10-reloadable.webp)
