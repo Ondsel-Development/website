@@ -44,7 +44,7 @@ So far though, the concept of digital twins tends to be limited to what we see, 
 
 Where VR and AR really shine is in providing _context_ for what the user is experiencing when previewing or interacting with a design. The obvious use case is architecture, where you would be able to walk through a design in scale:
 
-![Tweet: Pascal Bornet](image1.png)
+![Tweet: Pascal Bornet](image1.webp)
 
 The same is true for other physical designs. You could show how a part fits into a model (think about an exhaust system under a car). 
 
