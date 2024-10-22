@@ -49,7 +49,7 @@ With a reloadable, the workflow looks similar:
 
 Now when you find that there’s a better revision, you simply download the new one. Double-click on the reloadable and either select the new file or, if you overwrote it on download, press ‘Apply’. 
 
-![](reload-step-file.webp)
+![Reload a STEP file](reload-step-file.webp)
 
 The new version is imported into the reloadable and the shape is updated. The CAM job and operations still refer to the reloadable wrapper and don’t need to change at all. Just post-process again and you’re ready to run.
 
@@ -59,7 +59,13 @@ The same thing happens within TechDraw, Assembly, and many other workbenches.
 
 The reloadable can load files from the local file system or from any URL that serves a STEP file directly. For example, if the STEP file is in a GitHub repo, you can get the URL from the ‘raw’ link. 
 
-![](link-to-raw-file-on-github.webp)
+![Link to a raw file on GitHub](link-to-raw-file-on-github.webp)
+
+Or if someone uploaded a STEP file on Lens and create a public share link for it, you can insert it too: start adding a reloadable file, switch to URL as a source, then paste a share link URL for your STEP file into the entry box, and click ‘Apply’:
+
+![Reloadable share link](reloadable-share-link.webp)
+
+The trick is to make share links that always point to the latest version. Otherwise you'd have to insert a new share link for a new revision.
 
 If the wrapper points to a file on the local filesystem, it will detect if the file on the disk is newer than the imported version. The icon will change to indicate a reload is possible (the one for ‘Widget3‘ on the screenshot below).
 
@@ -75,7 +81,7 @@ The reloadable wrapper is intended to wrap smaller single-body shapes. While it 
 
 We believe that making Ondsel ES work better with other design tools is important. We know you use many tools to get the job done and it should be as easy as possible to move between them. We intend to keep improving the reloadable with new features and improved performance. There are a couple of ideas we’re looking into:
 
-1. **Make the reloadable work directly with files shared on our web service.** Imagine being able to browse for a needed off-the-shelf part through the Ondsel addon, click on it, and have it immediately available inside your document as a reloadable. If the upstream file changes, you would be able to update your copy with a click.
+1. **Better workflow for using reloadables from Lens.** Imagine being able to browse for a needed off-the-shelf part through the Ondsel addon, click on it, and have it immediately available inside your document as a reloadable object. It's already possible, but the workflow isn't great, we will improve it.
 
 2. **Make the reloadable wrapper also store the import preferences and settings.** Different STEP files may need different import properties. Once chosen, these should apply on reload without your intervention.
 
