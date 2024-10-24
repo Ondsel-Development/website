@@ -3,7 +3,7 @@ slug: freecad-needs-a-better-materials-system
 title: "FreeCAD Needs A Better Materials System"
 description: "FreeCAD has a basic implementation of a materials system. While it works in some scenarios, we think it can be vastly improved to become a lot more useful."
 authors:
-  - name: Alexandre Prokoudine
+  - name: Aleksandr Prokudin
     title: Contributing Writer
     url: https://github.com/prokoudine
     image_url: https://avatars.githubusercontent.com/u/57467?v=4

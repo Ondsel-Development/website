@@ -25,7 +25,7 @@ From that, we laid out a plan for finally resolving the topo-naming problem.  On
 
 We started building the Ondsel brand.  We got a logo designed, put up a [website](https://ondsel.com/), and established accounts on [Twitter](https://twitter.com/ondsel), [Facebook](https://www.facebook.com/ondsel), [LinkedIn](https://www.linkedin.com/company/ondsel/), and other platforms.  We’ve taken our Twitter following from zero to almost two hundred followers.
 
-We built relationships with some outstanding creators including [Rebecca Dodd](https://twitter.com/Basement_Office) and [Alexandre Prokoudine](https://twitter.com/lgworld) who are helping to create our blog content and communicate our vision.  
+We built relationships with some outstanding creators including [Rebecca Dodd](https://twitter.com/Basement_Office) and [Aleksandr Prokudin](https://twitter.com/lgworld) who are helping to create our blog content and communicate our vision.  
 
 We worked with [Reedy Designs](https://reedydesigns.com/) and to reskin the website in just over a week.
 
