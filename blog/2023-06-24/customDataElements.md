@@ -4,7 +4,7 @@ title: "Let’s Build a Core System for Custom Data Elements in FreeCAD"
 description: "One of the sorely missing features in FreeCAD is a convenient system for creating custom properties and interacting with them."
 authors:
 
-  - name: Alexandre Prokoudine
+  - name: Aleksandr Prokudin
     title: Contributing Writer
     url: https://github.com/prokoudine
     image_url: https://avatars.githubusercontent.com/u/57467?v=4

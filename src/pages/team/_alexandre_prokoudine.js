@@ -2,7 +2,7 @@ import React from "react";
 import TeamMember from "@site/src/components/TeamMember"
 
 const frontmatter = {
-  name: "Alexandre Prokoudine",
+  name: "Aleksandr Prokudin",
   title: "Researcher and Content Marketer",
   photo: "alexandre_prokoudine.webp",
   social: {
