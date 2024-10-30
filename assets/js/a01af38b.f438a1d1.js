@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[3504],{6803:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/ondsel/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":11,"previousPage":"/blog/tags/ondsel","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
