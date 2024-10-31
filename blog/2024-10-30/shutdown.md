@@ -47,7 +47,7 @@ Between our May release (2024.2) and today alone, 145 pull requests by the Ondse
 
 ### Our relationship with the FreeCAD community
 
-Having a commercial partner working on FreeCAD also meant that the project had to adapt.  Our presence and cooperation affected how the FreeCAD project operates.  Our blog brought attention to missing features and helped the project establish priorities. Working with the core maintainers, we improved the contribution process, sped up the merge process, and helped form the Design Working Group and the new CAD Advisory Group.  These are significant advances that will benefit the community for a long time.  
+Having a commercial partner working on FreeCAD also meant that the project had to adapt. Our presence and cooperation affected how the FreeCAD project operates. Our blog brought attention to missing features and helped the project establish priorities. Working with the core maintainers, we improved the contribution process, sped up the merge process, and helped form the Design Working Group and the new CAD Advisory Group. These are significant advances that will benefit the community for a long time.  
 
 Most of all, we showed that a commercial partner can be an asset to the project. We hope many more entrepreneurs will build around FreeCAD in the spirit of cooperation to establish a robust ecosystem that benefits the world and is profitable. 
 
@@ -61,7 +61,7 @@ The added value we shipped as part of OES is all available as free and open-sour
 
 As such, there is no point in releasing v2024.3. However, we are not abandoning the FreeCAD community. Brad will continue hacking in the CAM workbench, Pierre will likely continue working on Assembly and Sketcher, and Pieter will keep working on varsets and variant parts thanks to grants issued by the FreeCAD Project Association. All future contributions to FreeCAD by our former team members will now go directly to the upstream project.
 
-We have yet to submit a few improvements to FreeCet, namely the reloadable objects feature, which we strongly believe should be a core feature. We will submit this as a PR to upstream.
+We have yet to submit a few improvements to FreeCAD, namely the reloadable objects feature, which we strongly believe should be a core feature. We will submit this as a PR to upstream.
 
 ## What happens to the user base
 
