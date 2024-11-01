@@ -111,17 +111,17 @@ const config = {
             to: '/',
             label: 'Home',
           },
-          {
-            to: 'pricing',
-            label: 'Pricing',
-          },
+//          {
+//            to: 'pricing',
+//            label: 'Pricing',
+//          },
           {
             to: 'blog',
             label: 'Blog',
           },
           {
-            to: 'support',
-            label: 'Support',
+            to: 'faq',
+            label: 'FAQ',
           },
           {
             type: 'dropdown',
