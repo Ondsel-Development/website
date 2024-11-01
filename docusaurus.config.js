@@ -135,10 +135,10 @@ const config = {
                 label: 'Team',
                 to: 'team',
               },
-              {
-                label: 'Careers',
-                to: 'careers'
-              },
+//              {
+//                label: 'Careers',
+//                to: 'careers'
+//              },
               {
                 label: 'Handbook',
                 to: 'handbook'
