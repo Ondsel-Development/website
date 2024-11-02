@@ -6,7 +6,7 @@ slug: faq
 
 ## Who was behind Ondsel Inc. and what was their relation to FreeCAD?
 
-Ondsel Inc. was founded by Brad Collette, a long-time contributor to FreeCAD, author of several books on FreeCAD, and maintainer of the Path (CAM) workbench. The company also employed several other coding and non-coding contributors to FreeCAD and its ecosystem.
+Ondsel Inc. was founded by [Open Core Ventures](https://opencoreventures.com/) and Brad Collette, a long-time contributor to FreeCAD, author of several books on FreeCAD, and maintainer of the Path (CAM) workbench. The company also employed several other coding and non-coding contributors to FreeCAD and its ecosystem.
 
 ## Ondsel is shutting down. What does it mean?
 
