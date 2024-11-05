@@ -4,7 +4,7 @@ title: Sharing a model publicly
 description: This tutorial will guide you through the process of creating a public share link for an active revision of your model
 tags:
   - share
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 This tutorial will guide you through the process of creating a public share link for an active revision of your model.

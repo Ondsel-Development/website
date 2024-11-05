@@ -5,7 +5,7 @@ description: Getting started with Ondsel Lens
 tags:
   - upload
   - share
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 This chapter will guide you through uploading and sharing your 3D CAD models
