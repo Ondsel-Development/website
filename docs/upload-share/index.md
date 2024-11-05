@@ -3,8 +3,8 @@ id: upload-share
 title: Upload & Share
 description: Getting started with Ondsel Lens
 tags:
-  - Getting Started
-weight: 10
+  - upload
+  - share
 sidebar_position: 2
 ---
 
@@ -14,4 +14,3 @@ on Ondsel Lens.
 - How to upload a model
 - How to share a model publicly
 - How to share a model privately
-- How to embed a model on a website

@@ -3,9 +3,8 @@ id: share-privately
 title: Sharing models with PIN protection
 description: This tutorial will guide you through the process of creating a PIN-protected share link
 tags:
-  - sharing
-weight: 10
-sidebar_position: 4
+  - share
+sidebar_position: 3
 ---
 
 This tutorial will guide you through the process of creating a PIN-protected share link.
