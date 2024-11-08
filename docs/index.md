@@ -6,6 +6,8 @@ sidebar_position: 1
 
 Ondsel Lens is an online vaulting and product data management service for mechanical engineers and industrial designers. Lens will help you collaborate and iterate on your product designs, as well as showcase and share your personal work.
 
+<img src="/img/ondsel-lens-public-1.png" alt="Ondsel Lens" width="66%" />
+
 With Ondsel Lens you can:
 
 * Organize a team working on a product: create multiple workspaces per organization, invite and assign members
