@@ -16,4 +16,4 @@ Neither single deleted files, nor entire directories along with all files inside
 
 :::
 
-For information on managing versions, please see the [Versions](/docs/versions/) section of the documentation.
+For information on managing versions, please see the **Versions** section of the documentation.
