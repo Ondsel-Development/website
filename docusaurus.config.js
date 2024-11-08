@@ -124,6 +124,10 @@ const config = {
             label: 'FAQ',
           },
           {
+            to: 'docs',
+            label: 'Docs',
+          },
+          {
             type: 'dropdown',
             label: 'Company',
             items: [
