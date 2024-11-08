@@ -1,10 +1,10 @@
 ---
 id: lens-exploring
-title: Explore 3D CAD Models
-description: How to explore CAD models in Lens
+title: Exploring 3D CAD Models
+description: How to explore CAD models in Ondsel Lens
 tags:
   - exploring
-sidebar_position: 6
+sidebar_position: 4
 ---
 
 To start exploring a model you uploaded, do one of the two things:
