@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[6763],{15005:s=>{s.exports=JSON.parse('{"label":"slugs","permalink":"/docs/tags/slugs","allTagsPath":"/docs/tags","count":1,"items":[{"id":"key-concepts/slugs/slugs","title":"Slugs","description":"Learn about slugs in Ondsel Lens","permalink":"/docs/key-concepts/slugs/"}]}')}}]);
