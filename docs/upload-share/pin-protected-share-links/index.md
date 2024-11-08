@@ -1,6 +1,6 @@
 ---
 id: share-privately
-title: Sharing models with PIN protection
+title: Sharing Models with PIN Protection
 description: This tutorial will guide you through the process of creating a PIN-protected share link
 tags:
   - share

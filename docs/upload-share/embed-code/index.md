@@ -1,6 +1,6 @@
 ---
 id: embed-code
-title: Getting embed code
+title: Getting Embed Code
 description: This tutorial will guide you through the process of getting an embed code for a share link
 tags:
   - share

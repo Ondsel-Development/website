@@ -1,6 +1,6 @@
 ---
 id: create-new-org
-title: Creating a new organization
+title: Creating a New Organization
 description: How to create a new organization in Ondsel Lens
 tags:
   - organizations

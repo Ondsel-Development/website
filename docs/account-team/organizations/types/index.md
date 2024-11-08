@@ -1,6 +1,6 @@
 ---
 id: org-types
-title: Types of organizations
+title: Types of Organizations
 description: What organization types are available in Ondsel Lens
 tags:
   - organizations

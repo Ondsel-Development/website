@@ -1,6 +1,6 @@
 ---
 title: Workspaces
-description: FIXME
+description: How to use workspaces in Ondsel Lens
 tags:
   - workspaces
 sidebar_position: 4

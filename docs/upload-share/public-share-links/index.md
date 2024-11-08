@@ -1,6 +1,6 @@
 ---
 id: share-publicly
-title: Sharing a model publicly
+title: Sharing a Model Publicly
 description: This tutorial will guide you through the process of creating a public share link for an active revision of your model
 tags:
   - share

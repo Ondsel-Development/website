@@ -1,5 +1,5 @@
 ---
-title: Creating a new workspace
+title: Creating a New Workspace
 description: How to create a new workspace on Ondsel Lens
 sidebar_position: 2
 ---

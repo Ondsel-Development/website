@@ -1,6 +1,6 @@
 ---
 id: account-settings
-title: Account settings
+title: Account Settings
 description: Changing settings specific to you Ondsel Lens account
 tags:
   - account

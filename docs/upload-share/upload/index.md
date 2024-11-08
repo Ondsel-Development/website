@@ -1,11 +1,10 @@
 ---
 id: lens-upload
-title: Uploading 3D CAD models
+title: Uploading 3D CAD Models
 description: Upload 3D CAD files
 tags:
   - upload
   - share
-weight: 10
 sidebar_position: 1
 ---
 
