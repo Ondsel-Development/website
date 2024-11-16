@@ -55,6 +55,12 @@ function NewHeader() {
   return (
       <header className={clsx("hero hero--primary bg-grid-pattern", styles.heroBanner)}>
         <div className='container'>
+          <div className='row' style={{padding: '0.5rem 0'}}>
+            <div className='col col--12' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+              <h2 className='margin-bottom--lg' style={{textAlign: 'center', lineHeight: '1.2', fontSize: '1.5rem'}}>The Ondsel Lens server is permanently shutting down on 22 November 2024</h2>
+            </div>  
+          </div>
+
           <div className='row' style={{padding: '5rem 0'}}>
 
             <div className='col col--6' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
