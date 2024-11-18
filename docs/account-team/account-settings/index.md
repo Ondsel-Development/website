@@ -7,7 +7,7 @@ tags:
 sidebar_position: 2
 ---
 
-## Accessing the settings
+## Accessing The Settings
 
 There are two ways to access account settings:
 
