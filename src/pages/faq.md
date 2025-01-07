@@ -31,4 +31,8 @@ We have already submitted the rest of our changes to FreeCAD, too. Most of them 
 
 ## Will you release the source code of the Lens server and the MBD solver?
 
-We are looking into that.
+We have already released the source code of the Lens server. We are looking into releasing the source code of the MBD solver.
+
+## Will Lens customers get refunds?
+
+We have already processed all the refunds we realistically could.
