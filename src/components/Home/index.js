@@ -57,7 +57,7 @@ function NewHeader() {
         <div className='container'>
           <div className='row' style={{padding: '0.5rem 0'}}>
             <div className='col col--12' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
-              <h2 className='margin-bottom--lg' style={{textAlign: 'center', lineHeight: '1.2', fontSize: '1.5rem'}}>The Ondsel Lens server is permanently shutting down on November 22, 2024</h2>
+              <h2 className='margin-bottom--lg' style={{textAlign: 'center', lineHeight: '1.2', fontSize: '1.5rem'}}>Please read <a href="https://ondsel.com/blog/goodbye/">our statement</a> on the shutdown of the company</h2>
             </div>  
           </div>
 
@@ -167,7 +167,7 @@ export default function Home({ recentPosts }) {
             </div>
 
             <div className='col col--6'>
-              <iframe className='shadow--md' style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" height="100%" src="https://lens.ondsel.com/share/669041ae5bde15ad8f1e8831" title="Filametrix Mosquito Mount by Stefan"></iframe>
+              <img  style={{borderRadius: '1.5rem', border: 'solid 1px gray', minHeight: '300px'}} width="100%" src="/img/homepage-lens-screen.png" alt="Ondsel Lens" />
             </div>
 
           </div>
