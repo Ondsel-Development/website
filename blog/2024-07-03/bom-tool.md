@@ -1,6 +1,6 @@
 ---
 slug: introducing-bom-tool
-title: "BOM generation should be a core feature, so let's do it"
+title: "BOM generation should be a core feature, so we implemented it"
 description: "Ondsel recently implemented a bill of materials tool as part of the integrated assembly workbench."
 authors:
 
@@ -19,7 +19,9 @@ image: ./titlecard.jpg
 draft: false
 ---
 
-Back when we did the [user survey](https://ondsel.com/blog/freecad-user-survey-results-part-1/), the generation of bills of materials (BOM) was the next important thing after the ability to create assemblies. People don’t even need collision detection as much as they need their BOMs. Based on this data, Pierre-Louis Boyer (Ondsel) recently added a Bill of Materials tool to the Assembly workbench for the upcoming Ondsel ES v2024.3 and FreeCAD v1.0. It is already available in weekly builds of Ondsel ES and the upstream project. 
+Back when we did the [user survey](https://ondsel.com/blog/freecad-user-survey-results-part-1/), the generation of bills of materials (BOM) was the next important thing after the ability to create assemblies. People don’t even need collision detection as much as they need their BOMs.
+
+Based on this data, Pierre-Louis Boyer (Ondsel) recently added a Bill of Materials tool to the Assembly workbench for the upcoming Ondsel ES v2024.3 and FreeCAD v1.0. It is already available in weekly builds of Ondsel ES and the upstream project. 
 
 <!-- truncate -->
 
@@ -47,7 +49,7 @@ Or we could be talking about service BOMs where a technician has no use for a BO
 
 There are [even more types of BOMs](https://www.optiproerp.com/blog/10-types-boms-explained/) out there. Is it possible to handle this variety of use cases with existing implementations? Not really, and here is why.
 
-## The problems with existing implementations
+## Where existing implementations fail
 
 With just one exception (more on that below), existing BOM generators for FreeCAD are workbench-specific:
 
@@ -64,7 +66,7 @@ Alas, it suffers from the same issue as other existing solutions we mentioned ab
 
 ## Design and workflow
 
-This particular design flaw — completely overwriting spreadsheets — is why the BOM tool developed by Ondsel creates a new parametric object in the project tree every time you use it. Internally, the BOM object is a subclass of spreadsheet, so it has its features like columns, but also some special features to generate spreadsheet data.
+This particular design flaw in the workbench by Paul Ebbers — completely overwriting spreadsheets — is why the BOM tool developed by Ondsel creates a new parametric object in the project tree every time you use it. Internally, the BOM object is a subclass of spreadsheet, so it has its features like columns, but also some special features to generate spreadsheet data.
 
 Creating parametric objects in the tree has two major benefits:
 
@@ -124,4 +126,6 @@ The initial implementation has been merged into upstream FreeCAD and is availabl
 
 For now, we are shipping the BOM tool as part of the Assembly workbench, but the plan is to make it a feature that looks and behaves more like a core feature. You can already use it even if there is no assembly in your project, but you have to switch to the Assembly workbench to use it. And that is one of the things where we want your feedback. 
 
-We requested a conversation with the upstream design working group, and for that, it would be great to have more use cases readily available to discuss. So we are looking for feedback from developers and users alike to tell us if our approach is sound and allows for the possible use cases we listed above. You can drop by the upstream [issue tracker](https://github.com/FreeCAD/FreeCAD/issues) and file a request or a bug report or you can join our [Discord server](https://discord.gg/7jmzezyyfP) (the #assembly-wb chat) and tell us what you think.
+We requested a conversation with the upstream design working group, and for that, it would be great to have more use cases readily available to discuss. So we are looking for feedback from developers and users alike to tell us if our approach is sound and allows for the possible use cases we listed above.
+
+Are you interested? Please drop by the upstream [issue tracker](https://github.com/FreeCAD/FreeCAD/issues) and file a request or a bug report or you can join our [Discord server](https://discord.gg/7jmzezyyfP) (the #assembly-wb chat) and tell us what you think.

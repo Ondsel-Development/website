@@ -32,7 +32,7 @@ Experienced designers and engineers know this. They design the parts to have tig
 
 ![GD&T example](gdt-example.webp)
 
-Traditionally, tolerance requirements were captured in the technical drawings. As CAD matures, these requirements are being captured in the design itself and that is called Geometric Dimensioning and Tolerancing (GD&T) — a set of rules that communicate the intent behind design and what tolerances are acceptable.
+Traditionally, tolerance requirements were captured in the technical drawings, such as the one on the illustration above. As CAD matures, these requirements are being captured in the design itself and that is called Geometric Dimensioning and Tolerancing (GD&T) — a set of rules that communicate the intent behind design and what tolerances are acceptable.
 
 Let’s discuss what GD&T is and what it isn’t, what’s currently available in FreeCAD to support this standard, how the program currently stacks against competition with regards to GD&T, and what we think the plan forward should be.
 
@@ -56,7 +56,9 @@ This video works as a very good introduction to the topic:
 
 If you want to take an even deeper dive, the [GeoTol channel on YouTube](https://www.youtube.com/@GeoTolPro/videos) provides very useful information that is not tied to a specific CAD.
 
-While we specifically refer to ASME GD&T in this post, this is not the only standard that deals with dimensioning and tolerancing, as well as with the use of gauges, acceptance testing etc. Another common option is ISO’s Geometrical Product Specifications. GD&T and GPS have an overlapping scope and a few fundamentals differences (you can use [this guide](https://www.gdandtbasics.com/iso-vs-asme-standards/) for reference). The two standards also use different terminology for the same tolerances and _mostly_ the same symbols. In the future, it would be useful to provide means to work in either GD&T or in ISO-GPS context.
+While we specifically refer to ASME GD&T in this post, this is not the only standard that deals with dimensioning and tolerancing, as well as with the use of gauges, acceptance testing etc.
+
+Another common option is ISO’s Geometrical Product Specifications. GD&T and GPS have an overlapping scope and a few fundamentals differences (you can use [this guide](https://www.gdandtbasics.com/iso-vs-asme-standards/) for reference). The two standards also use different terminology for the same tolerances and _mostly_ the same symbols. In the future, it would be useful to provide means to work in either GD&T or in ISO-GPS context.
 
 From users’ perspective, any GD&T implementation should allow doing three things: attaching tolerance constraints to features, displaying them on the screen on a 2D drawing, importing and exporting GD&T data from and to STEP files. Let’s see what’s available in FreeCAD.
 
@@ -74,9 +76,9 @@ Overall, while the workbench provides an initial implementation of GD&T, there a
 
 ![Incorrect label placement](freecad-gdt-placed-wrongly.webp)
 
-It is obvious though that the feature is all but trivial, so it's supposed to take time and effort to complete it.
+It's obvious though that the feature is all but trivial, so it's supposed to take time and effort to complete it.
 
-## Support for GD&T data in STEP loader/saver
+## Support for GD&T data in the STEP loader/saver
 
 There are multiple reasons why you would want this.
 
@@ -142,7 +144,7 @@ The first step in designing such a system should be updating the file format to 
 
 Once that is done, it’s possible to implement some basic capturing of the GD&T data. Then you can start adding GD&T visualization, as well as manipulation tools to refine captured data and add more annotations.
 
-Finally, once _that_ is done and users have full control over annotations, STEP loading and exporting code can be updated to match the existing feature set.
+Finally, once _that_ is done, and users have full control over annotations, STEP loading and exporting code can be updated to match the existing feature set.
 
 We can (and likely _should_) argue on implementation details, but let's agree on the general proposal first.
 
