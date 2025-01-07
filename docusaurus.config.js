@@ -102,11 +102,11 @@ const config = {
           //   href: '/about',
           //   label: 'About Us',
           // },
-          {
-            href: 'https://lens.ondsel.com',
-            label: 'Lens',
-            position: 'right',
-          },
+          //{
+          //  href: 'https://lens.ondsel.com',
+          //  label: 'Lens',
+          //  position: 'right',
+          //},
           {
             to: '/',
             label: 'Home',

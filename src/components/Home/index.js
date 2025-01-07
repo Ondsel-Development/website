@@ -38,7 +38,7 @@ function HomePageHeader() {
         <div id='test' className={styles.buttons}>
           <Link
             className="button rounded_none button--secondary button--lg text_hero"
-            to="https://lens.ondsel.com/signup/"
+            to="https://ondsel.com/faq/"
           >
             Download
           </Link>
