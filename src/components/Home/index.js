@@ -159,7 +159,7 @@ export default function Home({ recentPosts }) {
               <div className={styles.buttons} style={{marginTop: '1rem', justifyContent: 'start', marginBottom: '2rem'}}>
                 <Link
                   className="button button--primary button--lg text_hero"
-                  to="https://lens.ondsel.com/signup"
+                  to="https://ondsel.com/faq/"
                 >
                   Sign Up
                 </Link>
