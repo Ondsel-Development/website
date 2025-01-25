@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkondsel=self.webpackChunkondsel||[]).push([[4411],{21542:s=>{s.exports=JSON.parse('{"label":"versions","permalink":"/docs/tags/versions","allTagsPath":"/docs/tags","count":1,"items":[{"id":"versions/versioning","title":"Versioning Files","description":"How to create and track revisions of your 3D CAD designs","permalink":"/docs/versions/"}]}')}}]);
