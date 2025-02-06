@@ -1,11 +1,10 @@
 ---
 id: organizations
 title: Organizations
-description: FIXME
+description: How to manage organizations on Lens
 tags:
   - account
 sidebar_position: 3
-draft: true
 ---
 
 This section explains how to manage organizations on Ondsel Lens:
