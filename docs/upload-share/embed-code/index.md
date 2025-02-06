@@ -5,7 +5,7 @@ description: This tutorial will guide you through the process of getting an embe
 tags:
   - share
   - embed
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 This tutorial will guide you through the process of obtaining the embed code for a share link of a model.
