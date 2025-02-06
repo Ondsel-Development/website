@@ -13,5 +13,5 @@ This section explain how to create new organizations, add team members, create a
 
 - [Account hierarchy](/docs/account-team/hierarchy/)
 - [Account settings](/docs/account-team/account-settings/)
-- [Managing organizations](/docs/account-team/organizations/)
+- [Managing organizations](organizations)
 - [Managing workspaces](/docs/account-team/workspaces/)
