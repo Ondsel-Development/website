@@ -9,8 +9,8 @@ sidebar_position: 4
 
 This section explains how to create, manage, and delete workspaces in an organization.
 
-- [Types of Workspaces](workspaces-types)
-- [How to create a new workspace](workspaces-create-new)
-- [How to configure a workspace](workspaces-settings)
-- [How to manage a workspaces: files and directories](workspaces-files-and-directories)
-- [How to delete a workspaces](workspaces-delete)
+- [Types of Workspaces](/docs/account-team/workspaces/types/)
+- [How to create a new workspace](/docs/account-team/workspaces/create-new)
+- [How to configure a workspace](/docs/account-team/workspaces/settings)
+- [How to manage a workspaces: files and directories](/docs/account-team/workspaces/manage)
+- [How to delete a workspaces](/docs/account-team/workspaces/delete)
