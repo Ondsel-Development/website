@@ -10,3 +10,8 @@ sidebar_position: 5
 ---
 
 This section explain how to create new organizations, add team members, create and manage workspaces.
+
+- [Account hierarchy](hierarchy)
+- [Account settings](account-settings)
+- [Managing organizations](organizations)
+- [Managing workspaces](workspaces)

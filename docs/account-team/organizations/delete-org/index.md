@@ -1,5 +1,5 @@
 ---
-id: delete-org
+id: org-delete
 title: Deleting Organizations
 description: How to delete organizations in Ondsel Lens
 tags:

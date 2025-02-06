@@ -1,5 +1,6 @@
 ---
 title: Deleting Workspaces
+id: workspaces-delete
 description: How to delete a workspaces on Ondsel Lens
 sidebar_position: 5
 ---

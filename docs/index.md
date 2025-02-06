@@ -1,5 +1,5 @@
 ---
-title: Overview 
+title: Welcome 
 description: What is Ondsel Lens?
 sidebar_position: 1
 ---
@@ -8,7 +8,7 @@ Ondsel Lens is an online vaulting and product data management service for mechan
 
 <img src="/img/ondsel-lens-public-1.png" alt="Ondsel Lens" width="66%" />
 
-With Ondsel Lens you can:
+## Features
 
 * Organize a team working on a product: create multiple workspaces per organization, invite and assign members
 * Manage the privacy of your designs
@@ -20,6 +20,14 @@ With Ondsel Lens you can:
 * Control whether people accessing your share link can download the design
 * Create and organize bookmarks for other people’s work
 
-Additionally, Lens supports uploading and downloading OBJ and STL files.
+## Let's get started
+
+- [Upload a file](/docs/upload-share/upload/)
+- [Explore it on Lens](/docs/explore/)
+- [Create a PIN-protected share link](/docs/upload-share/pin-protected-share-links/)
+- [Create a new workspace in your organization](/docs/account-team/workspaces/create-new/)
+- [Invite team members](/docs/account-team/organizations/manage-users/)
+
+## Project Background
 
 Lens is	built around [FreeCAD](https://www.freecad.org/), a free and open-source 3D CAD suite. It runs a containerized version of FreeCAD and uses some of the advanced features of the program.

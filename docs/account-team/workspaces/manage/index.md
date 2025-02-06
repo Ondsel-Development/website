@@ -1,5 +1,6 @@
 ---
 title: Files and Directories
+id: workspaces-files-and-directories
 description: How to manage workspaces on Ondsel Lens
 sidebar_position: 4
 ---
