@@ -13,17 +13,13 @@ There are two ways to access account settings:
 
 1. Click on the **3 dot icon** located at the bottom of the sidebar. Then, select **Account Settings**.
 
-![Snapshot](go-to-settings-1.gif) 
-
 ---
 
 2. Alternatively, navigate to the top of the sidebar, click on the organization name, then click on the **gear** icon of your personal organization.
 
-![Snapshot](go-to-settings-2.gif) 
-
 ---
 
-All account settings are divided into three parts.
+All account settings are divided into five parts.
 
 ## Public Details
 
@@ -62,4 +58,4 @@ For each organization, you can set email notifications: whether Lens should send
 
 This settings page lists all the share links, users, organization, and workspaces that you recommended, along with a complent comment for each (where available).
 
-For more information about promoted items, please see the **Promotions** page.
+For more information about promoted items, please see the [Promotions](/docs/promotions-bookmarks/promotions/) page.

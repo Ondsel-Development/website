@@ -1,5 +1,6 @@
 ---
 title: Workspace Settings
+id: workspaces-settings
 description: How to manage workspaces on Ondsel Lens
 sidebar_position: 3
 ---

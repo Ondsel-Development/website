@@ -1,5 +1,6 @@
 ---
 title: Types of Workspaces
+id: workspaces-types
 description: What workspace types are available in Ondsel Lens
 sidebar_position: 1
 ---

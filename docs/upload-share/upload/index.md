@@ -16,19 +16,13 @@ This tutorial will guide you through the process of uploading a file to your wor
 
 2. Then, select the desired workspace.
 
-![Snapshot](step-02.gif) 
-
 ---
 
 3. Next, click on the **+** icon and select **Add New File**.
 
-![Snapshot](step-03.gif) 
-
 ---
 
 4. Click on **Browse** to choose the file you wish to upload.
-
-![Snapshot](step-04.gif) 
 
 ---
 
@@ -38,13 +32,9 @@ This tutorial will guide you through the process of uploading a file to your wor
 
 6. You can double-click the file to open the model page.
 
-![Snapshot](step-06.gif) 
-
 ---
 
 7. To preview the uploaded model view, click on **Explore**.
-
-![Snapshot](step-07.gif) 
 
 ---
 
