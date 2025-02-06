@@ -58,4 +58,4 @@ For each organization, you can set email notifications: whether Lens should send
 
 This settings page lists all the share links, users, organization, and workspaces that you recommended, along with a complent comment for each (where available).
 
-For more information about promoted items, please see the [Promotions](/docs/promotions-bookmarks/promotions/) page.
+For more information about promoted items, please see the Promotions page.
